@@ -72,7 +72,7 @@ async function fetchWeatherForLocation(location) {
     console.warn(`Missing aurora ID for ${name} (#${geonameid})`);
     return;
   }
-  const query = everythingQuery(auroraId);
+  const query = everythingQuery("aurora://location/" + auroraId);
   console.log("QUERYING --- ", query);
   const res = await graphqlQuery(query);
   const data =

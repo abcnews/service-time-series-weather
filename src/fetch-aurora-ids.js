@@ -45,7 +45,10 @@ async function rectifyLocation(location) {
   if (!locations?.length) {
     console.error(`No locations found for geoname ${name} (#${geonameid})`);
   } else {
-    location.properties.auroraId = locations[0].id;
+    location.properties.auroraId = locations[0].id.replace(
+      "aurora://location/",
+      ""
+    );
   }
   await fs.writeFile(GEOJSON_FILE, JSON.stringify(geojson, null, 2));
 }
