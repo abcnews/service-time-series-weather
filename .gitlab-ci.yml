@@ -2,7 +2,7 @@ scheduled_job:
   script:
     - echo "Running fetch"
     - date +%T
-    - npm run fetch
+    - npm run go
   rules:
   variables:
     S3_END_POINT: "sgp1.digitaloceanspaces.com"
