@@ -5,7 +5,7 @@
     "process:geonames-to-geojson": "node src/geonames-to-geojson.js",
     "fetch:aurora-ids": "node src/fetch-aurora-ids.js",
     "fetch:weather-cron": "node src/fetch-weather-cron.js",
-    "prepare:tempC": "node src/generate-dataset.js -c tempC -o tempc.json",
+    "prepare:tempC": "node src/generate-dataset.js -c tempC -o data/tempc.json",
     "upload": "node src/upload-s3.mjs -e \"$S3_END_POINT\" -a \"$S3_ACCESS_KEY\" -k \"$S3_SECRET_KEY\" -b \"$S3_BUCKET\" -d \"$S3_DEST\" -s data",
     "go": "npm run fetch:weather-cron && npm run prepare:tempC && npm run upload"
   },
