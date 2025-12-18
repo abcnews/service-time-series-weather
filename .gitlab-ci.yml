@@ -15,6 +15,6 @@ scheduled_job:
   before_script:
     - npm ci --include=dev
   script:
-    - date >> date/test.txt
+    - date >> data/test.txt
     - echo "test written"
-    - cat date/test.txt
+    - cat data/test.txt
