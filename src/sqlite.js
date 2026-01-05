@@ -3,6 +3,7 @@ import * as path from "node:path";
 import { createAuroraMap } from "./migrations/00-create-aurora_map.js";
 import {
   createWeatherData,
+  SCHEMA_MAPPING,
   TABLE_NAME,
 } from "./migrations/01-create-weather_data.js";
 import { removeUnusedColumns } from "./migrations/02-remove-unused-columns.js";
