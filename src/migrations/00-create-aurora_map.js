@@ -9,6 +9,10 @@ export const SCHEMA_MAPPING = {
   name: "TEXT NOT NULL",
 };
 
+/**
+ * Creates the aurora_map table and populates it if empty
+ * @param {import('node:sqlite').DatabaseSync} dbInstance
+ */
 export async function createAuroraMap(dbInstance) {
   // 1. Generate the SQL for the table columns
   const columnsSql = Object.entries(SCHEMA_MAPPING)
@@ -46,13 +50,18 @@ async function getAuroraIds() {
   ]);
 }
 
+/**
+ * @param {import('node:sqlite').DatabaseSync} dbInstance
+ */
 async function populateAuroraMap(dbInstance) {
   console.log(`Starting migration: add aurora map`);
-  const insertStmt = dbInstance.prepare(`
-INSERT OR IGNORE INTO ${TABLE_NAME} (auroraId, name) 
-VALUES (?, ?)
-`);
 
   const ids = await getAuroraIds();
-  ids.forEach(([auroraId, name]) => insertStmt.run(String(auroraId), name));
+  ids.forEach(([auroraId, name]) => {
+    const insertStmt = dbInstance.prepare(`
+INSERT OR IGNORE INTO ${TABLE_NAME} (auroraId, name)
+VALUES (?, ?)
+`);
+    insertStmt.run(String(auroraId), name);
+  });
 }
