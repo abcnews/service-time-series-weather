@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { initializeDatabase } from "./sqlite.js";
 
-const db = initializeDatabase();
+const db = await initializeDatabase();
 /**
  * Fetches time-series data aligned to 10-minute windows.
  * @param {string} column - The column name to extract.

@@ -83,7 +83,7 @@ async function fetchWeatherForLocation(location) {
     console.log(JSON.stringify(res));
     return;
   }
-  append({
+  await append({
     auroraId,
     fetchTime: new Date().toISOString(),
     ...data,
@@ -91,7 +91,7 @@ async function fetchWeatherForLocation(location) {
   return res;
 }
 
-initializeDatabase();
+await initializeDatabase();
 
 let i = 0;
 await eachLimit(geojson.features, 3, async (feature) => {

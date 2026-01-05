@@ -22,9 +22,9 @@ let dbInstance = null;
 /**
  * Initializes, creates the table/index if necessary, and returns
  * the single database connection instance.
- * @returns {DatabaseSync} The active database connection.
+ * @returns {Promise<DatabaseSync>} The active database connection.
  */
-export function initializeDatabase() {
+export async function initializeDatabase() {
   if (dbInstance) {
     return dbInstance;
   }
@@ -33,7 +33,7 @@ export function initializeDatabase() {
     // Connect/create the database file
     dbInstance = new DatabaseSync(DATABASE_FILE);
 
-    createAuroraMap(dbInstance);
+    await createAuroraMap(dbInstance);
     createWeatherData(dbInstance);
     removeUnusedColumns(dbInstance);
 
@@ -53,9 +53,9 @@ export function initializeDatabase() {
  * Appends a single object to the weather_data table using the persistent connection.
  * @param {Object<string, any>} dataObject - The data to insert.
  */
-export function append(dataObject) {
+export async function append(dataObject) {
   // 1. Get the persistent connection
-  const db = initializeDatabase();
+  const db = await initializeDatabase();
 
   // Safety check for required keys (auroraId and fetchTime must exist and be NOT NULL)
   if (!dataObject.auroraId || !dataObject.fetchTime) {
@@ -102,44 +102,6 @@ VALUES (${placeholders})
     }
   } catch (e) {
     console.error(`❌ An error occurred during data append: ${e.message}`);
-  }
-}
-
-/**
- * Fetches all records for a specific auroraId since a given timestamp.
- * @param {string} targetAuroraId - The ID of the location to fetch.
- * @param {Date} [since] - The minimum fetchTime (exclusive). Defaults to 7 days ago.
- * @returns {Array<Object<string, any>>} An array of weather objects.
- */
-export function fetchLocation(
-  targetAuroraId,
-  since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
-) {
-  // 1. Get the persistent connection
-  const db = initializeDatabase();
-
-  try {
-    // Convert Date object to ISO 8601 string for comparison
-    const sinceIsoTime = since.toISOString();
-
-    const querySql = `
-SELECT * FROM ${TABLE_NAME} 
-WHERE auroraId = ? AND fetchTime > ?
-ORDER BY fetchTime ASC
-`;
-    const query = db.prepare(querySql);
-
-    const results = query.all(targetAuroraId, sinceIsoTime);
-
-    console.log(
-      `🔍 Found ${results.length} records for ${targetAuroraId} since ${sinceIsoTime}.`
-    );
-
-    // Note: NO db.close() call. The connection remains open.
-    return results;
-  } catch (e) {
-    console.error(`❌ An error occurred during data fetch: ${e.message}`);
-    return [];
   }
 }
 
