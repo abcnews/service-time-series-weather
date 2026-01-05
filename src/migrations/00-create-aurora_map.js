@@ -9,7 +9,7 @@ export const SCHEMA_MAPPING = {
   name: "TEXT NOT NULL",
 };
 
-export function createAuroraMap(dbInstance) {
+export async function createAuroraMap(dbInstance) {
   // 1. Generate the SQL for the table columns
   const columnsSql = Object.entries(SCHEMA_MAPPING)
     .map(([columnName, dataType]) => `${columnName} ${dataType}`)
@@ -29,9 +29,10 @@ CREATE TABLE IF NOT EXISTS ${TABLE_NAME} (
     `SELECT COUNT(*) as count FROM ${TABLE_NAME}`
   );
   const result = countQuery.get();
+  countQuery.finalize();
 
   if (!result.count) {
-    populateAuroraMap(dbInstance);
+    await populateAuroraMap(dbInstance);
   }
 }
 
@@ -55,4 +56,5 @@ VALUES (?, ?)
 
   const ids = await getAuroraIds();
   ids.forEach(([auroraId, name]) => insertStmt.run(String(auroraId), name));
+  insertStmt.finalize();
 }
