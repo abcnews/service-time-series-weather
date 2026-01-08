@@ -54,6 +54,14 @@ export function getTimeSeriesForColumn({ column = "tempC" }) {
       });
     });
 
+    // 6. Filter out locations with no data (all null values)
+    for (const locationId in series) {
+      const hasData = series[locationId].some((value) => value !== null);
+      if (!hasData) {
+        delete series[locationId];
+      }
+    }
+
     return {
       timestamps: uniqueBuckets,
       series,
