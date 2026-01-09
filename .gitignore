@@ -3,3 +3,5 @@ node_modules
 .DS_Store
 data/weather.sqlite
 data/weather.sqlite.gz
+data/tempC.json
+data/averageWindSpeedKm.json
