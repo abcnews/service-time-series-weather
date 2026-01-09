@@ -7,9 +7,10 @@
     "fetch:weather-cron": "node src/fetch-weather-cron.js",
     "prepare:tempC": "node src/generate-dataset.js -c tempC -o data/tempc.json",
     "prepare:averageWindSpeedKm": "node src/generate-dataset.js -c averageWindSpeedKm -o data/averageWindSpeedKm.json",
+    "prepare:rainfall24hr": "node src/generate-dataset.js -c rainfall24hr -o data/rainfall24hr.json",
     "upload": "node src/upload-s3.mjs -e \"$S3_END_POINT\" -a \"$S3_ACCESS_KEY\" -k \"$S3_SECRET_KEY\" -b \"$S3_BUCKET\" -d \"$S3_DEST\" -s data",
     "get-db": "curl https://$S3_BUCKET.$S3_END_POINT/${S3_DEST}weather.sqlite.gz|gunzip>data/weather.sqlite",
-    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:tempC && npm run prepare:averageWindSpeedKm && gzip data/weather.sqlite && npm run upload"
+    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:tempC && npm run prepare:averageWindSpeedKm && npm run prepare:rainfall24hr && gzip data/weather.sqlite && npm run upload"
   },
   "dependencies": {
     "@turf/turf": "^7.3.1",
