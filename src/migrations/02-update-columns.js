@@ -93,7 +93,7 @@ CREATE INDEX IF NOT EXISTS idx_timeseries ON ${tableName} (auroraId, fetchTime);
 /**
  * Main migration function
  */
-export function removeUnusedColumns(db) {
+export function updateColumns(db) {
   // Check if table exists and get current schema
   let currentSchema = getCurrentSchema(db, TABLE_NAME);
 

@@ -6,7 +6,7 @@ import {
   SCHEMA_MAPPING,
   TABLE_NAME,
 } from "./migrations/01-create-weather_data.js";
-import { removeUnusedColumns } from "./migrations/02-remove-unused-columns.js";
+import { updateColumns } from "./migrations/02-update-columns.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const DATABASE_FILE = path.resolve(__dirname, "../data/weather.sqlite");
@@ -36,7 +36,7 @@ export async function initializeDatabase() {
 
     await createAuroraMap(dbInstance);
     createWeatherData(dbInstance);
-    removeUnusedColumns(dbInstance);
+    updateColumns(dbInstance);
 
     console.log(`✅ Database '${DATABASE_FILE}' loaded.`);
     return dbInstance;
