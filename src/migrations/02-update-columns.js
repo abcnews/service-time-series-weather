@@ -1,3 +1,9 @@
+/**
+ * @file
+ * Update the sqlite db to match the schema, adding or removing columns as
+ * needed. Danger: this will delete data from removed columns so make sure to
+ * write your own migration if you have any archival requirements.
+ */
 import { SCHEMA_MAPPING } from "./01-create-weather_data.js";
 
 const TABLE_NAME = "weather_data";
