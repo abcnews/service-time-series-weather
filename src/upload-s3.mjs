@@ -5,16 +5,16 @@ import path from "path";
 import mime from "mime";
 import zlib from "zlib";
 
-const GZIP_EXTENSIONS = ["json", "xml"];
+const BROTLI_EXTENSIONS = ["json", "xml"];
 
 /**
- * Check if a file should be gzipped based on its extension
+ * Check if a file should be compressed based on its extension
  * @param {string} filename - The filename to check
- * @returns {boolean} True if the file should be gzipped
+ * @returns {boolean} True if the file should be compressed
  */
-function shouldGzip(filename) {
+function shouldCompress(filename) {
   const ext = path.extname(filename).slice(1); // Remove leading dot
-  return GZIP_EXTENSIONS.includes(ext);
+  return BROTLI_EXTENSIONS.includes(ext);
 }
 
 import { program } from "commander";
@@ -103,7 +103,7 @@ async function go() {
   // Transfer each file with given options
   for (const action of actions) {
     const { local, remote, contentType } = action;
-    const useGzip = shouldGzip(remote);
+    const useCompression = shouldCompress(remote);
 
     const metadata = {
       "Content-Type": contentType,
@@ -111,26 +111,26 @@ async function go() {
       "cache-control": "max-age=60",
     };
 
-    if (useGzip) {
-      metadata["Content-Encoding"] = "gzip";
+    if (useCompression) {
+      metadata["Content-Encoding"] = "br";
     }
 
     console.log(
-      useGzip ? "putObject (gzipped)" : "fPutObject",
+      useCompression ? "putObject (brotli)" : "fPutObject",
       remote,
       contentType
     );
 
     try {
-      if (useGzip) {
-        // For gzipped files, use putObject with a gzip stream
+      if (useCompression) {
+        // For brotli files, use putObject with a brotli stream
         const readStream = (await import("fs")).createReadStream(local);
-        const gzipStream = zlib.createGzip();
-        const compressedStream = readStream.pipe(gzipStream);
+        const brotliStream = zlib.createBrotliCompress();
+        const compressedStream = readStream.pipe(brotliStream);
 
         await minioClient.putObject(bucket, remote, compressedStream, metadata);
       } else {
-        // For non-gzipped files, use the simpler fPutObject
+        // For non-compressed files, use the simpler fPutObject
         await minioClient.fPutObject(bucket, remote, local, metadata);
       }
     } catch (e) {
