@@ -8,9 +8,8 @@ The scripts are wrapped in Commander, so you can run `node . --help` for details
 
 To set up this repo, you must create a geojson object with the locations you wish to track.
 
-1. `npm run fetch:geonames` # Download the Australian GeoNames dump
-1. Add any overrides you want included in the geojson in `data/overrides.txt`
-1. `npm run process:geonames-to-geojson` # Filter and convert to GeoJSON
+1. Make sure au.geo.json is up to date. Data comes from [./stationMapData](./stationMapData)
+   and probably doesn't need to be updated again.
 1. `npm run fetch:aurora-ids` # Rectify locations with Aurora IDs
 
 ## Usage (gather data)

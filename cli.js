@@ -62,16 +62,6 @@ program
   });
 
 program
-  .command("geonames-to-geojson")
-  .description("Convert GeoNames data to a GeoJSON file")
-  .action(async () => {
-    const { default: geonamesToGeojson } = await import(
-      "./src/geonames-to-geojson.js"
-    );
-    await geonamesToGeojson();
-  });
-
-program
   .command("upload-s3")
   .description("Upload files to S3")
   .option("-e, --end-point <server>", "S3 endpoint", process.env.S3_END_POINT)

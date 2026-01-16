@@ -44,10 +44,9 @@ async function getAuroraIds() {
     path.resolve(__dirname, "../../data/au.geo.json")
   );
   const geojson = JSON.parse(text);
-  return geojson.features.map((feature) => [
-    feature.properties.auroraId,
-    feature.properties.name,
-  ]);
+  return geojson.features
+    .map((feature) => [feature.properties.auroraId, feature.properties.name])
+    .filter((feature) => feature[0]);
 }
 
 /**

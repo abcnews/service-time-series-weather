@@ -21,7 +21,7 @@ const geojson = JSON.parse(geojsonText);
 
 async function rectifyLocation(location) {
   const [longitude, latitude] = location.geometry.coordinates;
-  const { geonameid, name, auroraId } = location.properties;
+  const { name, auroraId } = location.properties;
   if (auroraId) {
     console.log("Already fetched", auroraId);
     return;
@@ -43,7 +43,7 @@ async function rectifyLocation(location) {
 
   const locations = auroraLocationsFiveKm.data?.locations?.byLatLongWithRadius;
   if (!locations?.length) {
-    console.error(`No locations found for geoname ${name} (#${geonameid})`);
+    console.error(`No locations found for name "${name}"`);
   } else {
     location.properties.auroraId = locations[0].id.replace(
       "aurora://location/",

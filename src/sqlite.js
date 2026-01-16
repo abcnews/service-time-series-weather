@@ -7,6 +7,7 @@ import {
   TABLE_NAME,
 } from "./migrations/01-create-weather_data.js";
 import { updateColumns } from "./migrations/02-update-columns.js";
+import { removeOldLocations } from "./migrations/04-remove-old-locations.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const DATABASE_FILE = path.resolve(__dirname, "../data/weather.sqlite");
@@ -35,8 +36,9 @@ export async function initializeDatabase() {
     dbInstance = new DatabaseSync(DATABASE_FILE);
 
     await createAuroraMap(dbInstance);
-    createWeatherData(dbInstance);
-    updateColumns(dbInstance);
+    await createWeatherData(dbInstance);
+    await updateColumns(dbInstance);
+    await removeOldLocations(dbInstance);
 
     console.log(`✅ Database '${DATABASE_FILE}' loaded.`);
     return dbInstance;

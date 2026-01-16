@@ -67,9 +67,9 @@ function everythingQuery(auroraId) {
 }
 
 async function fetchWeatherForLocation(location) {
-  const { geonameid, name, auroraId } = location.properties;
+  const { name, auroraId } = location.properties;
   if (!auroraId) {
-    console.warn(`Missing aurora ID for ${name} (#${geonameid})`);
+    console.warn(`Missing aurora ID for "${name}"`);
     return;
   }
   const query = everythingQuery("aurora://location/" + auroraId);

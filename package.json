@@ -2,8 +2,6 @@
   "type": "module",
   "main": "cli.js",
   "scripts": {
-    "fetch:geonames": "rm data/AU.txt data/AU.zip;cd data&&wget https://download.geonames.org/export/dump/AU.zip && unzip AU.zip",
-    "process:geonames-to-geojson": "node . geonames-to-geojson",
     "fetch:aurora-ids": "node . fetch-aurora-ids",
     "fetch:weather-cron": "node . fetch-weather-cron",
     "prepare:data": "node . generate-datasets",
