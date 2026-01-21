@@ -10,21 +10,19 @@ program
   .command("fetch-aurora-ids")
   .description("Fetch Aurora IDs for locations in the GeoJSON file")
   .action(async () => {
-    const { default: fetchAuroraIds } = await import(
-      "./src/fetch-aurora-ids.js"
-    );
+    const { default: fetchAuroraIds } =
+      await import("./src/fetch-aurora-ids.js");
     await fetchAuroraIds();
   });
 
 program
   .command("fetch-weather-cron")
   .description(
-    "Fetch the latest weather data and append it to the SQLite database"
+    "Fetch the latest weather data and append it to the SQLite database",
   )
   .action(async () => {
-    const { default: fetchWeatherCron } = await import(
-      "./src/fetch-weather-cron.js"
-    );
+    const { default: fetchWeatherCron } =
+      await import("./src/fetch-weather-cron.js");
     await fetchWeatherCron();
   });
 
@@ -35,9 +33,8 @@ program
   .option("-d, --dayStart <number>", "Day relative to today (0, -1, -2)", "0")
   .option("-o, --output <filename>", "Where to write this json", "output.json")
   .action(async (options) => {
-    const { default: generateDataset } = await import(
-      "./src/generate-dataset.js"
-    );
+    const { default: generateDataset } =
+      await import("./src/generate-dataset.js");
     await generateDataset(options);
   });
 
@@ -47,17 +44,16 @@ program
   .option(
     "-c, --columns <columns>",
     "Comma-separated list of columns to generate",
-    process.env.GENERATE_DATASETS || "tempC"
+    process.env.GENERATE_DATASETS || "tempC",
   )
   .option(
     "-d, --days <days>",
     "Number of days to generate data for",
-    process.env.GENERATE_DAYS || "1"
+    process.env.GENERATE_DAYS || "1",
   )
   .action(async (options) => {
-    const { default: generateDatasets } = await import(
-      "./src/generate-datasets.js"
-    );
+    const { default: generateDatasets } =
+      await import("./src/generate-datasets.js");
     await generateDatasets(options);
   });
 
@@ -69,18 +65,18 @@ program
   .option(
     "-a, --access-key <accessKey>",
     "s3 access key",
-    process.env.S3_ACCESS_KEY
+    process.env.S3_ACCESS_KEY,
   )
   .option(
     "-k, --secret-key <secretKey>",
     "s3 secret key",
-    process.env.S3_SECRET_KEY
+    process.env.S3_SECRET_KEY,
   )
   .option("-b --bucket <bucket>", "Bucket", process.env.S3_BUCKET)
   .option(
     "-s, --src <srcDir>",
     "source directory",
-    process.env.S3_SRC || "data/"
+    process.env.S3_SRC || "data/",
   )
   .option("-d, --dest <destDir>", "destination directory", process.env.S3_DEST)
   .action(async (options) => {
