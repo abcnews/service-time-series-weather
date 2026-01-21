@@ -8,9 +8,10 @@ import {
 } from "./migrations/01-create-weather_data.js";
 import { updateColumns } from "./migrations/02-update-columns.js";
 import { removeOldLocations } from "./migrations/04-remove-old-locations.js";
+import logger from "./logger.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
-const DATABASE_FILE = path.resolve(__dirname, "../data/weather.sqlite");
+const DEFAULT_DATABASE_FILE = path.resolve(__dirname, "../data/weather.sqlite");
 
 // --- Single Global Database Connection ---
 /**
@@ -24,28 +25,31 @@ let dbInstance = null;
 /**
  * Initializes, creates the table/index if necessary, and returns
  * the single database connection instance.
+ * @param {string} [dbPath] - Optional path to the database file.
+ * @param {string} [geojsonPath] - Optional path to the geojson file for migrations.
  * @returns {Promise<DatabaseSync>} The active database connection.
  */
-export async function initializeDatabase() {
+export async function initializeDatabase(
+  dbPath = DEFAULT_DATABASE_FILE,
+  geojsonPath,
+) {
   if (dbInstance) {
     return dbInstance;
   }
 
   try {
     // Connect/create the database file
-    dbInstance = new DatabaseSync(DATABASE_FILE);
+    dbInstance = new DatabaseSync(dbPath);
 
     await createAuroraMap(dbInstance);
     await createWeatherData(dbInstance);
     await updateColumns(dbInstance);
-    await removeOldLocations(dbInstance);
+    await removeOldLocations(dbInstance, geojsonPath);
 
-    console.log(`✅ Database '${DATABASE_FILE}' loaded.`);
+    logger.info("Database '%s' loaded", dbPath);
     return dbInstance;
   } catch (e) {
-    console.error(
-      `❌ Fatal error during database initialization: ${e.message}`
-    );
+    logger.error("Fatal error during database initialization: %s", e.message);
     // If connection fails, close and re-throw
     if (dbInstance) dbInstance.close();
     throw e;
@@ -62,8 +66,8 @@ export async function append(dataObject) {
 
   // Safety check for required keys (auroraId and fetchTime must exist and be NOT NULL)
   if (!dataObject.auroraId || !dataObject.fetchTime) {
-    console.error(
-      "❌ Data object must contain non-null 'auroraId' and 'fetchTime'."
+    logger.error(
+      "Data object must contain non-null 'auroraId' and 'fetchTime'",
     );
     return;
   }
@@ -95,16 +99,19 @@ VALUES (${placeholders})
     const result = insertStmt.run(...values);
 
     if (result.changes === 0) {
-      console.log(
-        `⚠️ Record for auroraId='${dataObject.auroraId}' at fetchTime='${dataObject.fetchTime}' already exists (ignored).`
+      logger.debug(
+        "Record for auroraId='%s' at fetchTime='%s' already exists (ignored)",
+        dataObject.auroraId,
+        dataObject.fetchTime,
       );
     } else {
-      console.log(
-        `➕ Successfully appended data for auroraId='${dataObject.auroraId}'.`
+      logger.debug(
+        "Successfully appended data for auroraId='%s'",
+        dataObject.auroraId,
       );
     }
   } catch (e) {
-    console.error(`❌ An error occurred during data append: ${e.message}`);
+    logger.error("An error occurred during data append: %s", e.message);
   }
 }
 
@@ -115,6 +122,6 @@ export function closeDatabase() {
   if (dbInstance) {
     dbInstance.close();
     dbInstance = null;
-    console.log(`\n🛑 Database connection closed.`);
+    logger.info("Database connection closed");
   }
 }

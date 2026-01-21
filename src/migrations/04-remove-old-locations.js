@@ -7,29 +7,31 @@
  */
 import fs from "node:fs/promises";
 import path from "node:path";
+import logger from "../logger.js";
 
 const TABLE_NAME = "weather_data";
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
-const GEOJSON_FILE = path.resolve(__dirname, "../../data/au.geo.json");
+const DEFAULT_GEOJSON_FILE = path.resolve(__dirname, "../../data/au.geo.json");
 
 /**
  * Main migration function
  */
-export async function removeOldLocations(db) {
-  console.log(
-    `🔄 Starting migration to remove old locations from ${TABLE_NAME}...`
-  );
+export async function removeOldLocations(
+  db,
+  geojsonPath = DEFAULT_GEOJSON_FILE,
+) {
+  logger.info("Starting migration to remove old locations from %s", TABLE_NAME);
 
   // 1. Read au.geo.json to get valid Aurora IDs
-  const geojsonText = await fs.readFile(GEOJSON_FILE, "utf8");
+  const geojsonText = await fs.readFile(geojsonPath, "utf8");
   const geojson = JSON.parse(geojsonText);
   const validAuroraIds = geojson.features
     .map((f) => f.properties.auroraId)
     .filter(Boolean);
 
   if (validAuroraIds.length === 0) {
-    console.warn(
-      "⚠️ No valid Aurora IDs found in au.geo.json. Skipping deletion to be safe."
+    logger.warn(
+      "No valid Aurora IDs found in au.geo.json. Skipping deletion to be safe.",
     );
     return;
   }
@@ -43,10 +45,10 @@ export async function removeOldLocations(db) {
   const deleteStmt = db.prepare(deleteSql);
   const result = deleteStmt.run(...validAuroraIds);
 
-  console.log(`🗑️ Removed ${result.changes} rows with old Aurora IDs`);
+  logger.info("Removed %d rows with old Aurora IDs", result.changes);
 
   // 3. Run VACUUM to optimize database
   db.exec("VACUUM");
 
-  console.log(`✅ Migration completed successfully`);
+  logger.info("Migration completed successfully");
 }
