@@ -28,6 +28,20 @@ program
   });
 
 program
+  .command("prune")
+  .description("Prune entries from the database older than 7 days")
+  .option(
+    "-d, --days <days>",
+    "Number of days to keep",
+    process.env.DB_PRUNE_DAYS || "7",
+  )
+  .action(async (options) => {
+    const { pruneEntries, closeDatabase } = await import("./src/sqlite.js");
+    await pruneEntries(options.days);
+    closeDatabase();
+  });
+
+program
   .command("get-db")
   .description("Download and unzip the weather database from S3")
   .action(async () => {

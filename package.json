@@ -9,7 +9,8 @@
     "upload": "node . upload-s3 -s data",
     "test": "NODE_ENV=test mocha test/*.test.js",
     "get-db": "node . get-db",
-    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:data && gzip data/weather.sqlite && npm run upload"
+    "prune": "node . prune",
+    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:data && npm run prune && gzip data/weather.sqlite && npm run upload"
   },
   "dependencies": {
     "@turf/turf": "^7.3.1",

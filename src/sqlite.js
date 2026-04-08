@@ -116,6 +116,48 @@ VALUES (${placeholders})
 }
 
 /**
+ * Prunes entries from the weather_data table that are older than the specified number of days.
+ * @param {number} [days=process.env.DB_PRUNE_DAYS || 7] - The age in days beyond which records should be deleted.
+ * @returns {Promise<number>} - The number of rows deleted.
+ */
+export async function pruneEntries(days = process.env.DB_PRUNE_DAYS || 7) {
+  const db = await initializeDatabase();
+
+  try {
+    logger.info("Pruning entries older than %d days...", days);
+
+    // Explicitly convert days to a negative string for SQLite's datetime modifier
+    const daysModifier = `-${days} days`;
+
+    // Use datetime with UTC to ensure consistency with toISOString()
+    const deleteStmt = db.prepare(
+      `DELETE FROM ${TABLE_NAME} WHERE datetime(fetchTime) < datetime('now', ?)`,
+    );
+
+    const result = deleteStmt.run(daysModifier);
+
+    if (result.changes > 0) {
+      logger.info(
+        "Successfully pruned %d entries",
+        result.changes,
+      );
+
+      // Vacuuming reclaims disk space after a large deletion
+      logger.info("Vacuuming database to reclaim space (this may take a few seconds)...");
+      db.exec("VACUUM");
+      logger.info("Vacuum complete");
+    } else {
+      logger.info("No entries older than %d days found to prune", days);
+    }
+
+    return result.changes;
+  } catch (e) {
+    logger.error("An error occurred during data pruning: %s", e.message);
+    return 0;
+  }
+}
+
+/**
  * Utility function to close the persistent connection when the application exits.
  */
 export function closeDatabase() {
