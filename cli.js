@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { program } from "commander";
+import { $ } from "zx";
 import dotenv from "dotenv";
 
 // Load environment variables
@@ -24,6 +25,30 @@ program
     const { default: fetchWeatherCron } =
       await import("./src/fetch-weather-cron.js");
     await fetchWeatherCron();
+  });
+
+program
+  .command("prune")
+  .description("Prune entries from the database older than 7 days")
+  .option(
+    "-d, --days <days>",
+    "Number of days to keep",
+    process.env.DB_PRUNE_DAYS || "7",
+  )
+  .action(async (options) => {
+    const { pruneEntries, closeDatabase } = await import("./src/sqlite.js");
+    await pruneEntries(options.days);
+    closeDatabase();
+  });
+
+program
+  .command("get-db")
+  .description("Download and unzip the weather database from S3")
+  .action(async () => {
+    const { S3_BUCKET, S3_END_POINT, S3_DEST } = process.env;
+    const url = `https://${S3_BUCKET}.${S3_END_POINT}/${S3_DEST}weather.sqlite.gz`;
+    console.log(`Downloading database from ${url}...`);
+    await $`curl ${url} | gunzip > data/weather.sqlite`;
   });
 
 program

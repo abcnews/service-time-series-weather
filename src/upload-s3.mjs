@@ -9,7 +9,7 @@ import zlib from "zlib";
 import { performance } from "perf_hooks";
 import { eachLimit } from "async";
 
-const BROTLI_EXTENSIONS = ["json", "xml"];
+const BROTLI_EXTENSIONS = ["json", "xml", 'csv'];
 
 function shouldCompress(filename) {
   const ext = path.extname(filename).slice(1);

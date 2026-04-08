@@ -14,7 +14,7 @@ import logger from "./logger.js";
  */
 const TZ = "Australia/Brisbane";
 
-const getDayBoundaries = (offset = 0) => {
+export const getDayBoundaries = (offset = 0) => {
   // Determine "Now" in Brisbane and apply the day offset (0 = today, -1 = yesterday)
   const brisbaneNow = toZonedTime(new Date(), TZ);
   const target = addDays(brisbaneNow, offset);
