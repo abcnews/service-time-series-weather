@@ -2,6 +2,7 @@ import { getTimeSeriesForColumn } from "./generate-dataset.js";
 import fs from "node:fs/promises";
 import path from "node:path";
 import logger from "./logger.js";
+import { exportWeatherDayToCsv } from "./export-csv.js";
 
 export default async function generateDatasets(options) {
   const datasets = options.columns.split(",");
@@ -9,6 +10,11 @@ export default async function generateDatasets(options) {
 
   for (let i = 0; i > 0 - Number(options.days || 1); i--) {
     daysToGenerate.push(i);
+  }
+
+  // Generate CSV exports for each day for archiving/backup
+  for (const dayOffset of daysToGenerate) {
+    await exportWeatherDayToCsv(dayOffset);
   }
 
   for (const dataset of datasets) {
