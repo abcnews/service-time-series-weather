@@ -34,6 +34,7 @@ export async function getTimeSeriesForColumn({
   dayStart = 0,
   onRows = null,
   overfetchMs = 0,
+  includeColumns = [],
 }) {
   const db = await initializeDatabase();
   const { start, end } = getDayBoundaries(dayStart);
@@ -47,11 +48,15 @@ export async function getTimeSeriesForColumn({
   const startEpoch = Math.round((start - overfetchMs) / 1000);
   const endEpoch = Math.round(end / 1000);
 
+  const extraColsSql =
+    includeColumns.length > 0 ? `, ${includeColumns.join(", ")}` : "";
+
   const sql = `
       SELECT 
         generationTime, 
         auroraId, 
         ${column} as value
+        ${extraColsSql}
       FROM ${TABLE_NAME}
       WHERE unixepoch(generationTime) BETWEEN ${startEpoch} AND ${endEpoch}
       AND value is not null

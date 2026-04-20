@@ -30,10 +30,10 @@ export function get9amRef(isoString) {
 
 /**
  * rainfallSpot modifier: Calculates discrete "rainfall since last measurement".
- * Normal data provides "precipitation since 9am" (cumulative).
- * This modifier converts it into deltas for better time-series visualization.
+ * Uses 'rainfall24hr' at the 9am boundary to accurately capture rain that fell
+ * between the last measurement and the meteorological reset.
  *
- * @param {Array} rows - raw rows from DB
+ * @param {Array} rows - raw rows from DB (requires 'value' and 'rainfall24hr')
  * @returns {Array} - rows with 'value' converted to incremental delta
  */
 export function calculateIncrementalRainDeltas(rows) {
@@ -43,38 +43,150 @@ export function calculateIncrementalRainDeltas(rows) {
     return acc;
   }, {});
 
-  // 2. For each station, calculate incremental rain deltas using flatMap and map
+  /** After this point we stop looking for yesterday's total */
+  const LAG_WINDOW_MS = 2 * 60 * 60 * 1000;
+
+  // 2. For each station, calculate incremental rain deltas
   return Object.values(byStation).flatMap((stationRows) => {
     let prevValue = null;
     let prev9amRef = null;
+    let prevRainfall24hr = null;
 
-    return stationRows.map((row) => {
+    return stationRows.flatMap((row, index) => {
       const current9amRef = get9amRef(row.generationTime);
       const currentValue = row.value;
+      const currentRain24 = row.rainfall24hr;
+      const points = [];
 
-      // Detect if we've crossed the 9am boundary or started a new series
-      const isNewPeriod = prevValue === null || current9amRef !== prev9amRef;
+      // Boundary Detection: If we've crossed 9am, inject the gap-filling delta
+      if (prevValue !== null && current9amRef !== prev9amRef) {
+        // Search ahead in the currently fetched data for the first reading in this NEW period
+        // where rainfall24hr has finally updated (changed from the previous period's value).
+        const freshRow = stationRows
+          .slice(index)
+          .find(
+            (r) =>
+              get9amRef(r.generationTime) === current9amRef &&
+              r.rainfall24hr !== null &&
+              r.rainfall24hr !== prevRainfall24hr,
+          );
 
-      const spotValue = isNewPeriod
-        ? currentValue // First reading or new 9am period
-        : Math.max(0, currentValue - prevValue); // Delta since last reading
+        const timeSinceBoundary = new Date(row.generationTime) - current9amRef;
+        const isFresh = !!freshRow;
+        const isPastLagWindow = timeSinceBoundary > LAG_WINDOW_MS;
 
-      // Update tracking state for next iteration
+        // Only inject the 9am boundary point if we have fresh data or we've timed out
+        // Timeout implies the previous max rain is identical to the current.
+        if (isFresh || isPastLagWindow) {
+          const definitiveRain24 = isFresh ? freshRow.rainfall24hr : currentRain24;
+          const gapDelta = Math.max(0, (definitiveRain24 || 0) - prevValue);
+
+          points.push({
+            ...row,
+            generationTime: new Date(current9amRef).toISOString(),
+            value: Number(gapDelta.toFixed(1)),
+          });
+        }
+
+        points.push({ ...row, value: Number(currentValue.toFixed(1)) });
+      } else {
+        // Normal progression: Delta since last measurement
+        const isFirstReading = prevValue === null;
+        const delta = isFirstReading
+          ? currentValue
+          : Math.max(0, currentValue - prevValue);
+
+        points.push({ ...row, value: Number(delta.toFixed(1)) });
+      }
+
       prevValue = currentValue;
       prev9amRef = current9amRef;
-
-      return {
-        ...row,
-        value: spotValue,
-      };
+      if (currentRain24 !== null) {
+        prevRainfall24hr = currentRain24;
+      }
+      return points;
     });
   });
 }
 
+/**
+ * Temperature modifier: Injects exact Maximum and Minimum points into the
+ * periodic time-series based on BOM summary metadata.
+ *
+ * @param {Array} rows - raw rows from DB (requires 'value', 'maximumTempC', etc.)
+ * @returns {Array} - merged and sorted rows
+ */
+export function injectTemperatureSummaries(rows) {
+  // 1. Group readings by station using reduce
+  const byStation = rows.reduce((acc, row) => {
+    (acc[row.auroraId] ||= []).push(row);
+    return acc;
+  }, {});
+
+  // 2. For each station, detect changes in Max/Min peaks
+  return Object.values(byStation).flatMap((stationRows) => {
+    let lastMax = null;
+    let lastMaxTime = null;
+    let lastMin = null;
+    let lastMinTime = null;
+
+    const merged = stationRows.flatMap((row) => {
+      const points = [row];
+
+      // Detect New Maximum Point
+      if (
+        row.maximumTempLocalTimeUTC &&
+        (row.maximumTempC !== lastMax ||
+          row.maximumTempLocalTimeUTC !== lastMaxTime)
+      ) {
+        points.push({
+          ...row,
+          generationTime: row.maximumTempLocalTimeUTC,
+          value: row.maximumTempC,
+        });
+        lastMax = row.maximumTempC;
+        lastMaxTime = row.maximumTempLocalTimeUTC;
+      }
+
+      // Detect New Minimum Point
+      if (
+        row.minimumTempLocalTimeUTC &&
+        (row.minimumTempC !== lastMin ||
+          row.minimumTempLocalTimeUTC !== lastMinTime)
+      ) {
+        points.push({
+          ...row,
+          generationTime: row.minimumTempLocalTimeUTC,
+          value: row.minimumTempC,
+        });
+        lastMin = row.minimumTempC;
+        lastMinTime = row.minimumTempLocalTimeUTC;
+      }
+
+      return points;
+    });
+
+    // Ensure strictly chronological order after injection
+    return merged.sort(
+      (a, b) => new Date(a.generationTime) - new Date(b.generationTime),
+    );
+  });
+}
+
 export const DATASET_CONFIGS = {
+  tempC: {
+    includeColumns: [
+      "maximumTempC",
+      "minimumTempC",
+      "maximumTempLocalTimeUTC",
+      "minimumTempLocalTimeUTC",
+    ],
+    onRows: injectTemperatureSummaries,
+  },
   rainfallSpot: {
     column: "precipitationSince9amMM",
-    overfetchMs: 120 * 60 * 1000, // Fetch 2 hours of extra data for midnight delta accuracy
+    includeColumns: ["rainfall24hr"],
+    overfetchMs: 120 * 60 * 1000,
     onRows: calculateIncrementalRainDeltas,
   },
 };

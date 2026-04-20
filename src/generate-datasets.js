@@ -27,6 +27,7 @@ export default async function generateDatasets(options) {
         dayStart: dayOffset,
         onRows: config.onRows,
         overfetchMs: config.overfetchMs,
+        includeColumns: config.includeColumns || [],
       });
 
       // Extract date portion from first timestamp and use substr for filename
