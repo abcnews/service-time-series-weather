@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { initializeDatabase } from "./sqlite.js";
 import { startOfDay, endOfDay, addDays } from "date-fns";
-import { toZonedTime, formatInTimeZone } from "date-fns-tz";
+import { toZonedTime, formatInTimeZone, fromZonedTime } from "date-fns-tz";
 import logger from "./logger.js";
 
 /**
@@ -19,16 +19,21 @@ export const getDayBoundaries = (offset = 0) => {
   const brisbaneNow = toZonedTime(new Date(), TZ);
   const target = addDays(brisbaneNow, offset);
 
-  // Return UTC ISO strings representing 00:00:00 and 23:59:59 in Brisbane
+  // Format the target date precisely to avoid timezone leakage from the process
+  const dateStr = formatInTimeZone(target, TZ, "yyyy-MM-dd");
+
+  // Return UTC Date objects representing 00:00:00 and 23:59:59 in Brisbane
   return {
-    start: startOfDay(target),
-    end: endOfDay(target),
+    start: fromZonedTime(`${dateStr}T00:00:00`, TZ),
+    end: fromZonedTime(`${dateStr}T23:59:59.999`, TZ),
   };
 };
 
 export async function getTimeSeriesForColumn({
   column = "tempC",
   dayStart = 0,
+  onRows = null,
+  overfetchMs = 0,
 }) {
   const db = await initializeDatabase();
   const { start, end } = getDayBoundaries(dayStart);
@@ -39,19 +44,24 @@ export async function getTimeSeriesForColumn({
    * This ensures the 'BETWEEN' filter and the 'ORDER BY' are chronologically accurate
    * even if the input strings are formatted differently.
    */
+  const startEpoch = Math.round((start - overfetchMs) / 1000);
+  const endEpoch = Math.round(end / 1000);
+
   const sql = `
       SELECT 
         generationTime, 
         auroraId, 
         ${column} as value
       FROM ${TABLE_NAME}
-      WHERE unixepoch(generationTime) BETWEEN ${Math.round(
-        start / 1000,
-      )} AND ${Math.round(end / 1000)}
+      WHERE unixepoch(generationTime) BETWEEN ${startEpoch} AND ${endEpoch}
       AND value is not null
       ORDER BY unixepoch(generationTime) ASC
     `;
-  const rows = db.prepare(sql).all();
+  let rows = db.prepare(sql).all();
+
+  if (onRows) {
+    rows = onRows(rows);
+  }
 
   const series = {};
   const startMs = new Date(start).getTime();
@@ -67,6 +77,11 @@ export async function getTimeSeriesForColumn({
 
     // Map absolute time to a minute index (0 to 1439 for a standard day)
     const x = Math.floor((currentMs - startMs) / (1000 * 60));
+
+    // If we overfetched, skip rows that are before the intended start of the day
+    if (x < 0) {
+      continue;
+    }
 
     if (!series[row.auroraId]) {
       series[row.auroraId] = [];
