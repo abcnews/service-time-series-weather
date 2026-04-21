@@ -58,10 +58,10 @@ describe("utils.aurora-dates", () => {
       );
     });
 
-    it("should handle UTC (Z) offset", () => {
+    it("should handle UTC (Z) offset and shift future peak to yesterday", () => {
       const localTime = "11:00 pm";
       const referenceIso = "2025-12-18T17:30:00Z";
-      const expected = "2025-12-18T23:00:00+00:00";
+      const expected = "2025-12-17T23:00:00+00:00";
       assert.strictEqual(
         resolveLocalTimeToUtc(localTime, referenceIso),
         expected,

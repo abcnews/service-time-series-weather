@@ -1,4 +1,5 @@
 import { subDays } from "date-fns";
+import { resolveLocalTimeToUtc } from "./utils.aurora-dates.js";
 
 /**
  * Returns the timestamp of the most recent 9am local time at or before the given ISO string's time.
@@ -125,51 +126,53 @@ export function injectTemperatureSummaries(rows) {
 
   // 2. For each station, detect changes in Max/Min peaks
   return Object.values(byStation).flatMap((stationRows) => {
-    let lastMax = null;
-    let lastMaxTime = null;
-    let lastMin = null;
-    let lastMinTime = null;
+    // track which peak timestamps we've already injected for this station
+    const injected = new Set();
+    const resultRows = [];
 
-    const merged = stationRows.flatMap((row) => {
-      const points = [row];
+    stationRows.forEach((row) => {
+      resultRows.push(row);
 
-      // Detect New Maximum Point
-      if (
-        row.maximumTempLocalTimeUTC &&
-        (row.maximumTempC !== lastMax ||
-          row.maximumTempLocalTimeUTC !== lastMaxTime)
-      ) {
-        points.push({
+      // Attempt to re-resolve the local time string (Self-Healing)
+      // Fallback to the stored UTC timestamp if re-resolution fails or inputs are missing
+      const maxTime =
+        resolveLocalTimeToUtc(
+          row.maximumTempLocalTime,
+          row.generationTime,
+        ) || row.maximumTempLocalTimeUTC;
+      const minTime =
+        resolveLocalTimeToUtc(
+          row.minimumTempLocalTime,
+          row.generationTime,
+        ) || row.minimumTempLocalTimeUTC;
+
+      // Inject unique Maximum
+      if (row.maximumTempC !== null && maxTime && !injected.has(maxTime)) {
+        resultRows.push({
           ...row,
-          generationTime: row.maximumTempLocalTimeUTC,
+          generationTime: maxTime,
           value: row.maximumTempC,
         });
-        lastMax = row.maximumTempC;
-        lastMaxTime = row.maximumTempLocalTimeUTC;
+        injected.add(maxTime);
       }
 
-      // Detect New Minimum Point
-      if (
-        row.minimumTempLocalTimeUTC &&
-        (row.minimumTempC !== lastMin ||
-          row.minimumTempLocalTimeUTC !== lastMinTime)
-      ) {
-        points.push({
+      // Inject unique Minimum
+      if (row.minimumTempC !== null && minTime && !injected.has(minTime)) {
+        resultRows.push({
           ...row,
-          generationTime: row.minimumTempLocalTimeUTC,
+          generationTime: minTime,
           value: row.minimumTempC,
         });
-        lastMin = row.minimumTempC;
-        lastMinTime = row.minimumTempLocalTimeUTC;
+        injected.add(minTime);
       }
-
-      return points;
     });
 
-    // Ensure strictly chronological order after injection
-    return merged.sort(
-      (a, b) => new Date(a.generationTime) - new Date(b.generationTime),
-    );
+    // Ensure strictly chronological order after injection using numeric timestamps
+    return resultRows.sort((a, b) => {
+      const timeA = new Date(a.generationTime).getTime();
+      const timeB = new Date(b.generationTime).getTime();
+      return timeA - timeB;
+    });
   });
 }
 
@@ -178,15 +181,18 @@ export const DATASET_CONFIGS = {
     includeColumns: [
       "maximumTempC",
       "minimumTempC",
+      "maximumTempLocalTime",
       "maximumTempLocalTimeUTC",
+      "minimumTempLocalTime",
       "minimumTempLocalTimeUTC",
     ],
+    overfetchFutureMs: 12 * 60 * 60 * 1000, // 12 hours lookback for late-night peaks
     onRows: injectTemperatureSummaries,
   },
   rainfallSpot: {
     column: "precipitationSince9amMM",
     includeColumns: ["rainfall24hr"],
-    overfetchMs: 120 * 60 * 1000,
+    overfetchPastMs: 120 * 60 * 1000,
     onRows: calculateIncrementalRainDeltas,
   },
 };

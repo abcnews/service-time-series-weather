@@ -1,0 +1,72 @@
+[
+  {
+    "auroraId": "loc82a2b1f10de5",
+    "generationTime": "2026-04-21T06:51:01+08:00",
+    "maximumTempLocalTime": "1:04 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T13:04:00+06:30",
+    "diff": 27779
+  },
+  {
+    "auroraId": "loc9984d8beb142",
+    "generationTime": "2026-04-21T06:51:01+08:00",
+    "maximumTempLocalTime": "11:41 am",
+    "maximumTempLocalTimeUTC": "2026-04-21T11:41:00+07:00",
+    "diff": 20999
+  },
+  {
+    "auroraId": "locf02541cca43c",
+    "generationTime": "2026-04-21T06:11:16+10:00",
+    "maximumTempLocalTime": "3:08 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T15:08:00+09:30",
+    "diff": 34004
+  },
+  {
+    "auroraId": "loc9984d8beb142",
+    "generationTime": "2026-04-21T06:11:02+08:00",
+    "maximumTempLocalTime": "11:41 am",
+    "maximumTempLocalTimeUTC": "2026-04-21T11:41:00+07:00",
+    "diff": 23398
+  },
+  {
+    "auroraId": "loc82a2b1f10de5",
+    "generationTime": "2026-04-21T06:11:02+08:00",
+    "maximumTempLocalTime": "1:04 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T13:04:00+06:30",
+    "diff": 30178
+  },
+  {
+    "auroraId": "loc46ba1dbebaae",
+    "generationTime": "2026-04-21T05:51:15+10:00",
+    "maximumTempLocalTime": "1:07 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T13:07:00+10:00",
+    "diff": 26145
+  },
+  {
+    "auroraId": "loce6b9edea9174",
+    "generationTime": "2026-04-21T05:51:15+10:00",
+    "maximumTempLocalTime": "12:15 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T12:15:00+10:00",
+    "diff": 23025
+  },
+  {
+    "auroraId": "locff2a64499c29",
+    "generationTime": "2026-04-21T05:51:15+10:00",
+    "maximumTempLocalTime": "1:17 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T13:17:00+10:00",
+    "diff": 26745
+  },
+  {
+    "auroraId": "loc1049bbed1c4d",
+    "generationTime": "2026-04-21T05:51:15+10:00",
+    "maximumTempLocalTime": "1:13 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T13:13:00+10:00",
+    "diff": 26505
+  },
+  {
+    "auroraId": "locaee409ddf267",
+    "generationTime": "2026-04-21T05:51:15+10:00",
+    "maximumTempLocalTime": "12:37 pm",
+    "maximumTempLocalTimeUTC": "2026-04-21T12:37:00+10:00",
+    "diff": 24345
+  }
+]

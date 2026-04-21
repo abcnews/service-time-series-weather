@@ -5,6 +5,7 @@ import path from "node:path";
 import { initializeDatabase } from "./sqlite.js";
 import { startOfDay, endOfDay, addDays } from "date-fns";
 import { toZonedTime, formatInTimeZone, fromZonedTime } from "date-fns-tz";
+import { clipRowsToDay } from "./utils.aurora-dates.js";
 import logger from "./logger.js";
 
 /**
@@ -33,7 +34,8 @@ export async function getTimeSeriesForColumn({
   column = "tempC",
   dayStart = 0,
   onRows = null,
-  overfetchMs = 0,
+  overfetchPastMs = 0,
+  overfetchFutureMs = 0,
   includeColumns = [],
 }) {
   const db = await initializeDatabase();
@@ -45,8 +47,8 @@ export async function getTimeSeriesForColumn({
    * This ensures the 'BETWEEN' filter and the 'ORDER BY' are chronologically accurate
    * even if the input strings are formatted differently.
    */
-  const startEpoch = Math.round((start - overfetchMs) / 1000);
-  const endEpoch = Math.round(end / 1000);
+  const startEpoch = Math.round((start - overfetchPastMs) / 1000);
+  const endEpoch = Math.round((end.getTime() + overfetchFutureMs) / 1000);
 
   const extraColsSql =
     includeColumns.length > 0 ? `, ${includeColumns.join(", ")}` : "";
@@ -68,8 +70,13 @@ export async function getTimeSeriesForColumn({
     rows = onRows(rows);
   }
 
+  // CLIP: Ensure all rows (including injected ones) are within the target day boundaries.
+  // This removes lookback reading rows from the payload that belong to the next day.
+  rows = clipRowsToDay(rows, start, end);
+
+  const startMs = start.getTime();
+
   const series = {};
-  const startMs = new Date(start).getTime();
 
   /**
    * To keep the JSON payload smallish:

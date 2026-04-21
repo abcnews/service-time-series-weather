@@ -26,7 +26,8 @@ export default async function generateDatasets(options) {
         column: config.column || dataset,
         dayStart: dayOffset,
         onRows: config.onRows,
-        overfetchMs: config.overfetchMs,
+        overfetchPastMs: config.overfetchPastMs,
+        overfetchFutureMs: config.overfetchFutureMs,
         includeColumns: config.includeColumns || [],
       });
 
