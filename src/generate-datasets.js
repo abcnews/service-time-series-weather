@@ -3,6 +3,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import logger from "./logger.js";
 import { exportWeatherDayToCsv } from "./export-csv.js";
+import DATASET_CONFIGS from "./config.js";
+
 
 export default async function generateDatasets(options) {
   const datasets = options.columns.split(",");
@@ -19,9 +21,14 @@ export default async function generateDatasets(options) {
 
   for (const dataset of datasets) {
     for (const dayOffset of daysToGenerate) {
+      const config = DATASET_CONFIGS[dataset] || {};
       const data = await getTimeSeriesForColumn({
-        column: dataset,
+        column: config.column || dataset,
         dayStart: dayOffset,
+        onRows: config.onRows,
+        overfetchPastMs: config.overfetchPastMs,
+        overfetchFutureMs: config.overfetchFutureMs,
+        includeColumns: config.includeColumns || [],
       });
 
       // Extract date portion from first timestamp and use substr for filename

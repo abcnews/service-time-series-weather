@@ -43,7 +43,7 @@ with the timestamps object:
   // For compression, the date is represented as minutes offset from midnight
   series: {
     "loc39f58b228284": [
-      // [minutes offset from midnight, observation value]
+      // [minutes offset from midnight UTC+10, observation value]
       [1, 24.8],    // 1 minute past midnight, value: 24.8
       [31, 24.3],
       [61, 23.5],
@@ -56,3 +56,11 @@ with the timestamps object:
 ### Multiple datasets
 
 Output all your JSON files with `node . generate-datasets --columns tempC,humidity --days 14`. This uses the `--columns` and `--days` options to specify the datasets to generate and the number of days respectively.
+
+## Timezones
+
+Files are saved into "days" based on UTC+10/AEST.
+
+Note: This is a problem if you specifically need to show a "day" in another timezone, and the start/end times matter. The frontend currently does not handle this case, and will just show these AEST periods. But it's technically possible to overfetch the time periods to crop to another timezone.
+
+The database saves timestamps as ISO8601 in the user's local timezone. Therefore you can tell what the local time was when the recording was taken. We use this to parse the "rainfall since 9am" chart for instance. However this information is not published in the final aggregate JSON files for space reasons, so the frontend does not necessarily know what timezone a specific location is in.
