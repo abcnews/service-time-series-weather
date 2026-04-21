@@ -10,7 +10,7 @@
     "test": "NODE_ENV=test mocha test/*.test.js",
     "get-db": "node . get-db",
     "prune": "node . prune",
-    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:data && npm run prune && gzip data/weather.sqlite && npm run upload"
+    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:data && npm run prune && gzip data/weather.sqlite -f && npm run upload"
   },
   "dependencies": {
     "@turf/turf": "^7.3.1",
