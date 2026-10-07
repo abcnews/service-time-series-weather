@@ -1,59 +1,59 @@
 import fs from "node:fs";
+import { parse } from "csv-parse/sync";
 
-function convertCsvToGeoJson(inputPath, outputPath) {
-  const csvData = fs.readFileSync(inputPath, "utf8");
-  const lines = csvData.trim().split(/\r?\n/);
+const overrides = new Map(
+  parse(
+    fs.readFileSync(new URL("./editorial-names.csv", import.meta.url), "utf8"),
+    { columns: true, skip_empty_lines: true },
+  ).map((r) => [r.METRAID, r["NAME OVERRIDE"]]),
+);
 
-  // Clean headers
-  const headers = ["metraId", "wmoId", "bomId", "name", "point"];
+const existingPath = new URL("../data/au.geo.json", import.meta.url);
+const existing = fs.existsSync(existingPath)
+  ? JSON.parse(fs.readFileSync(existingPath, "utf8"))
+  : { features: [] };
+const auroraMap = new Map(
+  existing.features.map((f) => [f.properties.metraId, f.properties]),
+);
 
-  const features = lines.slice(1).map((line) => {
-    // Note: If your CSV uses quotes around fields with spaces,
-    // a simple .split(",") might shift columns.
-    // This regex ensures "POINT (long lat)" stays as one piece.
-    const values = line.split(",");
+const stations = parse(
+  fs.readFileSync(
+    new URL("./weather-stations-fulltable-export.csv", import.meta.url),
+    "utf8",
+  ),
+  {
+    columns: ["metraId", "wmoId", "bomId", "name", "point"],
+    from_line: 2,
+    skip_empty_lines: true,
+  },
+);
 
-    const properties = {};
-    let geometry = null;
+const features = stations.map(({ metraId, wmoId, bomId, name, point }) => {
+  const coords = point
+    .replace(/POINT\s*\(|\)/g, "")
+    .trim()
+    .split(" ")
+    .map(Number);
+  const prev = auroraMap.get(metraId) || {};
+  const storyLabName = overrides.get(metraId);
 
-    headers.forEach((header, index) => {
-      let value = values[index];
-      if (value.slice(0, 1) === '"') {
-        value = value.slice(1, -1);
-      }
-
-      if (header === "point" && value) {
-        value = value.replace("POINT (", "").replace(")", "");
-        const coords = value.split(" ");
-        if (coords) {
-          geometry = {
-            type: "Point",
-            // GeoJSON coordinates are [longitude, latitude]
-            coordinates: [parseFloat(coords[0]), parseFloat(coords[1])],
-          };
-        }
-      } else {
-        // Store all other fields (IDs, labels) in properties
-        properties[header] = value;
-      }
-    });
-
-    return {
-      type: "Feature",
-      geometry: geometry,
-      properties: properties,
-    };
-  });
-
-  const geoJson = {
-    type: "FeatureCollection",
-    features: features,
+  return {
+    type: "Feature",
+    geometry: { type: "Point", coordinates: coords },
+    properties: {
+      metraId,
+      wmoId,
+      bomId,
+      name,
+      ...(storyLabName && { storyLabName }),
+      ...(prev.auroraId && { auroraId: prev.auroraId }),
+      ...(prev.auroraName && { auroraName: prev.auroraName }),
+    },
   };
+});
 
-  fs.writeFileSync(outputPath, JSON.stringify(geoJson, null, 4));
-  console.log(
-    `Successfully converted ${features.length} features to ${outputPath}`
-  );
-}
-
-convertCsvToGeoJson("weather-stations-fulltable-export.csv", "au.geo.json");
+fs.writeFileSync(
+  existingPath,
+  JSON.stringify({ type: "FeatureCollection", features }, null, 2),
+);
+console.log(`Successfully converted ${features.length} features`);
