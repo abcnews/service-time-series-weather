@@ -35,7 +35,7 @@ const features = stations.map(({ metraId, wmoId, bomId, name, point }) => {
     .split(" ")
     .map(Number);
   const prev = auroraMap.get(metraId) || {};
-  const storyLabName = overrides.get(metraId);
+  const storyLabName = overrides.get(metraId) || prev.storyLabName || name;
 
   return {
     type: "Feature",
@@ -44,10 +44,8 @@ const features = stations.map(({ metraId, wmoId, bomId, name, point }) => {
       metraId,
       wmoId,
       bomId,
-      name,
-      ...(storyLabName && { storyLabName }),
+      storyLabName,
       ...(prev.auroraId && { auroraId: prev.auroraId }),
-      ...(prev.auroraName && { auroraName: prev.auroraName }),
     },
   };
 });

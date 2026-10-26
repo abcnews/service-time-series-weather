@@ -6,7 +6,10 @@ The scripts are wrapped in Commander, so you can run `node . --help` for details
 
 ## Setup
 
-To set up this repo, you must create a geojson object with the locations you wish to track.
+To set up this repo from scratch, you either:
+
+1. Easiest: dDownload the existing aus.geo.json from the live site to data/, or
+1. create a geojson object with the locations you wish to track:
 
 1. Make sure au.geo.json is up to date. Data comes from [./stationMapData](./stationMapData)
    and probably doesn't need to be updated again.
@@ -18,6 +21,12 @@ Once the setup steps are done, you can run the following on a cron job to
 populate weather.sqlite.
 
 1. `npm run fetch:weather-cron`
+
+## Usage (backfill from CSV)
+
+`npm run backfill:csv` downloads the daily CSV exports and inserts them into weather.sqlite. It starts at today (Brisbane) and goes back one day at a time until a file 404s. Rows already in the database (same `auroraId` and `generationTime`) are ignored, so it's safe to re-run.
+
+Note: `npm run prune` deletes rows older than 7 days, so backfilled history won't survive a prune of the same database.
 
 ## Usage (collate data)
 
@@ -56,6 +65,18 @@ with the timestamps object:
 ### Multiple datasets
 
 Output all your JSON files with `node . generate-datasets --columns tempC,humidity --days 14`. This uses the `--columns` and `--days` options to specify the datasets to generate and the number of days respectively.
+
+Each dataset also writes one file per station per day to `data/assets/stations/<dataset>/<yyyy-mm-dd>/<bomId>.json`, e.g. `stations/tempC/2026-01-14/040913.json`. These are uploaded with the other files in `data/assets/`.
+
+```javascript
+{
+  name: "Brisbane",
+  updatedDate: "2026-01-14T12:26:20+10:00",
+  startDate: "2026-01-14T00:00:00+10:00",
+  // [minutes offset from midnight UTC+10, observation value]
+  series: [[0, 22], [10, 22.6]]
+}
+```
 
 ## Timezones
 

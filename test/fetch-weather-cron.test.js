@@ -19,7 +19,7 @@ describe("fetchWeatherCron", () => {
         {
           type: "Feature",
           properties: {
-            name: "Test Location 1",
+            storyLabName: "Test Location 1",
             auroraId: "0a9a5834157b",
           },
           geometry: { type: "Point", coordinates: [0, 0] },
@@ -27,7 +27,7 @@ describe("fetchWeatherCron", () => {
         {
           type: "Feature",
           properties: {
-            name: "Test Location 2",
+            storyLabName: "Test Location 2",
             auroraId: "0aee89e74496",
           },
           geometry: { type: "Point", coordinates: [1, 1] },

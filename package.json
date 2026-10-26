@@ -5,6 +5,7 @@
     "fetch:aurora-ids": "node . fetch-aurora-ids",
     "fetch:weather-cron": "node . fetch-weather-cron",
     "prepare:data": "node . generate-datasets",
+    "backfill:csv": "node scripts/reconstituteDataFromCsv/index.js",
     "prepare:river-levels-wip": "node dataBomRiver/fetch-rivers.js",
     "upload": "node . upload-s3 -s data",
     "test": "NODE_ENV=test mocha test/*.test.js",

@@ -21,7 +21,7 @@ const geojson = JSON.parse(geojsonText);
 
 async function rectifyLocation(location) {
   const [longitude, latitude] = location.geometry.coordinates;
-  const { name, auroraId } = location.properties;
+  const { storyLabName, auroraId } = location.properties;
   if (auroraId) {
     return;
   }
@@ -33,25 +33,20 @@ async function rectifyLocation(location) {
       long: ${Number(longitude)},
       radius: FiveKm
       ) {
-      id,
-      suburb
+      id
       }
   }
   }`);
 
   const locations = auroraLocationsFiveKm.data?.locations?.byLatLongWithRadius;
   if (!locations?.length) {
-    logger.error("No locations found for name %s", name);
+    logger.error("No locations found for %s", storyLabName);
   } else {
     location.properties.auroraId = locations[0].id.replace(
       "aurora://location/",
       "",
     );
-    const auroraName = locations[0].suburb;
-    if (location.properties.name !== auroraName) {
-      location.properties.auroraName = auroraName;
-    }
-    logger.info("Rectified %s", name);
+    logger.info("Rectified %s", storyLabName);
   }
   await fs.writeFile(GEOJSON_FILE, JSON.stringify(geojson, null, 2));
 }
