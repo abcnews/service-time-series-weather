@@ -4,6 +4,7 @@ import path from "node:path";
 import logger from "./logger.js";
 import { exportWeatherDayToCsv } from "./export-csv.js";
 import DATASET_CONFIGS from "./config.js";
+import { writeStationDays } from "./generate-station-days.js";
 
 
 export default async function generateDatasets(options) {
@@ -46,6 +47,15 @@ export default async function generateDatasets(options) {
         dayOffset,
         outputPath,
       );
+
+      // Every dataset also gets a file per station per day (smaller downloads for single-station views)
+      await writeStationDays({
+        dataset,
+        series: data.series,
+        date: dateSubstr,
+        updatedDate: data.updatedDate,
+        startDate: data.startDate,
+      });
     }
   }
 

@@ -46,7 +46,7 @@ async function getAuroraIds() {
   );
   const geojson = JSON.parse(text);
   return geojson.features
-    .map((feature) => [feature.properties.auroraId, feature.properties.name])
+    .map((feature) => [feature.properties.auroraId, feature.properties.storyLabName])
     .filter((feature) => feature[0]);
 }
 

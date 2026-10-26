@@ -14,7 +14,6 @@
         "metraId": "89564",
         "wmoId": "89564",
         "bomId": "300001",
-        "name": "Mawson",
         "storyLabName": "Mawson"
       }
     },
@@ -31,7 +30,6 @@
         "metraId": "89571",
         "wmoId": "89571",
         "bomId": "300000",
-        "name": "Davis",
         "storyLabName": "Davis"
       }
     },
@@ -48,7 +46,6 @@
         "metraId": "89611",
         "wmoId": "89611",
         "bomId": "300017",
-        "name": "Casey",
         "storyLabName": "Casey"
       }
     },
@@ -65,7 +62,6 @@
         "metraId": "89767",
         "wmoId": "89767",
         "bomId": "300039",
-        "name": "G3",
         "storyLabName": "Antarctica — G3"
       }
     },
@@ -82,8 +78,8 @@
         "metraId": "94100",
         "wmoId": "94100",
         "bomId": "001019",
-        "name": "Kalumburu",
-        "storyLabName": "Kalumburu"
+        "storyLabName": "Kalumburu",
+        "auroraId": "locc3c65a9075db"
       }
     },
     {
@@ -99,7 +95,6 @@
         "metraId": "94102",
         "wmoId": "94102",
         "bomId": "001007",
-        "name": "Troughton Island",
         "storyLabName": "Troughton Island"
       }
     },
@@ -116,8 +111,8 @@
         "metraId": "94170",
         "wmoId": "94170",
         "bomId": "027045",
-        "name": "Weipa Aero",
-        "storyLabName": "Weipa"
+        "storyLabName": "Weipa",
+        "auroraId": "loc66055bcf4561"
       }
     },
     {
@@ -133,8 +128,8 @@
         "metraId": "94171",
         "wmoId": "94171",
         "bomId": "027075",
-        "name": "Scherger Raaf",
-        "storyLabName": "Aurukun — RAAF Base Scherger"
+        "storyLabName": "Aurukun — RAAF Base Scherger",
+        "auroraId": "loc292c1894a629"
       }
     },
     {
@@ -150,8 +145,8 @@
         "metraId": "94174",
         "wmoId": "94174",
         "bomId": "027058",
-        "name": "Horn Island",
-        "storyLabName": "Horn Island"
+        "storyLabName": "Horn Island",
+        "auroraId": "loc5ccbe7025dce"
       }
     },
     {
@@ -167,8 +162,8 @@
         "metraId": "94182",
         "wmoId": "94182",
         "bomId": "027054",
-        "name": "Coconut Island",
-        "storyLabName": "Coconut Island"
+        "storyLabName": "Coconut Island",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -184,8 +179,8 @@
         "metraId": "94183",
         "wmoId": "94183",
         "bomId": "027073",
-        "name": "Coen Airport",
-        "storyLabName": "Coen Airport"
+        "storyLabName": "Coen Airport",
+        "auroraId": "loc9e9fbf70b23d"
       }
     },
     {
@@ -201,8 +196,8 @@
         "metraId": "94186",
         "wmoId": "94186",
         "bomId": "028008",
-        "name": "Lockhart River Airport",
-        "storyLabName": "Lockhart River"
+        "storyLabName": "Lockhart River",
+        "auroraId": "locf45e5bc0d77d"
       }
     },
     {
@@ -218,8 +213,8 @@
         "metraId": "94188",
         "wmoId": "94188",
         "bomId": "031213",
-        "name": "Cape Flattery",
-        "storyLabName": "Cape Flattery"
+        "storyLabName": "Cape Flattery",
+        "auroraId": "locde6642a8c709"
       }
     },
     {
@@ -235,8 +230,8 @@
         "metraId": "94200",
         "wmoId": "94200",
         "bomId": "004019",
-        "name": "Mandora",
-        "storyLabName": "Mandora"
+        "storyLabName": "Mandora",
+        "auroraId": "loc7e42ffbee935"
       }
     },
     {
@@ -252,8 +247,8 @@
         "metraId": "94203",
         "wmoId": "94203",
         "bomId": "003003",
-        "name": "Broome Airport",
-        "storyLabName": "Broome Airport"
+        "storyLabName": "Broome Airport",
+        "auroraId": "locc07f6ef95a39"
       }
     },
     {
@@ -269,8 +264,8 @@
         "metraId": "94204",
         "wmoId": "94204",
         "bomId": "003080",
-        "name": "Curtin Aero",
-        "storyLabName": "Derby — RAAF Base Curtin"
+        "storyLabName": "Derby — RAAF Base Curtin",
+        "auroraId": "loc3ca92ce83151"
       }
     },
     {
@@ -286,8 +281,8 @@
         "metraId": "94206",
         "wmoId": "94206",
         "bomId": "003093",
-        "name": "Fitzroy Crossing Aero",
-        "storyLabName": "Fitzroy Crossing"
+        "storyLabName": "Fitzroy Crossing",
+        "auroraId": "locae86bbf6dd32"
       }
     },
     {
@@ -303,7 +298,6 @@
         "metraId": "94207",
         "wmoId": "94207",
         "bomId": "200713",
-        "name": "Rowley Shoals",
         "storyLabName": "Rowley Shoals — Imperieuse Lighthouse"
       }
     },
@@ -320,7 +314,6 @@
         "metraId": "94210",
         "wmoId": "94210",
         "bomId": "200735",
-        "name": "Adele Island",
         "storyLabName": "Adele Island"
       }
     },
@@ -337,8 +330,8 @@
         "metraId": "94216",
         "wmoId": "94216",
         "bomId": "002056",
-        "name": "Kununurra Aero",
-        "storyLabName": "Kununurra"
+        "storyLabName": "Kununurra",
+        "auroraId": "loc00dfefe6aadb"
       }
     },
     {
@@ -354,8 +347,8 @@
         "metraId": "94217",
         "wmoId": "94217",
         "bomId": "002064",
-        "name": "Argyle Aerodrome",
-        "storyLabName": "Argyle Aerodrome"
+        "storyLabName": "Argyle Aerodrome",
+        "auroraId": "loc5976b78f9c45"
       }
     },
     {
@@ -371,8 +364,8 @@
         "metraId": "94255",
         "wmoId": "94255",
         "bomId": "037010",
-        "name": "Camooweal Township",
-        "storyLabName": "Camooweal"
+        "storyLabName": "Camooweal",
+        "auroraId": "loc9a514311121a"
       }
     },
     {
@@ -388,8 +381,8 @@
         "metraId": "94260",
         "wmoId": "94260",
         "bomId": "029077",
-        "name": "Burketown Airport",
-        "storyLabName": "Burketown"
+        "storyLabName": "Burketown",
+        "auroraId": "loc341def567cc3"
       }
     },
     {
@@ -405,8 +398,8 @@
         "metraId": "94261",
         "wmoId": "94261",
         "bomId": "029167",
-        "name": "Century Mine",
-        "storyLabName": "Century Mine"
+        "storyLabName": "Century Mine",
+        "auroraId": "loc93c49ed3995a"
       }
     },
     {
@@ -422,8 +415,8 @@
         "metraId": "94266",
         "wmoId": "94266",
         "bomId": "029063",
-        "name": "Normanton Airport",
-        "storyLabName": "Normanton"
+        "storyLabName": "Normanton",
+        "auroraId": "loc07a89165c12d"
       }
     },
     {
@@ -439,8 +432,8 @@
         "metraId": "94268",
         "wmoId": "94268",
         "bomId": "029038",
-        "name": "Kowanyama Airport",
-        "storyLabName": "Kowanyama"
+        "storyLabName": "Kowanyama",
+        "auroraId": "locb56d085c497f"
       }
     },
     {
@@ -456,8 +449,8 @@
         "metraId": "94274",
         "wmoId": "94274",
         "bomId": "030124",
-        "name": "Georgetown Airport",
-        "storyLabName": "Georgetown"
+        "storyLabName": "Georgetown",
+        "auroraId": "loc3f6c237e3fc5"
       }
     },
     {
@@ -473,8 +466,8 @@
         "metraId": "94276",
         "wmoId": "94276",
         "bomId": "028004",
-        "name": "Palmerville",
-        "storyLabName": "Palmerville"
+        "storyLabName": "Palmerville",
+        "auroraId": "loc49d3b33b0ab1"
       }
     },
     {
@@ -490,8 +483,8 @@
         "metraId": "94284",
         "wmoId": "94284",
         "bomId": "200879",
-        "name": "Arlington Reef",
-        "storyLabName": "Arlington Reef"
+        "storyLabName": "Arlington Reef",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -507,8 +500,8 @@
         "metraId": "94285",
         "wmoId": "94285",
         "bomId": "031037",
-        "name": "Low Isles Lighthouse",
-        "storyLabName": "Low Isles Lighthouse"
+        "storyLabName": "Low Isles Lighthouse",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -524,8 +517,8 @@
         "metraId": "94287",
         "wmoId": "94287",
         "bomId": "031011",
-        "name": "Cairns Aero",
-        "storyLabName": "Cairns"
+        "storyLabName": "Cairns",
+        "auroraId": "loc0d3905e718e9"
       }
     },
     {
@@ -541,7 +534,6 @@
         "metraId": "94289",
         "wmoId": "94289",
         "bomId": "200732",
-        "name": "Holmes Reef",
         "storyLabName": "Holmes Reef"
       }
     },
@@ -558,7 +550,6 @@
         "metraId": "94290",
         "wmoId": "94290",
         "bomId": "200783",
-        "name": "Flinders Reef",
         "storyLabName": "Flinders Reef"
       }
     },
@@ -575,7 +566,6 @@
         "metraId": "94293",
         "wmoId": "94293",
         "bomId": "200880",
-        "name": "Lihou Reef Lighthouse",
         "storyLabName": "Lihou Reef Lighthouse"
       }
     },
@@ -592,8 +582,8 @@
         "metraId": "94294",
         "wmoId": "94294",
         "bomId": "032040",
-        "name": "Townsville Aero",
-        "storyLabName": "Townsville"
+        "storyLabName": "Townsville",
+        "auroraId": "loc2b23db427a92"
       }
     },
     {
@@ -609,8 +599,8 @@
         "metraId": "94297",
         "wmoId": "94297",
         "bomId": "032182",
-        "name": "Cape Ferguson Ntc Aws",
-        "storyLabName": "Cape Ferguson"
+        "storyLabName": "Cape Ferguson",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -626,7 +616,6 @@
         "metraId": "94298",
         "wmoId": "94298",
         "bomId": "200704",
-        "name": "Marion Reef",
         "storyLabName": "Marion Reef"
       }
     },
@@ -643,7 +632,6 @@
         "metraId": "94299",
         "wmoId": "94299",
         "bomId": "200283",
-        "name": "Willis Island",
         "storyLabName": "Willis Island"
       }
     },
@@ -660,8 +648,8 @@
         "metraId": "94300",
         "wmoId": "94300",
         "bomId": "006011",
-        "name": "Carnarvon Airport",
-        "storyLabName": "Carnarvon"
+        "storyLabName": "Carnarvon",
+        "auroraId": "loc72abaa4befcd"
       }
     },
     {
@@ -677,8 +665,8 @@
         "metraId": "94302",
         "wmoId": "94302",
         "bomId": "005007",
-        "name": "Learmonth Airport",
-        "storyLabName": "Exmouth — Learmonth"
+        "storyLabName": "Exmouth — Learmonth",
+        "auroraId": "loc12f88ba6be3c"
       }
     },
     {
@@ -694,7 +682,6 @@
         "metraId": "94303",
         "wmoId": "94303",
         "bomId": "005084",
-        "name": "Thevenard Island",
         "storyLabName": "Thevenard Island"
       }
     },
@@ -711,8 +698,8 @@
         "metraId": "94306",
         "wmoId": "94306",
         "bomId": "005008",
-        "name": "Mardie",
-        "storyLabName": "Mardie"
+        "storyLabName": "Mardie",
+        "auroraId": "loc714607470f70"
       }
     },
     {
@@ -728,7 +715,6 @@
         "metraId": "94307",
         "wmoId": "94307",
         "bomId": "004095",
-        "name": "Legendre Island",
         "storyLabName": "Legendre Island"
       }
     },
@@ -745,8 +731,8 @@
         "metraId": "94308",
         "wmoId": "94308",
         "bomId": "004090",
-        "name": "Roebourne Aero",
-        "storyLabName": "Roebourne"
+        "storyLabName": "Roebourne",
+        "auroraId": "loc3ac9f1e82e5f"
       }
     },
     {
@@ -762,8 +748,8 @@
         "metraId": "94312",
         "wmoId": "94312",
         "bomId": "004032",
-        "name": "Port Hedland Airport",
-        "storyLabName": "Port Hedland"
+        "storyLabName": "Port Hedland",
+        "auroraId": "loc737573d8f877"
       }
     },
     {
@@ -779,8 +765,8 @@
         "metraId": "94316",
         "wmoId": "94316",
         "bomId": "007185",
-        "name": "Paraburdoo Aero",
-        "storyLabName": "Paraburdoo"
+        "storyLabName": "Paraburdoo",
+        "auroraId": "loc8368d32786cc"
       }
     },
     {
@@ -796,8 +782,8 @@
         "metraId": "94317",
         "wmoId": "94317",
         "bomId": "007176",
-        "name": "Newman Aero",
-        "storyLabName": "Newman"
+        "storyLabName": "Newman",
+        "auroraId": "loc9f98215b5f40"
       }
     },
     {
@@ -813,8 +799,8 @@
         "metraId": "94318",
         "wmoId": "94318",
         "bomId": "006072",
-        "name": "Emu Creek Station",
-        "storyLabName": "Emu Creek Station"
+        "storyLabName": "Emu Creek Station",
+        "auroraId": "loc5fff200d73c9"
       }
     },
     {
@@ -830,7 +816,6 @@
         "metraId": "94319",
         "wmoId": "94319",
         "bomId": "013030",
-        "name": "Telfer Aero",
         "storyLabName": "Telfer"
       }
     },
@@ -847,8 +832,8 @@
         "metraId": "94332",
         "wmoId": "94332",
         "bomId": "029127",
-        "name": "Mount Isa Aero",
-        "storyLabName": "Mount Isa"
+        "storyLabName": "Mount Isa",
+        "auroraId": "loc1f8a00b38046"
       }
     },
     {
@@ -864,8 +849,8 @@
         "metraId": "94335",
         "wmoId": "94335",
         "bomId": "029141",
-        "name": "Cloncurry Airport",
-        "storyLabName": "Cloncurry"
+        "storyLabName": "Cloncurry",
+        "auroraId": "loce83c4018482e"
       }
     },
     {
@@ -881,8 +866,8 @@
         "metraId": "94336",
         "wmoId": "94336",
         "bomId": "037034",
-        "name": "The Monument Airport",
-        "storyLabName": "The Monument Airport"
+        "storyLabName": "The Monument Airport",
+        "auroraId": "loceebea0801484"
       }
     },
     {
@@ -898,8 +883,8 @@
         "metraId": "94337",
         "wmoId": "94337",
         "bomId": "029058",
-        "name": "Julia Creek Airport",
-        "storyLabName": "Julia Creek"
+        "storyLabName": "Julia Creek",
+        "auroraId": "loc02cd9dda073a"
       }
     },
     {
@@ -915,8 +900,8 @@
         "metraId": "94338",
         "wmoId": "94338",
         "bomId": "037036",
-        "name": "Trepell Airport",
-        "storyLabName": "Trepell"
+        "storyLabName": "Trepell",
+        "auroraId": "loc639e4a635b21"
       }
     },
     {
@@ -932,8 +917,8 @@
         "metraId": "94341",
         "wmoId": "94341",
         "bomId": "030161",
-        "name": "Richmond Airport",
-        "storyLabName": "Richmond"
+        "storyLabName": "Richmond",
+        "auroraId": "loc6f281614c050"
       }
     },
     {
@@ -949,8 +934,8 @@
         "metraId": "94342",
         "wmoId": "94342",
         "bomId": "037039",
-        "name": "Winton Airport",
-        "storyLabName": "Winton"
+        "storyLabName": "Winton",
+        "auroraId": "loc37ec11afe97f"
       }
     },
     {
@@ -966,8 +951,8 @@
         "metraId": "94343",
         "wmoId": "94343",
         "bomId": "030022",
-        "name": "Hughenden Airport",
-        "storyLabName": "Hughenden"
+        "storyLabName": "Hughenden",
+        "auroraId": "loc07bac9c4ec77"
       }
     },
     {
@@ -983,8 +968,8 @@
         "metraId": "94346",
         "wmoId": "94346",
         "bomId": "036031",
-        "name": "Longreach Aero",
-        "storyLabName": "Longreach"
+        "storyLabName": "Longreach",
+        "auroraId": "locb8bc91c4b9c7"
       }
     },
     {
@@ -1000,8 +985,8 @@
         "metraId": "94363",
         "wmoId": "94363",
         "bomId": "035264",
-        "name": "Emerald Airport",
-        "storyLabName": "Emerald"
+        "storyLabName": "Emerald",
+        "auroraId": "loc05cd64439d58"
       }
     },
     {
@@ -1017,8 +1002,8 @@
         "metraId": "94365",
         "wmoId": "94365",
         "bomId": "033247",
-        "name": "Proserpine Airport",
-        "storyLabName": "Proserpine"
+        "storyLabName": "Proserpine",
+        "auroraId": "loc211897a29d61"
       }
     },
     {
@@ -1034,8 +1019,8 @@
         "metraId": "94367",
         "wmoId": "94367",
         "bomId": "033119",
-        "name": "Mackay M.o",
-        "storyLabName": "Mackay Harbour"
+        "storyLabName": "Mackay Harbour",
+        "auroraId": "locb2fb4865497f"
       }
     },
     {
@@ -1051,8 +1036,8 @@
         "metraId": "94368",
         "wmoId": "94368",
         "bomId": "033106",
-        "name": "Hamilton Island Airport",
-        "storyLabName": "Hamilton Island"
+        "storyLabName": "Hamilton Island",
+        "auroraId": "loc36256719fcdc"
       }
     },
     {
@@ -1068,8 +1053,8 @@
         "metraId": "94370",
         "wmoId": "94370",
         "bomId": "033308",
-        "name": "Samuel Hill Aero",
-        "storyLabName": "Shoalwater Bay Airstrip"
+        "storyLabName": "Shoalwater Bay Airstrip",
+        "auroraId": "locec9b54abf947"
       }
     },
     {
@@ -1085,8 +1070,8 @@
         "metraId": "94371",
         "wmoId": "94371",
         "bomId": "200736",
-        "name": "Creal Reef",
-        "storyLabName": "Creal Reef"
+        "storyLabName": "Creal Reef",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -1102,8 +1087,8 @@
         "metraId": "94372",
         "wmoId": "94372",
         "bomId": "200001",
-        "name": "Middle Percy Island",
-        "storyLabName": "Middle Percy Island"
+        "storyLabName": "Middle Percy Island",
+        "auroraId": "loc73a5d6dcc426"
       }
     },
     {
@@ -1119,8 +1104,8 @@
         "metraId": "94373",
         "wmoId": "94373",
         "bomId": "033294",
-        "name": "Yeppoon The Esplanade",
-        "storyLabName": "Yeppoon"
+        "storyLabName": "Yeppoon",
+        "auroraId": "loc9c56defbadd7"
       }
     },
     {
@@ -1136,8 +1121,8 @@
         "metraId": "94374",
         "wmoId": "94374",
         "bomId": "039083",
-        "name": "Rockhampton Aero",
-        "storyLabName": "Rockhampton"
+        "storyLabName": "Rockhampton",
+        "auroraId": "locbcef083d378f"
       }
     },
     {
@@ -1153,8 +1138,8 @@
         "metraId": "94376",
         "wmoId": "94376",
         "bomId": "039089",
-        "name": "Thangool Airport",
-        "storyLabName": "Thangool"
+        "storyLabName": "Thangool",
+        "auroraId": "loc295c39fb55d2"
       }
     },
     {
@@ -1170,8 +1155,8 @@
         "metraId": "94378",
         "wmoId": "94378",
         "bomId": "039322",
-        "name": "Rundle Island",
-        "storyLabName": "Rundle Island"
+        "storyLabName": "Rundle Island",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -1187,8 +1172,8 @@
         "metraId": "94379",
         "wmoId": "94379",
         "bomId": "200831",
-        "name": "Gannet Cay",
-        "storyLabName": "Gannet Cay"
+        "storyLabName": "Gannet Cay",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -1204,8 +1189,8 @@
         "metraId": "94380",
         "wmoId": "94380",
         "bomId": "039123",
-        "name": "Gladstone Radar",
-        "storyLabName": "Gladstone — Radar Hill"
+        "storyLabName": "Gladstone — Radar Hill",
+        "auroraId": "loc64de4fa909aa"
       }
     },
     {
@@ -1221,8 +1206,8 @@
         "metraId": "94381",
         "wmoId": "94381",
         "bomId": "039326",
-        "name": "Gladstone Airport",
-        "storyLabName": "Gladstone Airport"
+        "storyLabName": "Gladstone Airport",
+        "auroraId": "loc520d12c66228"
       }
     },
     {
@@ -1238,8 +1223,8 @@
         "metraId": "94386",
         "wmoId": "94386",
         "bomId": "039122",
-        "name": "Heron Island Res Stn",
-        "storyLabName": "Heron Island"
+        "storyLabName": "Heron Island",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -1255,8 +1240,8 @@
         "metraId": "94387",
         "wmoId": "94387",
         "bomId": "039128",
-        "name": "Bundaberg Aero",
-        "storyLabName": "Bundaberg"
+        "storyLabName": "Bundaberg",
+        "auroraId": "loc8f104b554d1b"
       }
     },
     {
@@ -1272,8 +1257,8 @@
         "metraId": "94388",
         "wmoId": "94388",
         "bomId": "039059",
-        "name": "Lady Elliot Island",
-        "storyLabName": "Lady Elliot Island"
+        "storyLabName": "Lady Elliot Island",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -1289,7 +1274,6 @@
         "metraId": "94393",
         "wmoId": "94393",
         "bomId": "200701",
-        "name": "Frederick Reef",
         "storyLabName": "Frederick Reef"
       }
     },
@@ -1306,7 +1290,6 @@
         "metraId": "94394",
         "wmoId": "94394",
         "bomId": "200601",
-        "name": "Cato Island",
         "storyLabName": "Cato Island"
       }
     },
@@ -1323,8 +1306,8 @@
         "metraId": "94395",
         "wmoId": "94395",
         "bomId": "035124",
-        "name": "Clermont Airport",
-        "storyLabName": "Clermont"
+        "storyLabName": "Clermont",
+        "auroraId": "locfa3a3309275c"
       }
     },
     {
@@ -1340,8 +1323,8 @@
         "metraId": "94396",
         "wmoId": "94396",
         "bomId": "035129",
-        "name": "Rolleston Airport",
-        "storyLabName": "Rolleston"
+        "storyLabName": "Rolleston",
+        "auroraId": "loc9732f5db02b8"
       }
     },
     {
@@ -1357,8 +1340,8 @@
         "metraId": "94397",
         "wmoId": "94397",
         "bomId": "034035",
-        "name": "Moranbah Airport",
-        "storyLabName": "Moranbah"
+        "storyLabName": "Moranbah",
+        "auroraId": "locf5f7b6b0844c"
       }
     },
     {
@@ -1374,8 +1357,8 @@
         "metraId": "94399",
         "wmoId": "94399",
         "bomId": "035139",
-        "name": "Lochington",
-        "storyLabName": "Lochington"
+        "storyLabName": "Lochington",
+        "auroraId": "loc0015d417b77d"
       }
     },
     {
@@ -1391,8 +1374,8 @@
         "metraId": "94403",
         "wmoId": "94403",
         "bomId": "008315",
-        "name": "Geraldton Airport",
-        "storyLabName": "Geraldton"
+        "storyLabName": "Geraldton",
+        "auroraId": "locc9b8399c251f"
       }
     },
     {
@@ -1408,7 +1391,6 @@
         "metraId": "94405",
         "wmoId": "94405",
         "bomId": "008290",
-        "name": "North Island",
         "storyLabName": "North Island"
       }
     },
@@ -1425,8 +1407,8 @@
         "metraId": "94417",
         "wmoId": "94417",
         "bomId": "008296",
-        "name": "Morawa Airport",
-        "storyLabName": "Morawa"
+        "storyLabName": "Morawa",
+        "auroraId": "locba1434ee15df"
       }
     },
     {
@@ -1442,8 +1424,8 @@
         "metraId": "94429",
         "wmoId": "94429",
         "bomId": "007600",
-        "name": "Mount Magnet Aero",
-        "storyLabName": "Mount Magnet"
+        "storyLabName": "Mount Magnet",
+        "auroraId": "loc107ecd4d2a87"
       }
     },
     {
@@ -1459,8 +1441,8 @@
         "metraId": "94430",
         "wmoId": "94430",
         "bomId": "007045",
-        "name": "Meekatharra Airport",
-        "storyLabName": "Meekatharra"
+        "storyLabName": "Meekatharra",
+        "auroraId": "loc136a1721d960"
       }
     },
     {
@@ -1476,8 +1458,8 @@
         "metraId": "94449",
         "wmoId": "94449",
         "bomId": "012305",
-        "name": "Laverton Aero",
-        "storyLabName": "Laverton"
+        "storyLabName": "Laverton",
+        "auroraId": "loc1f00f121f8d7"
       }
     },
     {
@@ -1493,8 +1475,8 @@
         "metraId": "94450",
         "wmoId": "94450",
         "bomId": "012241",
-        "name": "Leonora Aero",
-        "storyLabName": "Leonora"
+        "storyLabName": "Leonora",
+        "auroraId": "loc8c73153ed39b"
       }
     },
     {
@@ -1510,8 +1492,8 @@
         "metraId": "94457",
         "wmoId": "94457",
         "bomId": "013011",
-        "name": "Warburton Airfield",
-        "storyLabName": "Warburton"
+        "storyLabName": "Warburton",
+        "auroraId": "loc93bc16f42416"
       }
     },
     {
@@ -1527,8 +1509,8 @@
         "metraId": "94461",
         "wmoId": "94461",
         "bomId": "013017",
-        "name": "Giles Meteorological Office",
-        "storyLabName": "Giles Weather Station — Warakurna"
+        "storyLabName": "Giles Weather Station — Warakurna",
+        "auroraId": "loc5f55d0b58633"
       }
     },
     {
@@ -1544,8 +1526,8 @@
         "metraId": "94474",
         "wmoId": "94474",
         "bomId": "016097",
-        "name": "Pukatja",
-        "storyLabName": "Pukatja"
+        "storyLabName": "Pukatja",
+        "auroraId": "loc2f959d3c3e1a"
       }
     },
     {
@@ -1561,8 +1543,8 @@
         "metraId": "94476",
         "wmoId": "94476",
         "bomId": "017043",
-        "name": "Oodnadatta Airport",
-        "storyLabName": "Oodnadatta"
+        "storyLabName": "Oodnadatta",
+        "auroraId": "loc9f9ef5bea7b2"
       }
     },
     {
@@ -1578,8 +1560,8 @@
         "metraId": "94510",
         "wmoId": "94510",
         "bomId": "044021",
-        "name": "Charleville Aero",
-        "storyLabName": "Charleville"
+        "storyLabName": "Charleville",
+        "auroraId": "loc5e451c6e2efc"
       }
     },
     {
@@ -1595,8 +1577,8 @@
         "metraId": "94515",
         "wmoId": "94515",
         "bomId": "043091",
-        "name": "Roma Airport",
-        "storyLabName": "Roma Airport"
+        "storyLabName": "Roma Airport",
+        "auroraId": "loc057be79960f4"
       }
     },
     {
@@ -1612,8 +1594,8 @@
         "metraId": "94517",
         "wmoId": "94517",
         "bomId": "043109",
-        "name": "St George Airport",
-        "storyLabName": "St George"
+        "storyLabName": "St George",
+        "auroraId": "loc53b3d8d99287"
       }
     },
     {
@@ -1629,8 +1611,8 @@
         "metraId": "94541",
         "wmoId": "94541",
         "bomId": "056018",
-        "name": "Inverell Research Centre",
-        "storyLabName": "Inverell"
+        "storyLabName": "Inverell",
+        "auroraId": "loc9e0c7b3ad507"
       }
     },
     {
@@ -1646,8 +1628,8 @@
         "metraId": "94549",
         "wmoId": "94549",
         "bomId": "040922",
-        "name": "Kingaroy Airport",
-        "storyLabName": "Kingaroy"
+        "storyLabName": "Kingaroy",
+        "auroraId": "loc7a319d13d1ea"
       }
     },
     {
@@ -1663,8 +1645,8 @@
         "metraId": "94552",
         "wmoId": "94552",
         "bomId": "041359",
-        "name": "Oakey Aero",
-        "storyLabName": "Oakey"
+        "storyLabName": "Oakey",
+        "auroraId": "loce9b747bdc518"
       }
     },
     {
@@ -1680,8 +1662,8 @@
         "metraId": "94553",
         "wmoId": "94553",
         "bomId": "041175",
-        "name": "Applethorpe",
-        "storyLabName": "Applethorpe"
+        "storyLabName": "Applethorpe",
+        "auroraId": "loc72b1278a631b"
       }
     },
     {
@@ -1697,8 +1679,8 @@
         "metraId": "94555",
         "wmoId": "94555",
         "bomId": "041525",
-        "name": "Warwick",
-        "storyLabName": "Warwick"
+        "storyLabName": "Warwick",
+        "auroraId": "locb9600824167b"
       }
     },
     {
@@ -1714,8 +1696,8 @@
         "metraId": "94562",
         "wmoId": "94562",
         "bomId": "040082",
-        "name": "University Of Queensland Gatton",
-        "storyLabName": "Gatton"
+        "storyLabName": "Gatton",
+        "auroraId": "loccf06a54275fa"
       }
     },
     {
@@ -1731,8 +1713,8 @@
         "metraId": "94566",
         "wmoId": "94566",
         "bomId": "040093",
-        "name": "Gympie",
-        "storyLabName": "Gympie"
+        "storyLabName": "Gympie",
+        "auroraId": "locb76b0bc297f2"
       }
     },
     {
@@ -1748,8 +1730,8 @@
         "metraId": "94567",
         "wmoId": "94567",
         "bomId": "040126",
-        "name": "Maryborough",
-        "storyLabName": "Maryborough"
+        "storyLabName": "Maryborough",
+        "auroraId": "loc369861bd165b"
       }
     },
     {
@@ -1765,8 +1747,8 @@
         "metraId": "94568",
         "wmoId": "94568",
         "bomId": "040004",
-        "name": "Amberley Amo",
-        "storyLabName": "Amberley Airport"
+        "storyLabName": "Amberley Airport",
+        "auroraId": "loc5f93fdcf5759"
       }
     },
     {
@@ -1782,8 +1764,8 @@
         "metraId": "94569",
         "wmoId": "94569",
         "bomId": "040861",
-        "name": "Sunshine Coast Airport",
-        "storyLabName": "Sunshine Coast Airport"
+        "storyLabName": "Sunshine Coast Airport",
+        "auroraId": "locf1b8e6656784"
       }
     },
     {
@@ -1799,8 +1781,8 @@
         "metraId": "94570",
         "wmoId": "94570",
         "bomId": "040908",
-        "name": "Tewantin Rsl Park",
-        "storyLabName": "Tewantin"
+        "storyLabName": "Tewantin",
+        "auroraId": "loc8292d24fc75e"
       }
     },
     {
@@ -1816,8 +1798,8 @@
         "metraId": "94572",
         "wmoId": "94572",
         "bomId": "058214",
-        "name": "Lismore Airport Aws",
-        "storyLabName": "Lismore"
+        "storyLabName": "Lismore",
+        "auroraId": "loc46ba1dbebaae"
       }
     },
     {
@@ -1833,8 +1815,8 @@
         "metraId": "94573",
         "wmoId": "94573",
         "bomId": "058208",
-        "name": "Casino Airport Aws",
-        "storyLabName": "Casino"
+        "storyLabName": "Casino",
+        "auroraId": "loc59a64ec6f475"
       }
     },
     {
@@ -1850,8 +1832,8 @@
         "metraId": "94575",
         "wmoId": "94575",
         "bomId": "040211",
-        "name": "Archerfield Airport",
-        "storyLabName": "Archerfield Airport"
+        "storyLabName": "Archerfield Airport",
+        "auroraId": "locbe6741449dd8"
       }
     },
     {
@@ -1867,8 +1849,8 @@
         "metraId": "94576",
         "wmoId": "94576",
         "bomId": "040913",
-        "name": "Brisbane",
-        "storyLabName": "Brisbane — Kangaroo Point"
+        "storyLabName": "Brisbane — Kangaroo Point",
+        "auroraId": "loc5c506e8afd39"
       }
     },
     {
@@ -1884,8 +1866,8 @@
         "metraId": "94578",
         "wmoId": "94578",
         "bomId": "040842",
-        "name": "Brisbane Aero",
-        "storyLabName": "Brisbane Airport"
+        "storyLabName": "Brisbane Airport",
+        "auroraId": "locc5d1708ad86d"
       }
     },
     {
@@ -1901,8 +1883,8 @@
         "metraId": "94580",
         "wmoId": "94580",
         "bomId": "040764",
-        "name": "Gold Coast Seaway",
-        "storyLabName": "Gold Coast Seaway"
+        "storyLabName": "Gold Coast Seaway",
+        "auroraId": "locee5459be793a"
       }
     },
     {
@@ -1918,8 +1900,8 @@
         "metraId": "94584",
         "wmoId": "94584",
         "bomId": "040068",
-        "name": "Double Island Point Lighthouse",
-        "storyLabName": "Double Island Point"
+        "storyLabName": "Double Island Point",
+        "auroraId": "loc1a576decbd64"
       }
     },
     {
@@ -1935,8 +1917,8 @@
         "metraId": "94588",
         "wmoId": "94588",
         "bomId": "056243",
-        "name": "Glen Innes Airport Aws",
-        "storyLabName": "Glen Innes"
+        "storyLabName": "Glen Innes",
+        "auroraId": "loca47ee7164993"
       }
     },
     {
@@ -1952,8 +1934,8 @@
         "metraId": "94589",
         "wmoId": "94589",
         "bomId": "058012",
-        "name": "Yamba Pilot Station",
-        "storyLabName": "Yamba"
+        "storyLabName": "Yamba",
+        "auroraId": "loc4aef51f62ae2"
       }
     },
     {
@@ -1969,8 +1951,8 @@
         "metraId": "94590",
         "wmoId": "94590",
         "bomId": "040926",
-        "name": "Inner Reciprocal Marker",
-        "storyLabName": "Moreton Bay — Inner Reciprocal Marker"
+        "storyLabName": "Moreton Bay — Inner Reciprocal Marker",
+        "auroraId": "loc762e07dc7d99"
       }
     },
     {
@@ -1986,8 +1968,8 @@
         "metraId": "94591",
         "wmoId": "94591",
         "bomId": "040925",
-        "name": "Banana Bank North Beacon",
-        "storyLabName": "Moreton Bay — Banana Bank North Beacon"
+        "storyLabName": "Moreton Bay — Banana Bank North Beacon",
+        "auroraId": "loc762e07dc7d99"
       }
     },
     {
@@ -2003,8 +1985,8 @@
         "metraId": "94592",
         "wmoId": "94592",
         "bomId": "040717",
-        "name": "Coolangatta",
-        "storyLabName": "Coolangatta"
+        "storyLabName": "Coolangatta",
+        "auroraId": "locc4a19474f933"
       }
     },
     {
@@ -2020,8 +2002,8 @@
         "metraId": "94594",
         "wmoId": "94594",
         "bomId": "040043",
-        "name": "Cape Moreton Lighthouse",
-        "storyLabName": "Cape Moreton Lighthouse"
+        "storyLabName": "Cape Moreton Lighthouse",
+        "auroraId": "locf69fd0c30f7f"
       }
     },
     {
@@ -2037,8 +2019,8 @@
         "metraId": "94596",
         "wmoId": "94596",
         "bomId": "058198",
-        "name": "Ballina Airport Aws",
-        "storyLabName": "Ballina"
+        "storyLabName": "Ballina",
+        "auroraId": "locb24c85577ed5"
       }
     },
     {
@@ -2054,8 +2036,8 @@
         "metraId": "94598",
         "wmoId": "94598",
         "bomId": "058212",
-        "name": "Evans Head Raaf Bombing Range Aws",
-        "storyLabName": "Evans Head — RAAF Bombing Range"
+        "storyLabName": "Evans Head — RAAF Bombing Range",
+        "auroraId": "loc0869aa795780"
       }
     },
     {
@@ -2071,8 +2053,8 @@
         "metraId": "94599",
         "wmoId": "94599",
         "bomId": "058216",
-        "name": "Cape Byron Aws",
-        "storyLabName": "Cape Byron"
+        "storyLabName": "Cape Byron",
+        "auroraId": "loce6b9edea9174"
       }
     },
     {
@@ -2088,8 +2070,8 @@
         "metraId": "94600",
         "wmoId": "94600",
         "bomId": "009519",
-        "name": "Cape Naturaliste",
-        "storyLabName": "Cape Naturaliste"
+        "storyLabName": "Cape Naturaliste",
+        "auroraId": "loc0b409c905efb"
       }
     },
     {
@@ -2105,8 +2087,8 @@
         "metraId": "94601",
         "wmoId": "94601",
         "bomId": "009518",
-        "name": "Cape Leeuwin",
-        "storyLabName": "Cape Leeuwin"
+        "storyLabName": "Cape Leeuwin",
+        "auroraId": "loc89a6edc04a33"
       }
     },
     {
@@ -2122,8 +2104,8 @@
         "metraId": "94602",
         "wmoId": "94602",
         "bomId": "009193",
-        "name": "Rottnest Island",
-        "storyLabName": "Rottnest Island"
+        "storyLabName": "Rottnest Island",
+        "auroraId": "loc9f50cc168546"
       }
     },
     {
@@ -2139,8 +2121,8 @@
         "metraId": "94603",
         "wmoId": "94603",
         "bomId": "009037",
-        "name": "Badgingarra Research Stn",
-        "storyLabName": "Badgingarra"
+        "storyLabName": "Badgingarra",
+        "auroraId": "loc4b8933191930"
       }
     },
     {
@@ -2156,8 +2138,8 @@
         "metraId": "94604",
         "wmoId": "94604",
         "bomId": "009965",
-        "name": "Bunbury",
-        "storyLabName": "Bunbury"
+        "storyLabName": "Bunbury",
+        "auroraId": "loc19018c0ac37e"
       }
     },
     {
@@ -2173,8 +2155,8 @@
         "metraId": "94605",
         "wmoId": "94605",
         "bomId": "009977",
-        "name": "Mandurah",
-        "storyLabName": "Mandurah"
+        "storyLabName": "Mandurah",
+        "auroraId": "loc249b960b5824"
       }
     },
     {
@@ -2190,8 +2172,8 @@
         "metraId": "94607",
         "wmoId": "94607",
         "bomId": "009214",
-        "name": "Ocean Reef",
-        "storyLabName": "Ocean Reef"
+        "storyLabName": "Ocean Reef",
+        "auroraId": "loca2267168e5bc"
       }
     },
     {
@@ -2207,8 +2189,8 @@
         "metraId": "94608",
         "wmoId": "94608",
         "bomId": "009225",
-        "name": "Perth Metro",
-        "storyLabName": "Perth Metro"
+        "storyLabName": "Perth Metro",
+        "auroraId": "loc96bd74cc4740"
       }
     },
     {
@@ -2224,8 +2206,8 @@
         "metraId": "94609",
         "wmoId": "94609",
         "bomId": "009172",
-        "name": "Jandakot Aero",
-        "storyLabName": "South Perth — Jandakot Airport"
+        "storyLabName": "South Perth — Jandakot Airport",
+        "auroraId": "loca6da887377c3"
       }
     },
     {
@@ -2241,8 +2223,8 @@
         "metraId": "94610",
         "wmoId": "94610",
         "bomId": "009021",
-        "name": "Perth Airport",
-        "storyLabName": "Perth Airport"
+        "storyLabName": "Perth Airport",
+        "auroraId": "locfa597639ca5c"
       }
     },
     {
@@ -2258,8 +2240,8 @@
         "metraId": "94612",
         "wmoId": "94612",
         "bomId": "009053",
-        "name": "Pearce Raaf",
-        "storyLabName": "Bullsbrook — RAAF Base Pearce"
+        "storyLabName": "Bullsbrook — RAAF Base Pearce",
+        "auroraId": "loc63b294aaf2d1"
       }
     },
     {
@@ -2275,8 +2257,8 @@
         "metraId": "94614",
         "wmoId": "94614",
         "bomId": "009215",
-        "name": "Swanbourne",
-        "storyLabName": "Swanbourne"
+        "storyLabName": "Swanbourne",
+        "auroraId": "loc0130f7b73580"
       }
     },
     {
@@ -2292,8 +2274,8 @@
         "metraId": "94615",
         "wmoId": "94615",
         "bomId": "009204",
-        "name": "Gooseberry Hill",
-        "storyLabName": "Gooseberry Hill"
+        "storyLabName": "Gooseberry Hill",
+        "auroraId": "locc5cdc4dda530"
       }
     },
     {
@@ -2309,8 +2291,8 @@
         "metraId": "94617",
         "wmoId": "94617",
         "bomId": "009573",
-        "name": "Manjimup",
-        "storyLabName": "Manjimup"
+        "storyLabName": "Manjimup",
+        "auroraId": "loc214db52e63ad"
       }
     },
     {
@@ -2326,8 +2308,8 @@
         "metraId": "94620",
         "wmoId": "94620",
         "bomId": "009538",
-        "name": "Dwellingup",
-        "storyLabName": "Dwellingup"
+        "storyLabName": "Dwellingup",
+        "auroraId": "loc174b489f8b3c"
       }
     },
     {
@@ -2343,8 +2325,8 @@
         "metraId": "94628",
         "wmoId": "94628",
         "bomId": "010692",
-        "name": "Newdegate Research Station",
-        "storyLabName": "Newdegate"
+        "storyLabName": "Newdegate",
+        "auroraId": "locde4155c92e61"
       }
     },
     {
@@ -2360,8 +2342,8 @@
         "metraId": "94631",
         "wmoId": "94631",
         "bomId": "009964",
-        "name": "Rocky Gully",
-        "storyLabName": "Rocky Gully"
+        "storyLabName": "Rocky Gully",
+        "auroraId": "locbedde106f78f"
       }
     },
     {
@@ -2377,8 +2359,8 @@
         "metraId": "94637",
         "wmoId": "94637",
         "bomId": "012038",
-        "name": "Kalgoorlie-boulder Airport",
-        "storyLabName": "Kalgoorlie-Boulder"
+        "storyLabName": "Kalgoorlie-Boulder",
+        "auroraId": "loc11d0cefc13bf"
       }
     },
     {
@@ -2394,8 +2376,8 @@
         "metraId": "94638",
         "wmoId": "94638",
         "bomId": "009789",
-        "name": "Esperance",
-        "storyLabName": "Esperance"
+        "storyLabName": "Esperance",
+        "auroraId": "loc197d6404efc3"
       }
     },
     {
@@ -2411,8 +2393,8 @@
         "metraId": "94641",
         "wmoId": "94641",
         "bomId": "010916",
-        "name": "Katanning",
-        "storyLabName": "Katanning"
+        "storyLabName": "Katanning",
+        "auroraId": "locdf7fea60a488"
       }
     },
     {
@@ -2428,8 +2410,8 @@
         "metraId": "94647",
         "wmoId": "94647",
         "bomId": "011003",
-        "name": "Eucla",
-        "storyLabName": "Eucla"
+        "storyLabName": "Eucla",
+        "auroraId": "loc4a95e73f4db7"
       }
     },
     {
@@ -2445,8 +2427,8 @@
         "metraId": "94651",
         "wmoId": "94651",
         "bomId": "018106",
-        "name": "Nullarbor",
-        "storyLabName": "Nullarbor"
+        "storyLabName": "Nullarbor",
+        "auroraId": "locfa5e4787ccc2"
       }
     },
     {
@@ -2462,8 +2444,8 @@
         "metraId": "94653",
         "wmoId": "94653",
         "bomId": "018012",
-        "name": "Ceduna Amo",
-        "storyLabName": "Ceduna"
+        "storyLabName": "Ceduna",
+        "auroraId": "loc609cf4397af7"
       }
     },
     {
@@ -2479,8 +2461,8 @@
         "metraId": "94655",
         "wmoId": "94655",
         "bomId": "016098",
-        "name": "Tarcoola Aero",
-        "storyLabName": "Tarcoola"
+        "storyLabName": "Tarcoola",
+        "auroraId": "locc82cd5e324eb"
       }
     },
     {
@@ -2496,8 +2478,8 @@
         "metraId": "94659",
         "wmoId": "94659",
         "bomId": "016001",
-        "name": "Woomera Aerodrome",
-        "storyLabName": "Woomera"
+        "storyLabName": "Woomera",
+        "auroraId": "locd07a4f73f008"
       }
     },
     {
@@ -2513,8 +2495,8 @@
         "metraId": "94662",
         "wmoId": "94662",
         "bomId": "018116",
-        "name": "Cleve Aerodrome",
-        "storyLabName": "Cleve"
+        "storyLabName": "Cleve",
+        "auroraId": "loc3693cee5b19b"
       }
     },
     {
@@ -2530,8 +2512,8 @@
         "metraId": "94666",
         "wmoId": "94666",
         "bomId": "022053",
-        "name": "Warburto Point",
-        "storyLabName": "Warburto Point"
+        "storyLabName": "Warburto Point",
+        "auroraId": "loc4fc705f029ee"
       }
     },
     {
@@ -2547,8 +2529,8 @@
         "metraId": "94672",
         "wmoId": "94672",
         "bomId": "023034",
-        "name": "Adelaide Airport",
-        "storyLabName": "Adelaide Airport"
+        "storyLabName": "Adelaide Airport",
+        "auroraId": "loc7dd34e8b430c"
       }
     },
     {
@@ -2564,8 +2546,8 @@
         "metraId": "94674",
         "wmoId": "94674",
         "bomId": "017110",
-        "name": "Leigh Creek Airport",
-        "storyLabName": "Leigh Creek"
+        "storyLabName": "Leigh Creek",
+        "auroraId": "locc6d86292226b"
       }
     },
     {
@@ -2581,8 +2563,8 @@
         "metraId": "94677",
         "wmoId": "94677",
         "bomId": "023894",
-        "name": "Hindmarsh Island Aws",
-        "storyLabName": "Hindmarsh Island"
+        "storyLabName": "Hindmarsh Island",
+        "auroraId": "loc0b0053d72ac6"
       }
     },
     {
@@ -2598,8 +2580,8 @@
         "metraId": "94678",
         "wmoId": "94678",
         "bomId": "023878",
-        "name": "Mount Crawford Aws",
-        "storyLabName": "Mount Crawford"
+        "storyLabName": "Mount Crawford",
+        "auroraId": "loc2e796ce4d868"
       }
     },
     {
@@ -2615,8 +2597,8 @@
         "metraId": "94681",
         "wmoId": "94681",
         "bomId": "023373",
-        "name": "Nuriootpa Pirsa",
-        "storyLabName": "Nuriootpa"
+        "storyLabName": "Nuriootpa",
+        "auroraId": "loc3309e461981d"
       }
     },
     {
@@ -2632,8 +2614,8 @@
         "metraId": "94682",
         "wmoId": "94682",
         "bomId": "024024",
-        "name": "Loxton Research Centre",
-        "storyLabName": "Loxton"
+        "storyLabName": "Loxton",
+        "auroraId": "loc87ba41981b74"
       }
     },
     {
@@ -2649,8 +2631,8 @@
         "metraId": "94683",
         "wmoId": "94683",
         "bomId": "023887",
-        "name": "Kuitpo Forest Reserve",
-        "storyLabName": "Mount Lofty Ranges — Kuitpo Forest Reserve"
+        "storyLabName": "Mount Lofty Ranges — Kuitpo Forest Reserve",
+        "auroraId": "loce45de35e2e0a"
       }
     },
     {
@@ -2666,8 +2648,8 @@
         "metraId": "94684",
         "wmoId": "94684",
         "bomId": "020062",
-        "name": "Yunta Airstrip",
-        "storyLabName": "Yunta"
+        "storyLabName": "Yunta",
+        "auroraId": "loc57301df15fcc"
       }
     },
     {
@@ -2683,8 +2665,8 @@
         "metraId": "94685",
         "wmoId": "94685",
         "bomId": "022050",
-        "name": "Kadina Aws",
-        "storyLabName": "Kadina"
+        "storyLabName": "Kadina",
+        "auroraId": "locb730d9926564"
       }
     },
     {
@@ -2700,8 +2682,8 @@
         "metraId": "94686",
         "wmoId": "94686",
         "bomId": "046128",
-        "name": "Fowlers Gap Aws",
-        "storyLabName": "Fowlers Gap"
+        "storyLabName": "Fowlers Gap",
+        "auroraId": "loc7d61ad61cfdc"
       }
     },
     {
@@ -2717,8 +2699,8 @@
         "metraId": "94690",
         "wmoId": "94690",
         "bomId": "025562",
-        "name": "Austin Plains",
-        "storyLabName": "Austin Plains"
+        "storyLabName": "Austin Plains",
+        "auroraId": "loc4977a21323f2"
       }
     },
     {
@@ -2734,8 +2716,8 @@
         "metraId": "94691",
         "wmoId": "94691",
         "bomId": "047048",
-        "name": "Broken Hill Airport Aws",
-        "storyLabName": "Broken Hill"
+        "storyLabName": "Broken Hill",
+        "auroraId": "locf02541cca43c"
       }
     },
     {
@@ -2751,8 +2733,8 @@
         "metraId": "94693",
         "wmoId": "94693",
         "bomId": "076031",
-        "name": "Mildura Airport",
-        "storyLabName": "Mildura"
+        "storyLabName": "Mildura",
+        "auroraId": "locb71d10cf3b7c"
       }
     },
     {
@@ -2768,8 +2750,8 @@
         "metraId": "94702",
         "wmoId": "94702",
         "bomId": "075019",
-        "name": "Hay Airport Aws",
-        "storyLabName": "Hay"
+        "storyLabName": "Hay",
+        "auroraId": "loc40e3b48546ba"
       }
     },
     {
@@ -2785,8 +2767,8 @@
         "metraId": "94703",
         "wmoId": "94703",
         "bomId": "048245",
-        "name": "Bourke Airport Aws",
-        "storyLabName": "Bourke"
+        "storyLabName": "Bourke",
+        "auroraId": "loc9245e19a63ca"
       }
     },
     {
@@ -2802,8 +2784,8 @@
         "metraId": "94710",
         "wmoId": "94710",
         "bomId": "048237",
-        "name": "Cobar Airport Aws",
-        "storyLabName": "Cobar Airport"
+        "storyLabName": "Cobar Airport",
+        "auroraId": "loc81cf1a3b5b3f"
       }
     },
     {
@@ -2819,8 +2801,8 @@
         "metraId": "94711",
         "wmoId": "94711",
         "bomId": "048027",
-        "name": "Cobar Mo",
-        "storyLabName": "Cobar"
+        "storyLabName": "Cobar",
+        "auroraId": "loc81cf1a3b5b3f"
       }
     },
     {
@@ -2836,8 +2818,8 @@
         "metraId": "94712",
         "wmoId": "94712",
         "bomId": "073138",
-        "name": "Young Airport",
-        "storyLabName": "Young"
+        "storyLabName": "Young",
+        "auroraId": "locb4ab39e29062"
       }
     },
     {
@@ -2853,8 +2835,8 @@
         "metraId": "94715",
         "wmoId": "94715",
         "bomId": "065103",
-        "name": "Forbes Airport Aws",
-        "storyLabName": "Forbes"
+        "storyLabName": "Forbes",
+        "auroraId": "locc2ef542af6d5"
       }
     },
     {
@@ -2870,8 +2852,8 @@
         "metraId": "94727",
         "wmoId": "94727",
         "bomId": "062101",
-        "name": "Mudgee Airport Aws",
-        "storyLabName": "Mudgee"
+        "storyLabName": "Mudgee",
+        "auroraId": "loc84b60b817fcd"
       }
     },
     {
@@ -2887,8 +2869,8 @@
         "metraId": "94729",
         "wmoId": "94729",
         "bomId": "063291",
-        "name": "Bathurst Airport Aws",
-        "storyLabName": "Bathurst"
+        "storyLabName": "Bathurst",
+        "auroraId": "locfab71ccc4db9"
       }
     },
     {
@@ -2904,8 +2886,8 @@
         "metraId": "94743",
         "wmoId": "94743",
         "bomId": "063292",
-        "name": "Mount Boyce Aws",
-        "storyLabName": "Mount Boyce"
+        "storyLabName": "Mount Boyce",
+        "auroraId": "loc1aa2ab659935"
       }
     },
     {
@@ -2921,8 +2903,8 @@
         "metraId": "94746",
         "wmoId": "94746",
         "bomId": "068239",
-        "name": "Moss Vale Aws",
-        "storyLabName": "Moss Vale"
+        "storyLabName": "Moss Vale",
+        "auroraId": "loce8cfa5d427a3"
       }
     },
     {
@@ -2938,8 +2920,8 @@
         "metraId": "94750",
         "wmoId": "94750",
         "bomId": "068072",
-        "name": "Nowra Ran Air Station Aws",
-        "storyLabName": "Nowra — HMAS Albatross"
+        "storyLabName": "Nowra — HMAS Albatross",
+        "auroraId": "loce68d383259a8"
       }
     },
     {
@@ -2955,8 +2937,8 @@
         "metraId": "94752",
         "wmoId": "94752",
         "bomId": "067108",
-        "name": "Badgerys Creek Aws",
-        "storyLabName": "Badgerys Creek"
+        "storyLabName": "Badgerys Creek",
+        "auroraId": "locb4f70437e4df"
       }
     },
     {
@@ -2972,8 +2954,8 @@
         "metraId": "94754",
         "wmoId": "94754",
         "bomId": "062100",
-        "name": "Nullo Mountain Aws",
-        "storyLabName": "Nullo Mountain"
+        "storyLabName": "Nullo Mountain",
+        "auroraId": "loc359a712bd9fc"
       }
     },
     {
@@ -2989,8 +2971,8 @@
         "metraId": "94755",
         "wmoId": "94755",
         "bomId": "068192",
-        "name": "Camden Airport Aws",
-        "storyLabName": "Camden Airport"
+        "storyLabName": "Camden Airport",
+        "auroraId": "locff2a64499c29"
       }
     },
     {
@@ -3006,8 +2988,8 @@
         "metraId": "94757",
         "wmoId": "94757",
         "bomId": "068257",
-        "name": "Campbelltown (Mount Annan)",
-        "storyLabName": "Campbelltown — Mount Annan"
+        "storyLabName": "Campbelltown — Mount Annan",
+        "auroraId": "loc7992e5e0775a"
       }
     },
     {
@@ -3023,8 +3005,8 @@
         "metraId": "94759",
         "wmoId": "94759",
         "bomId": "066059",
-        "name": "Terrey Hills Aws",
-        "storyLabName": "Terrey Hills"
+        "storyLabName": "Terrey Hills",
+        "auroraId": "loc1049bbed1c4d"
       }
     },
     {
@@ -3040,8 +3022,8 @@
         "metraId": "94760",
         "wmoId": "94760",
         "bomId": "067119",
-        "name": "Horsley Park Equestrian Centre Aws",
-        "storyLabName": "Horsley Park Equestrian Centre"
+        "storyLabName": "Horsley Park Equestrian Centre",
+        "auroraId": "locbfe71df2b11a"
       }
     },
     {
@@ -3057,8 +3039,8 @@
         "metraId": "94763",
         "wmoId": "94763",
         "bomId": "067113",
-        "name": "Penrith Lakes Aws",
-        "storyLabName": "Penrith Lakes"
+        "storyLabName": "Penrith Lakes",
+        "auroraId": "loc6fe6167371d1"
       }
     },
     {
@@ -3074,8 +3056,8 @@
         "metraId": "94765",
         "wmoId": "94765",
         "bomId": "066137",
-        "name": "Bankstown Airport Aws",
-        "storyLabName": "Bankstown Airport"
+        "storyLabName": "Bankstown Airport",
+        "auroraId": "locaee409ddf267"
       }
     },
     {
@@ -3091,8 +3073,8 @@
         "metraId": "94766",
         "wmoId": "94766",
         "bomId": "066194",
-        "name": "Canterbury Racecourse Aws",
-        "storyLabName": "Canterbury Racecourse"
+        "storyLabName": "Canterbury Racecourse",
+        "auroraId": "loc91fd91bdd650"
       }
     },
     {
@@ -3108,8 +3090,8 @@
         "metraId": "94767",
         "wmoId": "94767",
         "bomId": "066037",
-        "name": "Sydney Airport Amo",
-        "storyLabName": "Sydney Airport"
+        "storyLabName": "Sydney Airport",
+        "auroraId": "loc8a517388868c"
       }
     },
     {
@@ -3125,8 +3107,8 @@
         "metraId": "94769",
         "wmoId": "94769",
         "bomId": "066022",
-        "name": "Fort Denison",
-        "storyLabName": "Fort Denison"
+        "storyLabName": "Fort Denison",
+        "auroraId": "loc46e6625bb24d"
       }
     },
     {
@@ -3142,8 +3124,8 @@
         "metraId": "94774",
         "wmoId": "94774",
         "bomId": "061055",
-        "name": "Newcastle Nobbys Signal Station Aws",
-        "storyLabName": "Newcastle — Nobbys Signal Station"
+        "storyLabName": "Newcastle — Nobbys Signal Station",
+        "auroraId": "locbb434919d55e"
       }
     },
     {
@@ -3159,8 +3141,8 @@
         "metraId": "94775",
         "wmoId": "94775",
         "bomId": "061250",
-        "name": "Tocal Aws",
-        "storyLabName": "Tocal"
+        "storyLabName": "Tocal",
+        "auroraId": "loc81a1b59e1f4c"
       }
     },
     {
@@ -3176,8 +3158,8 @@
         "metraId": "94776",
         "wmoId": "94776",
         "bomId": "061078",
-        "name": "Williamtown Raaf",
-        "storyLabName": "Williamtown — RAAF Base"
+        "storyLabName": "Williamtown — RAAF Base",
+        "auroraId": "locaf2d49051eda"
       }
     },
     {
@@ -3193,8 +3175,8 @@
         "metraId": "94780",
         "wmoId": "94780",
         "bomId": "066051",
-        "name": "Little Bay (The Coast Golf Club)",
-        "storyLabName": "Little Bay"
+        "storyLabName": "Little Bay",
+        "auroraId": "loc8c9272a290d6"
       }
     },
     {
@@ -3210,8 +3192,8 @@
         "metraId": "94785",
         "wmoId": "94785",
         "bomId": "059007",
-        "name": "Kempsey Airport Aws",
-        "storyLabName": "Kempsey"
+        "storyLabName": "Kempsey",
+        "auroraId": "loca1de3e3f41f2"
       }
     },
     {
@@ -3227,8 +3209,8 @@
         "metraId": "94802",
         "wmoId": "94802",
         "bomId": "009999",
-        "name": "Albany Airport",
-        "storyLabName": "Albany"
+        "storyLabName": "Albany",
+        "auroraId": "loce67e655c176b"
       }
     },
     {
@@ -3244,7 +3226,6 @@
         "metraId": "94804",
         "wmoId": "94804",
         "bomId": "018115",
-        "name": "Neptune Island",
         "storyLabName": "Neptune Island"
       }
     },
@@ -3261,8 +3242,8 @@
         "metraId": "94807",
         "wmoId": "94807",
         "bomId": "022843",
-        "name": "Parndana Cfs Aws",
-        "storyLabName": "Parndana"
+        "storyLabName": "Parndana",
+        "auroraId": "locc22c6f6118f2"
       }
     },
     {
@@ -3278,8 +3259,8 @@
         "metraId": "94808",
         "wmoId": "94808",
         "bomId": "023885",
-        "name": "Noarlunga",
-        "storyLabName": "Noarlunga"
+        "storyLabName": "Noarlunga",
+        "auroraId": "loc514d0caa4ee7"
       }
     },
     {
@@ -3295,8 +3276,8 @@
         "metraId": "94809",
         "wmoId": "94809",
         "bomId": "022046",
-        "name": "Edithburgh",
-        "storyLabName": "Edithburgh"
+        "storyLabName": "Edithburgh",
+        "auroraId": "locde786834c327"
       }
     },
     {
@@ -3312,8 +3293,8 @@
         "metraId": "94811",
         "wmoId": "94811",
         "bomId": "023875",
-        "name": "Second Valley Forest Aws",
-        "storyLabName": "Fleurieu Peninsula — Second Valley Forest"
+        "storyLabName": "Fleurieu Peninsula — Second Valley Forest",
+        "auroraId": "locfe0640b75b37"
       }
     },
     {
@@ -3329,8 +3310,8 @@
         "metraId": "94813",
         "wmoId": "94813",
         "bomId": "026095",
-        "name": "The Limestone",
-        "storyLabName": "Cape Jaffa"
+        "storyLabName": "Cape Jaffa",
+        "auroraId": "loccb97a0b77eb3"
       }
     },
     {
@@ -3346,8 +3327,8 @@
         "metraId": "94814",
         "wmoId": "94814",
         "bomId": "024580",
-        "name": "Strathalbyn Racecourse",
-        "storyLabName": "Strathalbyn"
+        "storyLabName": "Strathalbyn",
+        "auroraId": "locb9fd62bbb2b7"
       }
     },
     {
@@ -3363,8 +3344,8 @@
         "metraId": "94817",
         "wmoId": "94817",
         "bomId": "026091",
-        "name": "Coonawarra",
-        "storyLabName": "Coonawarra"
+        "storyLabName": "Coonawarra",
+        "auroraId": "loc3990de95f39d"
       }
     },
     {
@@ -3380,8 +3361,8 @@
         "metraId": "94820",
         "wmoId": "94820",
         "bomId": "026099",
-        "name": "Naracoorte Aerodrome",
-        "storyLabName": "Naracoorte"
+        "storyLabName": "Naracoorte",
+        "auroraId": "loc062098462b8d"
       }
     },
     {
@@ -3397,8 +3378,8 @@
         "metraId": "94821",
         "wmoId": "94821",
         "bomId": "026021",
-        "name": "Mount Gambier Aero",
-        "storyLabName": "Mount Gambier"
+        "storyLabName": "Mount Gambier",
+        "auroraId": "loc06756e8ecdd5"
       }
     },
     {
@@ -3414,8 +3395,8 @@
         "metraId": "94822",
         "wmoId": "94822",
         "bomId": "022803",
-        "name": "Cape Willoughby",
-        "storyLabName": "Cape Willoughby"
+        "storyLabName": "Cape Willoughby",
+        "auroraId": "loca822d2055605"
       }
     },
     {
@@ -3431,8 +3412,8 @@
         "metraId": "94826",
         "wmoId": "94826",
         "bomId": "090184",
-        "name": "Cape Nelson Lighthouse",
-        "storyLabName": "Cape Nelson Lighthouse"
+        "storyLabName": "Cape Nelson Lighthouse",
+        "auroraId": "loc410264755cec"
       }
     },
     {
@@ -3448,8 +3429,8 @@
         "metraId": "94827",
         "wmoId": "94827",
         "bomId": "078015",
-        "name": "Nhill Aerodrome",
-        "storyLabName": "Nhill"
+        "storyLabName": "Nhill",
+        "auroraId": "loce4e504a7fb1e"
       }
     },
     {
@@ -3465,8 +3446,8 @@
         "metraId": "94829",
         "wmoId": "94829",
         "bomId": "090173",
-        "name": "Hamilton Airport",
-        "storyLabName": "Hamilton"
+        "storyLabName": "Hamilton",
+        "auroraId": "loc85e4166d9d5b"
       }
     },
     {
@@ -3482,8 +3463,8 @@
         "metraId": "94833",
         "wmoId": "94833",
         "bomId": "079103",
-        "name": "Mount William",
-        "storyLabName": "Mount William"
+        "storyLabName": "Mount William",
+        "auroraId": "loc64412b355fba"
       }
     },
     {
@@ -3499,8 +3480,8 @@
         "metraId": "94835",
         "wmoId": "94835",
         "bomId": "079101",
-        "name": "Ben Nevis",
-        "storyLabName": "Ben Nevis"
+        "storyLabName": "Ben Nevis",
+        "auroraId": "locdb10dee6ec51"
       }
     },
     {
@@ -3516,8 +3497,8 @@
         "metraId": "94836",
         "wmoId": "94836",
         "bomId": "079105",
-        "name": "Stawell Aerodrome",
-        "storyLabName": "Stawell"
+        "storyLabName": "Stawell",
+        "auroraId": "loc4e6d9830aae4"
       }
     },
     {
@@ -3533,8 +3514,8 @@
         "metraId": "94838",
         "wmoId": "94838",
         "bomId": "077010",
-        "name": "Hopetoun Airport",
-        "storyLabName": "Hopetoun"
+        "storyLabName": "Hopetoun",
+        "auroraId": "loc1a120a92975c"
       }
     },
     {
@@ -3550,8 +3531,8 @@
         "metraId": "94839",
         "wmoId": "94839",
         "bomId": "080128",
-        "name": "Charlton",
-        "storyLabName": "Charlton"
+        "storyLabName": "Charlton",
+        "auroraId": "loc2e8c2fca7c80"
       }
     },
     {
@@ -3567,8 +3548,8 @@
         "metraId": "94840",
         "wmoId": "94840",
         "bomId": "090176",
-        "name": "Mortlake Racecourse",
-        "storyLabName": "Mortlake"
+        "storyLabName": "Mortlake",
+        "auroraId": "loc12b680495b52"
       }
     },
     {
@@ -3584,8 +3565,8 @@
         "metraId": "94842",
         "wmoId": "94842",
         "bomId": "090015",
-        "name": "Cape Otway Lighthouse",
-        "storyLabName": "Cape Otway Lighthouse"
+        "storyLabName": "Cape Otway Lighthouse",
+        "auroraId": "loc79b769d86937"
       }
     },
     {
@@ -3601,8 +3582,8 @@
         "metraId": "94843",
         "wmoId": "94843",
         "bomId": "077094",
-        "name": "Swan Hill Aerodrome",
-        "storyLabName": "Swan Hill"
+        "storyLabName": "Swan Hill",
+        "auroraId": "locedacea740a10"
       }
     },
     {
@@ -3618,8 +3599,8 @@
         "metraId": "94846",
         "wmoId": "94846",
         "bomId": "090180",
-        "name": "Aireys Inlet",
-        "storyLabName": "Aireys Inlet"
+        "storyLabName": "Aireys Inlet",
+        "auroraId": "loc2645889317a7"
       }
     },
     {
@@ -3635,8 +3616,8 @@
         "metraId": "94850",
         "wmoId": "94850",
         "bomId": "098017",
-        "name": "King Island Airport",
-        "storyLabName": "King Island"
+        "storyLabName": "King Island",
+        "auroraId": "loce4f4019c633f"
       }
     },
     {
@@ -3652,8 +3633,8 @@
         "metraId": "94852",
         "wmoId": "94852",
         "bomId": "089002",
-        "name": "Ballarat Aerodrome",
-        "storyLabName": "Ballarat"
+        "storyLabName": "Ballarat",
+        "auroraId": "loc73baa9f9a486"
       }
     },
     {
@@ -3669,7 +3650,6 @@
         "metraId": "94853",
         "wmoId": "94853",
         "bomId": "086344",
-        "name": "South Channel Island",
         "storyLabName": "South Channel Island"
       }
     },
@@ -3686,8 +3666,8 @@
         "metraId": "94854",
         "wmoId": "94854",
         "bomId": "087113",
-        "name": "Avalon Airport",
-        "storyLabName": "Melbourne — Avalon Airport"
+        "storyLabName": "Melbourne — Avalon Airport",
+        "auroraId": "loc24a73b7c0f1f"
       }
     },
     {
@@ -3703,8 +3683,8 @@
         "metraId": "94855",
         "wmoId": "94855",
         "bomId": "081123",
-        "name": "Bendigo Airport",
-        "storyLabName": "Bendigo"
+        "storyLabName": "Bendigo",
+        "auroraId": "loc86b22e8e6ecf"
       }
     },
     {
@@ -3720,8 +3700,8 @@
         "metraId": "94857",
         "wmoId": "94857",
         "bomId": "087184",
-        "name": "Geelong Racecourse",
-        "storyLabName": "Geelong"
+        "storyLabName": "Geelong",
+        "auroraId": "loc8a97c8ce83aa"
       }
     },
     {
@@ -3737,8 +3717,8 @@
         "metraId": "94859",
         "wmoId": "94859",
         "bomId": "088051",
-        "name": "Redesdale",
-        "storyLabName": "Redesdale"
+        "storyLabName": "Redesdale",
+        "auroraId": "loc3267756bcd76"
       }
     },
     {
@@ -3754,8 +3734,8 @@
         "metraId": "94860",
         "wmoId": "94860",
         "bomId": "088162",
-        "name": "Kilmore Gap",
-        "storyLabName": "Wallan — Kilmore Gap"
+        "storyLabName": "Wallan — Kilmore Gap",
+        "auroraId": "locc605118e951a"
       }
     },
     {
@@ -3771,8 +3751,8 @@
         "metraId": "94862",
         "wmoId": "94862",
         "bomId": "081124",
-        "name": "Yarrawonga",
-        "storyLabName": "Yarrawonga"
+        "storyLabName": "Yarrawonga",
+        "auroraId": "locb0a9c63101c7"
       }
     },
     {
@@ -3788,8 +3768,8 @@
         "metraId": "94864",
         "wmoId": "94864",
         "bomId": "086383",
-        "name": "Coldstream",
-        "storyLabName": "Coldstream"
+        "storyLabName": "Coldstream",
+        "auroraId": "locaf8d2e9e4584"
       }
     },
     {
@@ -3805,8 +3785,8 @@
         "metraId": "94865",
         "wmoId": "94865",
         "bomId": "087031",
-        "name": "Laverton Raaf",
-        "storyLabName": "Laverton — RAAF Base Williams"
+        "storyLabName": "Laverton — RAAF Base Williams",
+        "auroraId": "loc098ac8eaabef"
       }
     },
     {
@@ -3822,8 +3802,8 @@
         "metraId": "94866",
         "wmoId": "94866",
         "bomId": "086282",
-        "name": "Melbourne Airport",
-        "storyLabName": "Melbourne Airport"
+        "storyLabName": "Melbourne Airport",
+        "auroraId": "loc1556821a864f"
       }
     },
     {
@@ -3839,8 +3819,8 @@
         "metraId": "94870",
         "wmoId": "94870",
         "bomId": "086077",
-        "name": "Moorabbin Airport",
-        "storyLabName": "Moorabbin Airport"
+        "storyLabName": "Moorabbin Airport",
+        "auroraId": "locace3209a1388"
       }
     },
     {
@@ -3856,8 +3836,8 @@
         "metraId": "94871",
         "wmoId": "94871",
         "bomId": "086371",
-        "name": "Frankston Beach",
-        "storyLabName": "Frankston Beach"
+        "storyLabName": "Frankston Beach",
+        "auroraId": "loc6413994c2b24"
       }
     },
     {
@@ -3873,8 +3853,8 @@
         "metraId": "94872",
         "wmoId": "94872",
         "bomId": "086266",
-        "name": "Ferny Creek",
-        "storyLabName": "Ferny Creek"
+        "storyLabName": "Ferny Creek",
+        "auroraId": "locb65b06909766"
       }
     },
     {
@@ -3890,8 +3870,8 @@
         "metraId": "94874",
         "wmoId": "94874",
         "bomId": "088109",
-        "name": "Mangalore Airport",
-        "storyLabName": "Mangalore"
+        "storyLabName": "Mangalore",
+        "auroraId": "loc4125644a3e48"
       }
     },
     {
@@ -3907,8 +3887,8 @@
         "metraId": "94875",
         "wmoId": "94875",
         "bomId": "081125",
-        "name": "Shepparton Airport",
-        "storyLabName": "Shepparton"
+        "storyLabName": "Shepparton",
+        "auroraId": "loc1fcd28cddafe"
       }
     },
     {
@@ -3924,8 +3904,8 @@
         "metraId": "94878",
         "wmoId": "94878",
         "bomId": "082139",
-        "name": "Hunters Hill",
-        "storyLabName": "Hunters Hill"
+        "storyLabName": "Hunters Hill",
+        "auroraId": "locf01b400a3569"
       }
     },
     {
@@ -3941,8 +3921,8 @@
         "metraId": "94881",
         "wmoId": "94881",
         "bomId": "088164",
-        "name": "Eildon Fire Tower",
-        "storyLabName": "Eildon, Victoria"
+        "storyLabName": "Eildon, Victoria",
+        "auroraId": "loce1f58e338f60"
       }
     },
     {
@@ -3958,8 +3938,8 @@
         "metraId": "94886",
         "wmoId": "94886",
         "bomId": "085099",
-        "name": "Pound Creek",
-        "storyLabName": "Pound Creek"
+        "storyLabName": "Pound Creek",
+        "auroraId": "loc69addafe32f8"
       }
     },
     {
@@ -3975,8 +3955,8 @@
         "metraId": "94889",
         "wmoId": "94889",
         "bomId": "082138",
-        "name": "Wangaratta Aero",
-        "storyLabName": "Wangaratta"
+        "storyLabName": "Wangaratta",
+        "auroraId": "loc5c43c0f368e0"
       }
     },
     {
@@ -3992,8 +3972,8 @@
         "metraId": "94891",
         "wmoId": "94891",
         "bomId": "085280",
-        "name": "Latrobe Valley Airport",
-        "storyLabName": "Latrobe Valley Airport"
+        "storyLabName": "Latrobe Valley Airport",
+        "auroraId": "loc11fb0b5df130"
       }
     },
     {
@@ -4009,8 +3989,8 @@
         "metraId": "94892",
         "wmoId": "94892",
         "bomId": "086373",
-        "name": "Rhyll",
-        "storyLabName": "Rhyll"
+        "storyLabName": "Rhyll",
+        "auroraId": "loc9525dc779efd"
       }
     },
     {
@@ -4026,8 +4006,8 @@
         "metraId": "94893",
         "wmoId": "94893",
         "bomId": "085096",
-        "name": "Wilsons Promontory Lighthouse",
-        "storyLabName": "Wilsons Promontory Lighthouse"
+        "storyLabName": "Wilsons Promontory Lighthouse",
+        "auroraId": "locbf06a366c795"
       }
     },
     {
@@ -4043,8 +4023,8 @@
         "metraId": "94894",
         "wmoId": "94894",
         "bomId": "083024",
-        "name": "Mount Buller",
-        "storyLabName": "Mount Buller"
+        "storyLabName": "Mount Buller",
+        "auroraId": "loc8688ba223de1"
       }
     },
     {
@@ -4060,8 +4040,8 @@
         "metraId": "94898",
         "wmoId": "94898",
         "bomId": "086361",
-        "name": "Cerberus",
-        "storyLabName": "Cerberus"
+        "storyLabName": "Cerberus",
+        "auroraId": "loc39ab57920b9d"
       }
     },
     {
@@ -4077,8 +4057,8 @@
         "metraId": "94903",
         "wmoId": "94903",
         "bomId": "083084",
-        "name": "Falls Creek",
-        "storyLabName": "Falls Creek"
+        "storyLabName": "Falls Creek",
+        "auroraId": "locd6190ebbe554"
       }
     },
     {
@@ -4094,8 +4074,8 @@
         "metraId": "94905",
         "wmoId": "94905",
         "bomId": "083055",
-        "name": "Mount Hotham Airport",
-        "storyLabName": "Mount Hotham Airport"
+        "storyLabName": "Mount Hotham Airport",
+        "auroraId": "locaa922d87bb19"
       }
     },
     {
@@ -4111,8 +4091,8 @@
         "metraId": "94906",
         "wmoId": "94906",
         "bomId": "083085",
-        "name": "Mount Hotham",
-        "storyLabName": "Mount Hotham"
+        "storyLabName": "Mount Hotham",
+        "auroraId": "locc89924437933"
       }
     },
     {
@@ -4128,8 +4108,8 @@
         "metraId": "94908",
         "wmoId": "94908",
         "bomId": "083090",
-        "name": "Omeo",
-        "storyLabName": "Omeo"
+        "storyLabName": "Omeo",
+        "auroraId": "loceb2afe8977e3"
       }
     },
     {
@@ -4145,8 +4125,8 @@
         "metraId": "94910",
         "wmoId": "94910",
         "bomId": "072150",
-        "name": "Wagga Wagga Amo",
-        "storyLabName": "Wagga Wagga"
+        "storyLabName": "Wagga Wagga",
+        "auroraId": "loc8e901ea41ea3"
       }
     },
     {
@@ -4162,8 +4142,8 @@
         "metraId": "94912",
         "wmoId": "94912",
         "bomId": "085279",
-        "name": "Bairnsdale Airport",
-        "storyLabName": "Bairnsdale"
+        "storyLabName": "Bairnsdale",
+        "auroraId": "loc232da9d11723"
       }
     },
     {
@@ -4179,8 +4159,8 @@
         "metraId": "94913",
         "wmoId": "94913",
         "bomId": "084142",
-        "name": "Gelantipy",
-        "storyLabName": "Gelantipy"
+        "storyLabName": "Gelantipy",
+        "auroraId": "loc12ffc5a7e771"
       }
     },
     {
@@ -4196,8 +4176,8 @@
         "metraId": "94914",
         "wmoId": "94914",
         "bomId": "084143",
-        "name": "Combienbar Aws",
-        "storyLabName": "Combienbar"
+        "storyLabName": "Combienbar",
+        "auroraId": "loc4a15ae39de98"
       }
     },
     {
@@ -4213,8 +4193,8 @@
         "metraId": "94915",
         "wmoId": "94915",
         "bomId": "071075",
-        "name": "Perisher Valley Aws",
-        "storyLabName": "Perisher Valley"
+        "storyLabName": "Perisher Valley",
+        "auroraId": "locedc7fcd4523f"
       }
     },
     {
@@ -4230,8 +4210,8 @@
         "metraId": "94919",
         "wmoId": "94919",
         "bomId": "072162",
-        "name": "Khancoban Aws",
-        "storyLabName": "Khancoban"
+        "storyLabName": "Khancoban",
+        "auroraId": "loc2c05ca6c1aa7"
       }
     },
     {
@@ -4247,8 +4227,8 @@
         "metraId": "94921",
         "wmoId": "94921",
         "bomId": "070217",
-        "name": "Cooma Airport Aws",
-        "storyLabName": "Cooma"
+        "storyLabName": "Cooma",
+        "auroraId": "loc346aa725a206"
       }
     },
     {
@@ -4264,8 +4244,8 @@
         "metraId": "94925",
         "wmoId": "94925",
         "bomId": "070339",
-        "name": "Tuggeranong (Isabella Plains) Aws",
-        "storyLabName": "Tuggeranong — Isabella Plains"
+        "storyLabName": "Tuggeranong — Isabella Plains",
+        "auroraId": "locf7df36fc3011"
       }
     },
     {
@@ -4281,8 +4261,8 @@
         "metraId": "94926",
         "wmoId": "94926",
         "bomId": "070351",
-        "name": "Canberra Airport",
-        "storyLabName": "Canberra Airport"
+        "storyLabName": "Canberra Airport",
+        "auroraId": "loc8be74d6ce0b7"
       }
     },
     {
@@ -4298,8 +4278,8 @@
         "metraId": "94927",
         "wmoId": "94927",
         "bomId": "069132",
-        "name": "Braidwood Racecourse Aws",
-        "storyLabName": "Braidwood Racecourse"
+        "storyLabName": "Braidwood Racecourse",
+        "auroraId": "loc15bfcc3ea3ce"
       }
     },
     {
@@ -4315,8 +4295,8 @@
         "metraId": "94930",
         "wmoId": "94930",
         "bomId": "084144",
-        "name": "Mount Nowa Nowa",
-        "storyLabName": "Mount Nowa Nowa"
+        "storyLabName": "Mount Nowa Nowa",
+        "auroraId": "locfd9060015ded"
       }
     },
     {
@@ -4332,8 +4312,8 @@
         "metraId": "94933",
         "wmoId": "94933",
         "bomId": "084016",
-        "name": "Gabo Island Lighthouse",
-        "storyLabName": "Gabo Island Lighthouse"
+        "storyLabName": "Gabo Island Lighthouse",
+        "auroraId": "locbd605b309fd5"
       }
     },
     {
@@ -4349,8 +4329,8 @@
         "metraId": "94934",
         "wmoId": "94934",
         "bomId": "069137",
-        "name": "Green Cape Aws",
-        "storyLabName": "Green Cape"
+        "storyLabName": "Green Cape",
+        "auroraId": "loc8a14abfa742d"
       }
     },
     {
@@ -4366,8 +4346,8 @@
         "metraId": "94935",
         "wmoId": "94935",
         "bomId": "084084",
-        "name": "Mallacoota",
-        "storyLabName": "Mallacoota"
+        "storyLabName": "Mallacoota",
+        "auroraId": "locbd605b309fd5"
       }
     },
     {
@@ -4383,8 +4363,8 @@
         "metraId": "94938",
         "wmoId": "94938",
         "bomId": "069138",
-        "name": "Ulladulla Aws",
-        "storyLabName": "Ulladulla"
+        "storyLabName": "Ulladulla",
+        "auroraId": "loceaeac240e4a3"
       }
     },
     {
@@ -4400,7 +4380,6 @@
         "metraId": "94939",
         "wmoId": "94939",
         "bomId": "069017",
-        "name": "Montague Island Lighthouse",
         "storyLabName": "Montague Island Lighthouse"
       }
     },
@@ -4417,7 +4396,6 @@
         "metraId": "94949",
         "wmoId": "94949",
         "bomId": "200838",
-        "name": "Hogan Island",
         "storyLabName": "Hogan Island"
       }
     },
@@ -4434,8 +4412,8 @@
         "metraId": "94951",
         "wmoId": "94951",
         "bomId": "094254",
-        "name": "Dunalley (Stroud Point)",
-        "storyLabName": "Dunalley — Stroud Point"
+        "storyLabName": "Dunalley — Stroud Point",
+        "auroraId": "loc9b79621cc73f"
       }
     },
     {
@@ -4451,8 +4429,8 @@
         "metraId": "94953",
         "wmoId": "94953",
         "bomId": "091292",
-        "name": "Smithton Aerodrome",
-        "storyLabName": "Smithton"
+        "storyLabName": "Smithton",
+        "auroraId": "loc6e99df82a211"
       }
     },
     {
@@ -4468,8 +4446,8 @@
         "metraId": "94956",
         "wmoId": "94956",
         "bomId": "097072",
-        "name": "Strahan Aerodrome",
-        "storyLabName": "Strahan"
+        "storyLabName": "Strahan",
+        "auroraId": "loc2b908315a767"
       }
     },
     {
@@ -4485,8 +4463,8 @@
         "metraId": "94957",
         "wmoId": "94957",
         "bomId": "095048",
-        "name": "Ouse Fire Station",
-        "storyLabName": "Ouse"
+        "storyLabName": "Ouse",
+        "auroraId": "loc58632399cc0d"
       }
     },
     {
@@ -4502,8 +4480,8 @@
         "metraId": "94959",
         "wmoId": "94959",
         "bomId": "096003",
-        "name": "Butlers Gorge",
-        "storyLabName": "Butlers Gorge"
+        "storyLabName": "Butlers Gorge",
+        "auroraId": "locdd38401fdd60"
       }
     },
     {
@@ -4519,8 +4497,8 @@
         "metraId": "94960",
         "wmoId": "94960",
         "bomId": "094195",
-        "name": "Tunnack Fire Station",
-        "storyLabName": "Tunnack"
+        "storyLabName": "Tunnack",
+        "auroraId": "loc23f8ce3524b2"
       }
     },
     {
@@ -4536,7 +4514,6 @@
         "metraId": "94962",
         "wmoId": "94962",
         "bomId": "094041",
-        "name": "Maatsuyker Island Lighthouse",
         "storyLabName": "Maatsuyker Island Lighthouse"
       }
     },
@@ -4553,8 +4530,8 @@
         "metraId": "94964",
         "wmoId": "94964",
         "bomId": "095003",
-        "name": "Bushy Park (Bushy Park Estates)",
-        "storyLabName": "Bushy Park"
+        "storyLabName": "Bushy Park",
+        "auroraId": "loc6ca882bf74a0"
       }
     },
     {
@@ -4570,8 +4547,8 @@
         "metraId": "94969",
         "wmoId": "94969",
         "bomId": "091237",
-        "name": "Launceston (Ti Tree Bend)",
-        "storyLabName": "Launceston — Ti Tree Bend"
+        "storyLabName": "Launceston — Ti Tree Bend",
+        "auroraId": "loc61e0779a8c3f"
       }
     },
     {
@@ -4587,8 +4564,8 @@
         "metraId": "94970",
         "wmoId": "94970",
         "bomId": "094029",
-        "name": "Hobart (Ellerslie Road)",
-        "storyLabName": "Hobart — Battery Point"
+        "storyLabName": "Hobart — Battery Point",
+        "auroraId": "loccbffb11990f2"
       }
     },
     {
@@ -4604,8 +4581,8 @@
         "metraId": "94972",
         "wmoId": "94972",
         "bomId": "091219",
-        "name": "Scottsdale (West Minstone Road)",
-        "storyLabName": "Scottsdale"
+        "storyLabName": "Scottsdale",
+        "auroraId": "loc09718729032f"
       }
     },
     {
@@ -4621,8 +4598,8 @@
         "metraId": "94974",
         "wmoId": "94974",
         "bomId": "097000",
-        "name": "Cape Sorell",
-        "storyLabName": "Cape Sorell"
+        "storyLabName": "Cape Sorell",
+        "auroraId": "locdd38401fdd60"
       }
     },
     {
@@ -4638,8 +4615,8 @@
         "metraId": "94977",
         "wmoId": "94977",
         "bomId": "094191",
-        "name": "Hartz Mountain (Keoghs Pimple)",
-        "storyLabName": "Hartz Mountain — Keoghs Pimple"
+        "storyLabName": "Hartz Mountain — Keoghs Pimple",
+        "auroraId": "locdd38401fdd60"
       }
     },
     {
@@ -4655,8 +4632,8 @@
         "metraId": "94980",
         "wmoId": "94980",
         "bomId": "099005",
-        "name": "Flinders Island Airport",
-        "storyLabName": "Flinders Island"
+        "storyLabName": "Flinders Island",
+        "auroraId": "locf477ba2a6e46"
       }
     },
     {
@@ -4672,8 +4649,8 @@
         "metraId": "94983",
         "wmoId": "94983",
         "bomId": "092045",
-        "name": "Larapuna (Eddystone Point)",
-        "storyLabName": "Eddystone Point"
+        "storyLabName": "Eddystone Point",
+        "auroraId": "loc50aa30dc1b9e"
       }
     },
     {
@@ -4689,8 +4666,8 @@
         "metraId": "94987",
         "wmoId": "94987",
         "bomId": "092114",
-        "name": "Friendly Beaches",
-        "storyLabName": "Friendly Beaches"
+        "storyLabName": "Friendly Beaches",
+        "auroraId": "loc01f1ecd246a0"
       }
     },
     {
@@ -4706,8 +4683,8 @@
         "metraId": "94995",
         "wmoId": "94995",
         "bomId": "200839",
-        "name": "Lord Howe Island Aero",
-        "storyLabName": "Lord Howe Island"
+        "storyLabName": "Lord Howe Island",
+        "auroraId": "locb2683140c1e4"
       }
     },
     {
@@ -4723,8 +4700,8 @@
         "metraId": "94996",
         "wmoId": "94996",
         "bomId": "200288",
-        "name": "Norfolk Island Aero",
-        "storyLabName": "Norfolk Island"
+        "storyLabName": "Norfolk Island",
+        "auroraId": "locc15e0d2d6f2a"
       }
     },
     {
@@ -4740,7 +4717,6 @@
         "metraId": "94998",
         "wmoId": "94998",
         "bomId": "300004",
-        "name": "Macquarie Island",
         "storyLabName": "Macquarie Island"
       }
     },
@@ -4757,7 +4733,6 @@
         "metraId": "95101",
         "wmoId": "95101",
         "bomId": "001020",
-        "name": "Truscott",
         "storyLabName": "Truscott"
       }
     },
@@ -4774,8 +4749,8 @@
         "metraId": "95202",
         "wmoId": "95202",
         "bomId": "003102",
-        "name": "Broome Ntc Aws",
-        "storyLabName": "Broome Port"
+        "storyLabName": "Broome Port",
+        "auroraId": "loc76df96872760"
       }
     },
     {
@@ -4791,8 +4766,8 @@
         "metraId": "95205",
         "wmoId": "95205",
         "bomId": "003032",
-        "name": "Derby Aero",
-        "storyLabName": "Derby"
+        "storyLabName": "Derby",
+        "auroraId": "loc5a1ffdf7a8ae"
       }
     },
     {
@@ -4808,8 +4783,8 @@
         "metraId": "95214",
         "wmoId": "95214",
         "bomId": "001006",
-        "name": "Wyndham Aero",
-        "storyLabName": "Wyndham"
+        "storyLabName": "Wyndham",
+        "auroraId": "locf8ca4da25ede"
       }
     },
     {
@@ -4825,8 +4800,8 @@
         "metraId": "95283",
         "wmoId": "95283",
         "bomId": "031209",
-        "name": "Cooktown Airport",
-        "storyLabName": "Cooktown"
+        "storyLabName": "Cooktown",
+        "auroraId": "loc36a0208bc4d2"
       }
     },
     {
@@ -4842,8 +4817,8 @@
         "metraId": "95286",
         "wmoId": "95286",
         "bomId": "031210",
-        "name": "Mareeba Airport",
-        "storyLabName": "Mareeba"
+        "storyLabName": "Mareeba",
+        "auroraId": "loca69f20798ef7"
       }
     },
     {
@@ -4859,7 +4834,6 @@
         "metraId": "95288",
         "wmoId": "95288",
         "bomId": "200840",
-        "name": "Bougainville Reef",
         "storyLabName": "Bougainville Reef"
       }
     },
@@ -4876,8 +4850,8 @@
         "metraId": "95292",
         "wmoId": "95292",
         "bomId": "032037",
-        "name": "South Johnstone Exp Stn",
-        "storyLabName": "South Johnstone"
+        "storyLabName": "South Johnstone",
+        "auroraId": "loc0422e95cb621"
       }
     },
     {
@@ -4893,8 +4867,8 @@
         "metraId": "95295",
         "wmoId": "95295",
         "bomId": "033002",
-        "name": "Ayr Dpi Research Stn",
-        "storyLabName": "Ayr"
+        "storyLabName": "Ayr",
+        "auroraId": "loc3800a5a1510b"
       }
     },
     {
@@ -4910,8 +4884,8 @@
         "metraId": "95296",
         "wmoId": "95296",
         "bomId": "033295",
-        "name": "Alva Beach",
-        "storyLabName": "Alva Beach"
+        "storyLabName": "Alva Beach",
+        "auroraId": "loc64fe959a35d8"
       }
     },
     {
@@ -4927,8 +4901,8 @@
         "metraId": "95298",
         "wmoId": "95298",
         "bomId": "033208",
-        "name": "Rosslyn Bay Ntc Aws",
-        "storyLabName": "Rosslyn Bay"
+        "storyLabName": "Rosslyn Bay",
+        "auroraId": "loc2454ce9a2756"
       }
     },
     {
@@ -4944,7 +4918,6 @@
         "metraId": "95303",
         "wmoId": "95303",
         "bomId": "200100",
-        "name": "Varanus Island",
         "storyLabName": "Varanus Island"
       }
     },
@@ -4961,7 +4934,6 @@
         "metraId": "95304",
         "wmoId": "95304",
         "bomId": "005094",
-        "name": "Barrow Island Airport",
         "storyLabName": "Barrow Island"
       }
     },
@@ -4978,8 +4950,8 @@
         "metraId": "95305",
         "wmoId": "95305",
         "bomId": "005017",
-        "name": "Onslow Airport",
-        "storyLabName": "Onslow"
+        "storyLabName": "Onslow",
+        "auroraId": "loc0230d351bb60"
       }
     },
     {
@@ -4995,8 +4967,8 @@
         "metraId": "95307",
         "wmoId": "95307",
         "bomId": "004083",
-        "name": "Karratha Aero",
-        "storyLabName": "Karratha"
+        "storyLabName": "Karratha",
+        "auroraId": "loc4b86d7eefcbc"
       }
     },
     {
@@ -5012,8 +4984,8 @@
         "metraId": "95317",
         "wmoId": "95317",
         "bomId": "004106",
-        "name": "Marble Bar",
-        "storyLabName": "Marble Bar"
+        "storyLabName": "Marble Bar",
+        "auroraId": "loc8c246cc0ccee"
       }
     },
     {
@@ -5029,8 +5001,8 @@
         "metraId": "95351",
         "wmoId": "95351",
         "bomId": "036034",
-        "name": "Blackall Airport",
-        "storyLabName": "Blackall"
+        "storyLabName": "Blackall",
+        "auroraId": "locdb8620eee890"
       }
     },
     {
@@ -5046,8 +5018,8 @@
         "metraId": "95367",
         "wmoId": "95367",
         "bomId": "033045",
-        "name": "Mackay Aero",
-        "storyLabName": "Mackay Airport"
+        "storyLabName": "Mackay Airport",
+        "auroraId": "loc50583c666bfd"
       }
     },
     {
@@ -5063,8 +5035,8 @@
         "metraId": "95369",
         "wmoId": "95369",
         "bomId": "033210",
-        "name": "St Lawrence",
-        "storyLabName": "St Lawrence"
+        "storyLabName": "St Lawrence",
+        "auroraId": "loc895371800e11"
       }
     },
     {
@@ -5080,8 +5052,8 @@
         "metraId": "95402",
         "wmoId": "95402",
         "bomId": "006105",
-        "name": "Shark Bay Airport",
-        "storyLabName": "Shark Bay"
+        "storyLabName": "Shark Bay",
+        "auroraId": "locc67d88b073c3"
       }
     },
     {
@@ -5097,8 +5069,8 @@
         "metraId": "95448",
         "wmoId": "95448",
         "bomId": "012314",
-        "name": "Leinster Aero",
-        "storyLabName": "Leinster"
+        "storyLabName": "Leinster",
+        "auroraId": "loc12d8cb3714d1"
       }
     },
     {
@@ -5114,8 +5086,8 @@
         "metraId": "95458",
         "wmoId": "95458",
         "bomId": "016090",
-        "name": "Coober Pedy Airport",
-        "storyLabName": "Coober Pedy"
+        "storyLabName": "Coober Pedy",
+        "auroraId": "loc9874417177f8"
       }
     },
     {
@@ -5131,8 +5103,8 @@
         "metraId": "95480",
         "wmoId": "95480",
         "bomId": "017126",
-        "name": "Marree Aero",
-        "storyLabName": "Marree"
+        "storyLabName": "Marree",
+        "auroraId": "loc77bc8792791f"
       }
     },
     {
@@ -5148,8 +5120,8 @@
         "metraId": "95481",
         "wmoId": "95481",
         "bomId": "017123",
-        "name": "Moomba Airport",
-        "storyLabName": "Moomba"
+        "storyLabName": "Moomba",
+        "auroraId": "loc91c845dcc7a9"
       }
     },
     {
@@ -5165,8 +5137,8 @@
         "metraId": "95482",
         "wmoId": "95482",
         "bomId": "038026",
-        "name": "Birdsville Airport",
-        "storyLabName": "Birdsville"
+        "storyLabName": "Birdsville",
+        "auroraId": "loc0c7c57b906ad"
       }
     },
     {
@@ -5182,8 +5154,8 @@
         "metraId": "95485",
         "wmoId": "95485",
         "bomId": "046126",
-        "name": "Tibooburra Airport",
-        "storyLabName": "Tibooburra"
+        "storyLabName": "Tibooburra",
+        "auroraId": "loc9de1bae43caf"
       }
     },
     {
@@ -5199,8 +5171,8 @@
         "metraId": "95487",
         "wmoId": "95487",
         "bomId": "045009",
-        "name": "Ballera Gas Field",
-        "storyLabName": "Durham"
+        "storyLabName": "Durham",
+        "auroraId": "locc25aa292eddf"
       }
     },
     {
@@ -5216,8 +5188,8 @@
         "metraId": "95492",
         "wmoId": "95492",
         "bomId": "045025",
-        "name": "Thargomindah Airport",
-        "storyLabName": "Thargomindah"
+        "storyLabName": "Thargomindah",
+        "auroraId": "loc187876e52b47"
       }
     },
     {
@@ -5233,8 +5205,8 @@
         "metraId": "95527",
         "wmoId": "95527",
         "bomId": "053115",
-        "name": "Moree Aero",
-        "storyLabName": "Moree"
+        "storyLabName": "Moree",
+        "auroraId": "loc7f54fb3ab7f6"
       }
     },
     {
@@ -5250,8 +5222,8 @@
         "metraId": "95529",
         "wmoId": "95529",
         "bomId": "042112",
-        "name": "Miles Constance Street",
-        "storyLabName": "Miles"
+        "storyLabName": "Miles",
+        "auroraId": "loc0ffe5c3854e4"
       }
     },
     {
@@ -5267,8 +5239,8 @@
         "metraId": "95543",
         "wmoId": "95543",
         "bomId": "039066",
-        "name": "Gayndah Airport",
-        "storyLabName": "Gayndah"
+        "storyLabName": "Gayndah",
+        "auroraId": "locf4e983d807e1"
       }
     },
     {
@@ -5284,8 +5256,8 @@
         "metraId": "95551",
         "wmoId": "95551",
         "bomId": "041529",
-        "name": "Toowoomba Airport",
-        "storyLabName": "Toowoomba"
+        "storyLabName": "Toowoomba",
+        "auroraId": "loc462498e5c2eb"
       }
     },
     {
@@ -5301,8 +5273,8 @@
         "metraId": "95565",
         "wmoId": "95565",
         "bomId": "040405",
-        "name": "Hervey Bay Airport",
-        "storyLabName": "Hervey Bay"
+        "storyLabName": "Hervey Bay",
+        "auroraId": "loc2df2b9fff79b"
       }
     },
     {
@@ -5318,8 +5290,8 @@
         "metraId": "95566",
         "wmoId": "95566",
         "bomId": "040284",
-        "name": "Beerburrum Forest Station",
-        "storyLabName": "Beerburrum"
+        "storyLabName": "Beerburrum",
+        "auroraId": "loc0a9a5834157b"
       }
     },
     {
@@ -5335,8 +5307,8 @@
         "metraId": "95570",
         "wmoId": "95570",
         "bomId": "058161",
-        "name": "Grafton Airport Aws",
-        "storyLabName": "Grafton"
+        "storyLabName": "Grafton",
+        "auroraId": "loc932d6e7b3935"
       }
     },
     {
@@ -5352,8 +5324,8 @@
         "metraId": "95571",
         "wmoId": "95571",
         "bomId": "058077",
-        "name": "Grafton Research Stn",
-        "storyLabName": "Grafton — Primary Industries Institute"
+        "storyLabName": "Grafton — Primary Industries Institute",
+        "auroraId": "loc8339391866ab"
       }
     },
     {
@@ -5369,8 +5341,8 @@
         "metraId": "95572",
         "wmoId": "95572",
         "bomId": "040988",
-        "name": "Nambour Daff - Hillside",
-        "storyLabName": "Nambour"
+        "storyLabName": "Nambour",
+        "auroraId": "loc41b2e0534982"
       }
     },
     {
@@ -5386,8 +5358,8 @@
         "metraId": "95575",
         "wmoId": "95575",
         "bomId": "040983",
-        "name": "Beaudesert Drumley Street",
-        "storyLabName": "Beaudesert"
+        "storyLabName": "Beaudesert",
+        "auroraId": "loc0fc0cf53b1a7"
       }
     },
     {
@@ -5403,8 +5375,8 @@
         "metraId": "95591",
         "wmoId": "95591",
         "bomId": "040958",
-        "name": "Redcliffe",
-        "storyLabName": "Redcliffe"
+        "storyLabName": "Redcliffe",
+        "auroraId": "locfa7aa37a3be6"
       }
     },
     {
@@ -5420,8 +5392,8 @@
         "metraId": "95602",
         "wmoId": "95602",
         "bomId": "009937",
-        "name": "Busselton Jetty",
-        "storyLabName": "Busselton Jetty"
+        "storyLabName": "Busselton Jetty",
+        "auroraId": "loc544c27559f05"
       }
     },
     {
@@ -5437,8 +5409,8 @@
         "metraId": "95605",
         "wmoId": "95605",
         "bomId": "009265",
-        "name": "Hillarys Boat Harbour Ntc Aws",
-        "storyLabName": "Hillarys Boat Harbour"
+        "storyLabName": "Hillarys Boat Harbour",
+        "auroraId": "loce44da6978274"
       }
     },
     {
@@ -5454,8 +5426,8 @@
         "metraId": "95607",
         "wmoId": "95607",
         "bomId": "009256",
-        "name": "Garden Island Hsf",
-        "storyLabName": "Garden Island Airport"
+        "storyLabName": "Garden Island Airport",
+        "auroraId": "loc4caa3a3590b9"
       }
     },
     {
@@ -5471,8 +5443,8 @@
         "metraId": "95610",
         "wmoId": "95610",
         "bomId": "009240",
-        "name": "Bickley",
-        "storyLabName": "Bickley"
+        "storyLabName": "Bickley",
+        "auroraId": "loc359a4eed4b62"
       }
     },
     {
@@ -5488,8 +5460,8 @@
         "metraId": "95611",
         "wmoId": "95611",
         "bomId": "009603",
-        "name": "Busselton Aero",
-        "storyLabName": "Busselton Airport"
+        "storyLabName": "Busselton Airport",
+        "auroraId": "loc228b627e217c"
       }
     },
     {
@@ -5505,8 +5477,8 @@
         "metraId": "95612",
         "wmoId": "95612",
         "bomId": "009178",
-        "name": "Gingin Aero",
-        "storyLabName": "Yeal — RAAF Base Gingin"
+        "storyLabName": "Yeal — RAAF Base Gingin",
+        "auroraId": "loc3e89f45c7823"
       }
     },
     {
@@ -5522,8 +5494,8 @@
         "metraId": "95620",
         "wmoId": "95620",
         "bomId": "009091",
-        "name": "Inner Dolphin Pylon",
-        "storyLabName": "Swan River — Inner Dolphin Pylon"
+        "storyLabName": "Swan River — Inner Dolphin Pylon",
+        "auroraId": "loce533593c76da"
       }
     },
     {
@@ -5539,8 +5511,8 @@
         "metraId": "95621",
         "wmoId": "95621",
         "bomId": "009994",
-        "name": "Collie East",
-        "storyLabName": "Collie East"
+        "storyLabName": "Collie East",
+        "auroraId": "loc8c41f2659266"
       }
     },
     {
@@ -5556,8 +5528,8 @@
         "metraId": "95625",
         "wmoId": "95625",
         "bomId": "010286",
-        "name": "Cunderdin Airfield",
-        "storyLabName": "Cunderdin"
+        "storyLabName": "Cunderdin",
+        "auroraId": "locb3e586558a84"
       }
     },
     {
@@ -5573,8 +5545,8 @@
         "metraId": "95629",
         "wmoId": "95629",
         "bomId": "008297",
-        "name": "Dalwallinu",
-        "storyLabName": "Dalwallinu"
+        "storyLabName": "Dalwallinu",
+        "auroraId": "loc8ca4c35dce72"
       }
     },
     {
@@ -5590,8 +5562,8 @@
         "metraId": "95632",
         "wmoId": "95632",
         "bomId": "009617",
-        "name": "Bridgetown",
-        "storyLabName": "Bridgetown"
+        "storyLabName": "Bridgetown",
+        "auroraId": "loc8ba7898ebb36"
       }
     },
     {
@@ -5607,8 +5579,8 @@
         "metraId": "95634",
         "wmoId": "95634",
         "bomId": "012320",
-        "name": "Southern Cross Airfield",
-        "storyLabName": "Southern Cross"
+        "storyLabName": "Southern Cross",
+        "auroraId": "locd78ca9bd8673"
       }
     },
     {
@@ -5624,8 +5596,8 @@
         "metraId": "95635",
         "wmoId": "95635",
         "bomId": "009961",
-        "name": "Hopetoun North",
-        "storyLabName": "Hopetoun North"
+        "storyLabName": "Hopetoun North",
+        "auroraId": "loc9db2c809d7d1"
       }
     },
     {
@@ -5641,8 +5613,8 @@
         "metraId": "95636",
         "wmoId": "95636",
         "bomId": "010905",
-        "name": "Jacup",
-        "storyLabName": "Jacup"
+        "storyLabName": "Jacup",
+        "auroraId": "locdae32538a4b2"
       }
     },
     {
@@ -5658,8 +5630,8 @@
         "metraId": "95637",
         "wmoId": "95637",
         "bomId": "010911",
-        "name": "Lake Grace",
-        "storyLabName": "Lake Grace"
+        "storyLabName": "Lake Grace",
+        "auroraId": "loc4d9450978a29"
       }
     },
     {
@@ -5675,8 +5647,8 @@
         "metraId": "95638",
         "wmoId": "95638",
         "bomId": "009542",
-        "name": "Esperance Aero",
-        "storyLabName": "Esperance Airport"
+        "storyLabName": "Esperance Airport",
+        "auroraId": "loc2bf7c094ee01"
       }
     },
     {
@@ -5692,8 +5664,8 @@
         "metraId": "95639",
         "wmoId": "95639",
         "bomId": "012071",
-        "name": "Salmon Gums Res.stn.",
-        "storyLabName": "Salmon Gums"
+        "storyLabName": "Salmon Gums",
+        "auroraId": "loc560f052e64cf"
       }
     },
     {
@@ -5709,8 +5681,8 @@
         "metraId": "95640",
         "wmoId": "95640",
         "bomId": "010917",
-        "name": "Wandering",
-        "storyLabName": "Wandering"
+        "storyLabName": "Wandering",
+        "auroraId": "loca8f8dc7c8023"
       }
     },
     {
@@ -5726,8 +5698,8 @@
         "metraId": "95642",
         "wmoId": "95642",
         "bomId": "012009",
-        "name": "Norseman Aero",
-        "storyLabName": "Norseman"
+        "storyLabName": "Norseman",
+        "auroraId": "loc80ac8ac63a61"
       }
     },
     {
@@ -5743,8 +5715,8 @@
         "metraId": "95644",
         "wmoId": "95644",
         "bomId": "012044",
-        "name": "Munglinup West",
-        "storyLabName": "Munglinup West"
+        "storyLabName": "Munglinup West",
+        "auroraId": "loc026581c7d572"
       }
     },
     {
@@ -5760,8 +5732,8 @@
         "metraId": "95646",
         "wmoId": "95646",
         "bomId": "011052",
-        "name": "Forrest",
-        "storyLabName": "Forrest"
+        "storyLabName": "Forrest",
+        "auroraId": "loc1703fe372ae4"
       }
     },
     {
@@ -5777,8 +5749,8 @@
         "metraId": "95647",
         "wmoId": "95647",
         "bomId": "009998",
-        "name": "North Walpole",
-        "storyLabName": "North Walpole"
+        "storyLabName": "North Walpole",
+        "auroraId": "locce6a357d2f11"
       }
     },
     {
@@ -5794,8 +5766,8 @@
         "metraId": "95648",
         "wmoId": "95648",
         "bomId": "109504",
-        "name": "Esperance Ntc Aws",
-        "storyLabName": "Esperance Harbour"
+        "storyLabName": "Esperance Harbour",
+        "auroraId": "locd12b51a6f5b6"
       }
     },
     {
@@ -5811,8 +5783,8 @@
         "metraId": "95652",
         "wmoId": "95652",
         "bomId": "018207",
-        "name": "Thevenard Ntc Aws",
-        "storyLabName": "Thevenard"
+        "storyLabName": "Thevenard",
+        "auroraId": "loc893353363ff5"
       }
     },
     {
@@ -5828,8 +5800,8 @@
         "metraId": "95654",
         "wmoId": "95654",
         "bomId": "018083",
-        "name": "Wudinna Aero",
-        "storyLabName": "Wudinna"
+        "storyLabName": "Wudinna",
+        "auroraId": "loc07b67fabed0a"
       }
     },
     {
@@ -5845,8 +5817,8 @@
         "metraId": "95658",
         "wmoId": "95658",
         "bomId": "016096",
-        "name": "Olympic Dam Aerodrome",
-        "storyLabName": "Olympic Dam"
+        "storyLabName": "Olympic Dam",
+        "auroraId": "loce264b5904f23"
       }
     },
     {
@@ -5862,8 +5834,8 @@
         "metraId": "95659",
         "wmoId": "95659",
         "bomId": "022031",
-        "name": "Minlaton Aero",
-        "storyLabName": "Minlaton"
+        "storyLabName": "Minlaton",
+        "auroraId": "loc5ff8d20ff136"
       }
     },
     {
@@ -5879,8 +5851,8 @@
         "metraId": "95661",
         "wmoId": "95661",
         "bomId": "018192",
-        "name": "Port Lincoln Aws",
-        "storyLabName": "Port Lincoln"
+        "storyLabName": "Port Lincoln",
+        "auroraId": "loc389d9c828686"
       }
     },
     {
@@ -5896,8 +5868,8 @@
         "metraId": "95662",
         "wmoId": "95662",
         "bomId": "018195",
-        "name": "Minnipa Pirsa",
-        "storyLabName": "Minnipa"
+        "storyLabName": "Minnipa",
+        "auroraId": "loc150728ab1608"
       }
     },
     {
@@ -5913,8 +5885,8 @@
         "metraId": "95663",
         "wmoId": "95663",
         "bomId": "018217",
-        "name": "Cummins Aero",
-        "storyLabName": "Cummins"
+        "storyLabName": "Cummins",
+        "auroraId": "locd1d7426e4967"
       }
     },
     {
@@ -5930,8 +5902,8 @@
         "metraId": "95664",
         "wmoId": "95664",
         "bomId": "018120",
-        "name": "Whyalla Aero",
-        "storyLabName": "Whyalla"
+        "storyLabName": "Whyalla",
+        "auroraId": "loc15d55aba25e6"
       }
     },
     {
@@ -5947,8 +5919,8 @@
         "metraId": "95666",
         "wmoId": "95666",
         "bomId": "018201",
-        "name": "Port Augusta Aero",
-        "storyLabName": "Port Augusta"
+        "storyLabName": "Port Augusta",
+        "auroraId": "locaea0b9d80e4f"
       }
     },
     {
@@ -5964,8 +5936,8 @@
         "metraId": "95667",
         "wmoId": "95667",
         "bomId": "021131",
-        "name": "Clare High School",
-        "storyLabName": "Clare"
+        "storyLabName": "Clare",
+        "auroraId": "locf801a4131a7e"
       }
     },
     {
@@ -5981,8 +5953,8 @@
         "metraId": "95670",
         "wmoId": "95670",
         "bomId": "021133",
-        "name": "Rayville Park",
-        "storyLabName": "Rayville Park"
+        "storyLabName": "Rayville Park",
+        "auroraId": "loca4054eb46a80"
       }
     },
     {
@@ -5998,8 +5970,8 @@
         "metraId": "95671",
         "wmoId": "95671",
         "bomId": "023122",
-        "name": "Roseworthy Aws",
-        "storyLabName": "Roseworthy"
+        "storyLabName": "Roseworthy",
+        "auroraId": "locc265abe90bc6"
       }
     },
     {
@@ -6015,8 +5987,8 @@
         "metraId": "95675",
         "wmoId": "95675",
         "bomId": "023052",
-        "name": "Black Pole",
-        "storyLabName": "Black Pole"
+        "storyLabName": "Black Pole",
+        "auroraId": "loc41adbbd51f31"
       }
     },
     {
@@ -6032,8 +6004,8 @@
         "metraId": "95677",
         "wmoId": "95677",
         "bomId": "023013",
-        "name": "Parafield Airport",
-        "storyLabName": "Parafield Airport"
+        "storyLabName": "Parafield Airport",
+        "auroraId": "locb376cc0137a5"
       }
     },
     {
@@ -6049,8 +6021,8 @@
         "metraId": "95678",
         "wmoId": "95678",
         "bomId": "023842",
-        "name": "Mount Lofty",
-        "storyLabName": "Mount Lofty"
+        "storyLabName": "Mount Lofty",
+        "auroraId": "loce9f630b62890"
       }
     },
     {
@@ -6066,8 +6038,8 @@
         "metraId": "95679",
         "wmoId": "95679",
         "bomId": "023886",
-        "name": "Mount Terrible Radar",
-        "storyLabName": "Sellicks Hill — Mount Terrible"
+        "storyLabName": "Sellicks Hill — Mount Terrible",
+        "auroraId": "loc4876d53d769d"
       }
     },
     {
@@ -6083,8 +6055,8 @@
         "metraId": "95687",
         "wmoId": "95687",
         "bomId": "024048",
-        "name": "Renmark Aero",
-        "storyLabName": "Renmark"
+        "storyLabName": "Renmark",
+        "auroraId": "locdf0ef9067fd7"
       }
     },
     {
@@ -6100,8 +6072,8 @@
         "metraId": "95695",
         "wmoId": "95695",
         "bomId": "046012",
-        "name": "Wilcannia Aerodrome Aws",
-        "storyLabName": "Wilcannia"
+        "storyLabName": "Wilcannia",
+        "auroraId": "loca11edcab2012"
       }
     },
     {
@@ -6117,8 +6089,8 @@
         "metraId": "95697",
         "wmoId": "95697",
         "bomId": "049000",
-        "name": "Ivanhoe Aerodrome Aws",
-        "storyLabName": "Ivanhoe"
+        "storyLabName": "Ivanhoe",
+        "auroraId": "loc6faabb766a17"
       }
     },
     {
@@ -6134,8 +6106,8 @@
         "metraId": "95699",
         "wmoId": "95699",
         "bomId": "046129",
-        "name": "White Cliffs Aws",
-        "storyLabName": "White Cliffs"
+        "storyLabName": "White Cliffs",
+        "auroraId": "loc5577c48cb8b4"
       }
     },
     {
@@ -6151,8 +6123,8 @@
         "metraId": "95704",
         "wmoId": "95704",
         "bomId": "075041",
-        "name": "Griffith Airport Aws",
-        "storyLabName": "Griffith"
+        "storyLabName": "Griffith",
+        "auroraId": "loc8121a01cd9e4"
       }
     },
     {
@@ -6168,8 +6140,8 @@
         "metraId": "95705",
         "wmoId": "95705",
         "bomId": "074037",
-        "name": "Yanco Agricultural Institute",
-        "storyLabName": "Yanco"
+        "storyLabName": "Yanco",
+        "auroraId": "loc9044089fffeb"
       }
     },
     {
@@ -6185,8 +6157,8 @@
         "metraId": "95706",
         "wmoId": "95706",
         "bomId": "074148",
-        "name": "Narrandera Airport Aws",
-        "storyLabName": "Narrandera"
+        "storyLabName": "Narrandera",
+        "auroraId": "loc0c9542430b96"
       }
     },
     {
@@ -6202,8 +6174,8 @@
         "metraId": "95708",
         "wmoId": "95708",
         "bomId": "050137",
-        "name": "Condobolin Airport Aws",
-        "storyLabName": "Condobolin"
+        "storyLabName": "Condobolin",
+        "auroraId": "loce057c225ca6d"
       }
     },
     {
@@ -6219,8 +6191,8 @@
         "metraId": "95709",
         "wmoId": "95709",
         "bomId": "050017",
-        "name": "West Wyalong Airport Aws",
-        "storyLabName": "West Wyalong"
+        "storyLabName": "West Wyalong",
+        "auroraId": "loc6a9b492e1384"
       }
     },
     {
@@ -6236,8 +6208,8 @@
         "metraId": "95710",
         "wmoId": "95710",
         "bomId": "051049",
-        "name": "Trangie Research Station Aws",
-        "storyLabName": "Trangie"
+        "storyLabName": "Trangie",
+        "auroraId": "loc6984da6a92bb"
       }
     },
     {
@@ -6253,8 +6225,8 @@
         "metraId": "95715",
         "wmoId": "95715",
         "bomId": "052088",
-        "name": "Walgett Airport Aws",
-        "storyLabName": "Walgett"
+        "storyLabName": "Walgett",
+        "auroraId": "loc793532e01092"
       }
     },
     {
@@ -6270,8 +6242,8 @@
         "metraId": "95716",
         "wmoId": "95716",
         "bomId": "070330",
-        "name": "Goulburn Airport Aws",
-        "storyLabName": "Goulburn"
+        "storyLabName": "Goulburn",
+        "auroraId": "loc98a3e332f362"
       }
     },
     {
@@ -6287,8 +6259,8 @@
         "metraId": "95717",
         "wmoId": "95717",
         "bomId": "065068",
-        "name": "Parkes Airport Aws",
-        "storyLabName": "Parkes"
+        "storyLabName": "Parkes",
+        "auroraId": "loc505caada930b"
       }
     },
     {
@@ -6304,8 +6276,8 @@
         "metraId": "95718",
         "wmoId": "95718",
         "bomId": "051161",
-        "name": "Coonamble Airport Aws",
-        "storyLabName": "Coonamble"
+        "storyLabName": "Coonamble",
+        "auroraId": "locf4bc94c1a7bd"
       }
     },
     {
@@ -6321,8 +6293,8 @@
         "metraId": "95719",
         "wmoId": "95719",
         "bomId": "065070",
-        "name": "Dubbo Airport Aws",
-        "storyLabName": "Dubbo"
+        "storyLabName": "Dubbo",
+        "auroraId": "loc0aee89e74496"
       }
     },
     {
@@ -6338,8 +6310,8 @@
         "metraId": "95721",
         "wmoId": "95721",
         "bomId": "065111",
-        "name": "Cowra Airport Aws",
-        "storyLabName": "Cowra"
+        "storyLabName": "Cowra",
+        "auroraId": "locdddb1e9f2d4a"
       }
     },
     {
@@ -6355,8 +6327,8 @@
         "metraId": "95722",
         "wmoId": "95722",
         "bomId": "073151",
-        "name": "Temora Airport",
-        "storyLabName": "Temora"
+        "storyLabName": "Temora",
+        "auroraId": "loc980db1b391ba"
       }
     },
     {
@@ -6372,8 +6344,8 @@
         "metraId": "95726",
         "wmoId": "95726",
         "bomId": "063303",
-        "name": "Orange Airport Aws",
-        "storyLabName": "Orange"
+        "storyLabName": "Orange",
+        "auroraId": "locd45f372c58f7"
       }
     },
     {
@@ -6389,8 +6361,8 @@
         "metraId": "95728",
         "wmoId": "95728",
         "bomId": "064017",
-        "name": "Coonabarabran Airport Aws",
-        "storyLabName": "Coonabarabran"
+        "storyLabName": "Coonabarabran",
+        "auroraId": "loc500334df224a"
       }
     },
     {
@@ -6406,8 +6378,8 @@
         "metraId": "95734",
         "wmoId": "95734",
         "bomId": "054038",
-        "name": "Narrabri Airport Aws",
-        "storyLabName": "Narrabri"
+        "storyLabName": "Narrabri",
+        "auroraId": "locccbec10a846c"
       }
     },
     {
@@ -6423,8 +6395,8 @@
         "metraId": "95740",
         "wmoId": "95740",
         "bomId": "055202",
-        "name": "Gunnedah Airport Aws",
-        "storyLabName": "Gunnedah"
+        "storyLabName": "Gunnedah",
+        "auroraId": "loc546c1c65ba2c"
       }
     },
     {
@@ -6440,8 +6412,8 @@
         "metraId": "95745",
         "wmoId": "95745",
         "bomId": "068253",
-        "name": "Port Kembla Ntc Aws",
-        "storyLabName": "Port Kembla"
+        "storyLabName": "Port Kembla",
+        "auroraId": "loc477de2999fb7"
       }
     },
     {
@@ -6457,8 +6429,8 @@
         "metraId": "95747",
         "wmoId": "95747",
         "bomId": "061392",
-        "name": "Murrurundi Gap Aws",
-        "storyLabName": "Murrurundi Gap"
+        "storyLabName": "Murrurundi Gap",
+        "auroraId": "loceb3b98bf1bf1"
       }
     },
     {
@@ -6474,8 +6446,8 @@
         "metraId": "95748",
         "wmoId": "95748",
         "bomId": "068241",
-        "name": "Shellharbour Airport",
-        "storyLabName": "Shellharbour"
+        "storyLabName": "Shellharbour",
+        "auroraId": "locf9c73c22a714"
       }
     },
     {
@@ -6491,8 +6463,8 @@
         "metraId": "95749",
         "wmoId": "95749",
         "bomId": "068242",
-        "name": "Kiama (Bombo Headland)",
-        "storyLabName": "Kiama"
+        "storyLabName": "Kiama",
+        "auroraId": "loce37fe61c4b3c"
       }
     },
     {
@@ -6508,8 +6480,8 @@
         "metraId": "95752",
         "wmoId": "95752",
         "bomId": "066208",
-        "name": "Wattamolla Aws",
-        "storyLabName": "Wattamolla"
+        "storyLabName": "Wattamolla",
+        "auroraId": "loc0b240294c035"
       }
     },
     {
@@ -6525,8 +6497,8 @@
         "metraId": "95753",
         "wmoId": "95753",
         "bomId": "067105",
-        "name": "Richmond Raaf",
-        "storyLabName": "Richmond — RAAF Base"
+        "storyLabName": "Richmond — RAAF Base",
+        "auroraId": "loc4dbcd68992b9"
       }
     },
     {
@@ -6542,8 +6514,8 @@
         "metraId": "95754",
         "wmoId": "95754",
         "bomId": "061287",
-        "name": "Merriwa (Roscommon)",
-        "storyLabName": "Merriwa — Roscommon"
+        "storyLabName": "Merriwa — Roscommon",
+        "auroraId": "loc9ea046456f4f"
       }
     },
     {
@@ -6559,8 +6531,8 @@
         "metraId": "95756",
         "wmoId": "95756",
         "bomId": "066043",
-        "name": "Kurnell Aws",
-        "storyLabName": "Kurnell"
+        "storyLabName": "Kurnell",
+        "auroraId": "loc5d4054bb4b0a"
       }
     },
     {
@@ -6576,8 +6548,8 @@
         "metraId": "95757",
         "wmoId": "95757",
         "bomId": "066023",
-        "name": "Lucas Heights (Ansto)",
-        "storyLabName": "Lucas Heights"
+        "storyLabName": "Lucas Heights",
+        "auroraId": "loc03d969b74c4f"
       }
     },
     {
@@ -6593,8 +6565,8 @@
         "metraId": "95758",
         "wmoId": "95758",
         "bomId": "061363",
-        "name": "Scone Airport Aws",
-        "storyLabName": "Scone"
+        "storyLabName": "Scone",
+        "auroraId": "loc61ed731a89e4"
       }
     },
     {
@@ -6610,8 +6582,8 @@
         "metraId": "95762",
         "wmoId": "95762",
         "bomId": "055325",
-        "name": "Tamworth Airport Aws",
-        "storyLabName": "Tamworth"
+        "storyLabName": "Tamworth",
+        "auroraId": "loc4199d240ff63"
       }
     },
     {
@@ -6627,8 +6599,8 @@
         "metraId": "95765",
         "wmoId": "95765",
         "bomId": "066212",
-        "name": "Sydney Olympic Park Aws (Archery Centre)",
-        "storyLabName": "Sydney Olympic Park"
+        "storyLabName": "Sydney Olympic Park",
+        "auroraId": "loc4389d5b5e7f3"
       }
     },
     {
@@ -6644,8 +6616,8 @@
         "metraId": "95766",
         "wmoId": "95766",
         "bomId": "066196",
-        "name": "Wedding Cake West",
-        "storyLabName": "Wedding Cake West"
+        "storyLabName": "Wedding Cake West",
+        "auroraId": "locb6f8a547e0b5"
       }
     },
     {
@@ -6661,8 +6633,8 @@
         "metraId": "95767",
         "wmoId": "95767",
         "bomId": "061412",
-        "name": "Lake Macquarie Aws",
-        "storyLabName": "Lake Macquarie"
+        "storyLabName": "Lake Macquarie",
+        "auroraId": "locc89e726a36db"
       }
     },
     {
@@ -6678,8 +6650,8 @@
         "metraId": "95768",
         "wmoId": "95768",
         "bomId": "066197",
-        "name": "North Head",
-        "storyLabName": "North Head"
+        "storyLabName": "North Head",
+        "auroraId": "locc848a1816ac7"
       }
     },
     {
@@ -6695,8 +6667,8 @@
         "metraId": "95770",
         "wmoId": "95770",
         "bomId": "061366",
-        "name": "Norah Head Aws",
-        "storyLabName": "Norah Head"
+        "storyLabName": "Norah Head",
+        "auroraId": "locb09209997b91"
       }
     },
     {
@@ -6712,8 +6684,8 @@
         "metraId": "95771",
         "wmoId": "95771",
         "bomId": "061260",
-        "name": "Cessnock Airport Aws",
-        "storyLabName": "Cessnock"
+        "storyLabName": "Cessnock",
+        "auroraId": "loc69b432f10986"
       }
     },
     {
@@ -6729,8 +6701,8 @@
         "metraId": "95773",
         "wmoId": "95773",
         "bomId": "056238",
-        "name": "Armidale Airport Aws",
-        "storyLabName": "Armidale"
+        "storyLabName": "Armidale",
+        "auroraId": "loc7315de3f2e4f"
       }
     },
     {
@@ -6746,8 +6718,8 @@
         "metraId": "95774",
         "wmoId": "95774",
         "bomId": "061375",
-        "name": "Mangrove Mountain Aws",
-        "storyLabName": "Mangrove Mountain"
+        "storyLabName": "Mangrove Mountain",
+        "auroraId": "loc02b6eecf276b"
       }
     },
     {
@@ -6763,8 +6735,8 @@
         "metraId": "95784",
         "wmoId": "95784",
         "bomId": "060141",
-        "name": "Taree Airport Aws",
-        "storyLabName": "Taree"
+        "storyLabName": "Taree",
+        "auroraId": "loc04ec40ea6174"
       }
     },
     {
@@ -6780,8 +6752,8 @@
         "metraId": "95805",
         "wmoId": "95805",
         "bomId": "022823",
-        "name": "Cape Borda",
-        "storyLabName": "Cape Borda"
+        "storyLabName": "Cape Borda",
+        "auroraId": "loce41d49ba0080"
       }
     },
     {
@@ -6797,8 +6769,8 @@
         "metraId": "95806",
         "wmoId": "95806",
         "bomId": "022049",
-        "name": "Stenhouse Bay",
-        "storyLabName": "Stenhouse Bay"
+        "storyLabName": "Stenhouse Bay",
+        "auroraId": "loc6af710f02aaa"
       }
     },
     {
@@ -6814,8 +6786,8 @@
         "metraId": "95807",
         "wmoId": "95807",
         "bomId": "022841",
-        "name": "Kingscote Aero",
-        "storyLabName": "Kangaroo Island"
+        "storyLabName": "Kangaroo Island",
+        "auroraId": "locef46a7546bc4"
       }
     },
     {
@@ -6831,8 +6803,8 @@
         "metraId": "95815",
         "wmoId": "95815",
         "bomId": "025557",
-        "name": "Munkora",
-        "storyLabName": "Munkora"
+        "storyLabName": "Munkora",
+        "auroraId": "loc4343851c2d58"
       }
     },
     {
@@ -6848,8 +6820,8 @@
         "metraId": "95816",
         "wmoId": "95816",
         "bomId": "026105",
-        "name": "Robe Airfield",
-        "storyLabName": "Robe"
+        "storyLabName": "Robe",
+        "auroraId": "loc1627fdd3e6d6"
       }
     },
     {
@@ -6865,8 +6837,8 @@
         "metraId": "95818",
         "wmoId": "95818",
         "bomId": "024584",
-        "name": "Pallamana Aerodrome",
-        "storyLabName": "Murray Bridge"
+        "storyLabName": "Murray Bridge",
+        "auroraId": "loc1feaf711a664"
       }
     },
     {
@@ -6882,8 +6854,8 @@
         "metraId": "95822",
         "wmoId": "95822",
         "bomId": "090194",
-        "name": "Dartmoor",
-        "storyLabName": "Dartmoor"
+        "storyLabName": "Dartmoor",
+        "auroraId": "locd931e7865593"
       }
     },
     {
@@ -6899,8 +6871,8 @@
         "metraId": "95823",
         "wmoId": "95823",
         "bomId": "026100",
-        "name": "Padthaway South",
-        "storyLabName": "Padthaway South"
+        "storyLabName": "Padthaway South",
+        "auroraId": "loce8bef739f324"
       }
     },
     {
@@ -6916,8 +6888,8 @@
         "metraId": "95826",
         "wmoId": "95826",
         "bomId": "090192",
-        "name": "Portland Ntc Aws",
-        "storyLabName": "Portland — Lee Breakwater"
+        "storyLabName": "Portland — Lee Breakwater",
+        "auroraId": "locd665688d0e4d"
       }
     },
     {
@@ -6933,8 +6905,8 @@
         "metraId": "95827",
         "wmoId": "95827",
         "bomId": "079097",
-        "name": "Kanagulk",
-        "storyLabName": "Kanagulk"
+        "storyLabName": "Kanagulk",
+        "auroraId": "loc2da3c5cf4854"
       }
     },
     {
@@ -6950,8 +6922,8 @@
         "metraId": "95831",
         "wmoId": "95831",
         "bomId": "076064",
-        "name": "Walpeup Research",
-        "storyLabName": "Walpeup"
+        "storyLabName": "Walpeup",
+        "auroraId": "loc414fa97a2fe7"
       }
     },
     {
@@ -6967,8 +6939,8 @@
         "metraId": "95832",
         "wmoId": "95832",
         "bomId": "079099",
-        "name": "Edenhope Airport",
-        "storyLabName": "Edenhope"
+        "storyLabName": "Edenhope",
+        "auroraId": "loc528888eb2e92"
       }
     },
     {
@@ -6984,8 +6956,8 @@
         "metraId": "95833",
         "wmoId": "95833",
         "bomId": "080091",
-        "name": "Kyabram",
-        "storyLabName": "Kyabram"
+        "storyLabName": "Kyabram",
+        "auroraId": "loc62ed665318da"
       }
     },
     {
@@ -7001,8 +6973,8 @@
         "metraId": "95835",
         "wmoId": "95835",
         "bomId": "079028",
-        "name": "Longerenong",
-        "storyLabName": "Longerenong"
+        "storyLabName": "Longerenong",
+        "auroraId": "locd3fbb32397b4"
       }
     },
     {
@@ -7018,8 +6990,8 @@
         "metraId": "95836",
         "wmoId": "95836",
         "bomId": "081049",
-        "name": "Tatura Inst Sustainable Ag",
-        "storyLabName": "Tatura"
+        "storyLabName": "Tatura",
+        "auroraId": "locf054a9836e56"
       }
     },
     {
@@ -7035,8 +7007,8 @@
         "metraId": "95837",
         "wmoId": "95837",
         "bomId": "082039",
-        "name": "Rutherglen Research",
-        "storyLabName": "Rutherglen"
+        "storyLabName": "Rutherglen",
+        "auroraId": "loc6d3b4562e728"
       }
     },
     {
@@ -7052,8 +7024,8 @@
         "metraId": "95839",
         "wmoId": "95839",
         "bomId": "079100",
-        "name": "Horsham Aerodrome",
-        "storyLabName": "Horsham"
+        "storyLabName": "Horsham",
+        "auroraId": "loc183d810feeb8"
       }
     },
     {
@@ -7069,8 +7041,8 @@
         "metraId": "95840",
         "wmoId": "95840",
         "bomId": "089112",
-        "name": "Westmere",
-        "storyLabName": "Westmere"
+        "storyLabName": "Westmere",
+        "auroraId": "loc7da120d7ec1e"
       }
     },
     {
@@ -7086,8 +7058,8 @@
         "metraId": "95864",
         "wmoId": "95864",
         "bomId": "086220",
-        "name": "St Kilda Harbour - Rmys",
-        "storyLabName": "St Kilda Harbour"
+        "storyLabName": "St Kilda Harbour",
+        "auroraId": "locac6f70db6abd"
       }
     },
     {
@@ -7103,8 +7075,8 @@
         "metraId": "95866",
         "wmoId": "95866",
         "bomId": "086038",
-        "name": "Essendon Airport",
-        "storyLabName": "Melbourne — Essendon Airport"
+        "storyLabName": "Melbourne — Essendon Airport",
+        "auroraId": "loc70900f66d041"
       }
     },
     {
@@ -7120,8 +7092,8 @@
         "metraId": "95867",
         "wmoId": "95867",
         "bomId": "086104",
-        "name": "Scoresby Research Institute",
-        "storyLabName": "Melbourne — Scoresby"
+        "storyLabName": "Melbourne — Scoresby",
+        "auroraId": "locd6f79866f950"
       }
     },
     {
@@ -7137,8 +7109,8 @@
         "metraId": "95869",
         "wmoId": "95869",
         "bomId": "074258",
-        "name": "Deniliquin Airport Aws",
-        "storyLabName": "Deniliquin"
+        "storyLabName": "Deniliquin",
+        "auroraId": "loce4caf673cdf6"
       }
     },
     {
@@ -7154,7 +7126,6 @@
         "metraId": "95872",
         "wmoId": "95872",
         "bomId": "086376",
-        "name": "Fawkner Beacon",
         "storyLabName": "Port Phillip — Fawkner Beacon"
       }
     },
@@ -7171,8 +7142,8 @@
         "metraId": "95874",
         "wmoId": "95874",
         "bomId": "086068",
-        "name": "Viewbank",
-        "storyLabName": "Melbourne — Viewbank"
+        "storyLabName": "Melbourne — Viewbank",
+        "auroraId": "loc0971566e0102"
       }
     },
     {
@@ -7188,8 +7159,8 @@
         "metraId": "95890",
         "wmoId": "95890",
         "bomId": "085151",
-        "name": "Yarram Airport",
-        "storyLabName": "Yarram"
+        "storyLabName": "Yarram",
+        "auroraId": "loc6474648a8c40"
       }
     },
     {
@@ -7205,8 +7176,8 @@
         "metraId": "95896",
         "wmoId": "95896",
         "bomId": "072160",
-        "name": "Albury Airport Aws",
-        "storyLabName": "Albury"
+        "storyLabName": "Albury",
+        "auroraId": "loc1f8610c34fd8"
       }
     },
     {
@@ -7222,8 +7193,8 @@
         "metraId": "95901",
         "wmoId": "95901",
         "bomId": "085291",
-        "name": "Mount Baw Baw",
-        "storyLabName": "Mount Baw Baw"
+        "storyLabName": "Mount Baw Baw",
+        "auroraId": "locd6e139dc2ba2"
       }
     },
     {
@@ -7239,8 +7210,8 @@
         "metraId": "95909",
         "wmoId": "95909",
         "bomId": "071032",
-        "name": "Thredbo Aws",
-        "storyLabName": "Thredbo"
+        "storyLabName": "Thredbo",
+        "auroraId": "loc889503a7e533"
       }
     },
     {
@@ -7256,8 +7227,8 @@
         "metraId": "95913",
         "wmoId": "95913",
         "bomId": "085296",
-        "name": "Mount Moornapa",
-        "storyLabName": "Mount Moornapa"
+        "storyLabName": "Mount Moornapa",
+        "auroraId": "loc3145302689c3"
       }
     },
     {
@@ -7273,8 +7244,8 @@
         "metraId": "95916",
         "wmoId": "95916",
         "bomId": "072161",
-        "name": "Cabramurra Smhea Aws",
-        "storyLabName": "Cabramurra"
+        "storyLabName": "Cabramurra",
+        "auroraId": "locebf2e3d26708"
       }
     },
     {
@@ -7290,8 +7261,8 @@
         "metraId": "95918",
         "wmoId": "95918",
         "bomId": "084145",
-        "name": "Orbost",
-        "storyLabName": "Orbost"
+        "storyLabName": "Orbost",
+        "auroraId": "loc17fd4ae7853a"
       }
     },
     {
@@ -7307,8 +7278,8 @@
         "metraId": "95925",
         "wmoId": "95925",
         "bomId": "070349",
-        "name": "Mount Ginini Aws",
-        "storyLabName": "Mount Ginini"
+        "storyLabName": "Mount Ginini",
+        "auroraId": "loc32435b9b0bed"
       }
     },
     {
@@ -7324,8 +7295,8 @@
         "metraId": "95929",
         "wmoId": "95929",
         "bomId": "069147",
-        "name": "Merimbula Airport Aws",
-        "storyLabName": "Merimbula"
+        "storyLabName": "Merimbula",
+        "auroraId": "loc77d728f17869"
       }
     },
     {
@@ -7341,8 +7312,8 @@
         "metraId": "95931",
         "wmoId": "95931",
         "bomId": "069139",
-        "name": "Bega Aws",
-        "storyLabName": "Bega"
+        "storyLabName": "Bega",
+        "auroraId": "loca3f677b3203f"
       }
     },
     {
@@ -7358,8 +7329,8 @@
         "metraId": "95937",
         "wmoId": "95937",
         "bomId": "069148",
-        "name": "Moruya Airport Aws",
-        "storyLabName": "Moruya"
+        "storyLabName": "Moruya",
+        "auroraId": "loc35d02ea76002"
       }
     },
     {
@@ -7375,8 +7346,8 @@
         "metraId": "95940",
         "wmoId": "95940",
         "bomId": "068151",
-        "name": "Point Perpendicular Aws",
-        "storyLabName": "Point Perpendicular"
+        "storyLabName": "Point Perpendicular",
+        "auroraId": "loc7d20df941b4b"
       }
     },
     {
@@ -7392,8 +7363,8 @@
         "metraId": "95952",
         "wmoId": "95952",
         "bomId": "097085",
-        "name": "Mount Read",
-        "storyLabName": "Mount Read"
+        "storyLabName": "Mount Read",
+        "auroraId": "loca522f0db671c"
       }
     },
     {
@@ -7409,8 +7380,8 @@
         "metraId": "95956",
         "wmoId": "95956",
         "bomId": "091259",
-        "name": "Luncheon Hill (Forestry)",
-        "storyLabName": "Luncheon Hill Forest Reserve"
+        "storyLabName": "Luncheon Hill Forest Reserve",
+        "auroraId": "loca522f0db671c"
       }
     },
     {
@@ -7426,8 +7397,8 @@
         "metraId": "95957",
         "wmoId": "95957",
         "bomId": "091107",
-        "name": "Wynyard Airport",
-        "storyLabName": "Wynyard"
+        "storyLabName": "Wynyard",
+        "auroraId": "loc36bc6dda27c9"
       }
     },
     {
@@ -7443,8 +7414,8 @@
         "metraId": "95958",
         "wmoId": "95958",
         "bomId": "097083",
-        "name": "Scotts Peak Dam",
-        "storyLabName": "Scotts Peak Dam"
+        "storyLabName": "Scotts Peak Dam",
+        "auroraId": "locdd38401fdd60"
       }
     },
     {
@@ -7460,8 +7431,8 @@
         "metraId": "95959",
         "wmoId": "95959",
         "bomId": "096033",
-        "name": "Liawenee",
-        "storyLabName": "Liawenee"
+        "storyLabName": "Liawenee",
+        "auroraId": "loc6001672095fd"
       }
     },
     {
@@ -7477,8 +7448,8 @@
         "metraId": "95960",
         "wmoId": "95960",
         "bomId": "091126",
-        "name": "Devonport Airport",
-        "storyLabName": "Devonport"
+        "storyLabName": "Devonport",
+        "auroraId": "loc2833eff0454d"
       }
     },
     {
@@ -7494,8 +7465,8 @@
         "metraId": "95961",
         "wmoId": "95961",
         "bomId": "097080",
-        "name": "Low Rocky Point",
-        "storyLabName": "SW Tasmania — Low Rocky Point"
+        "storyLabName": "SW Tasmania — Low Rocky Point",
+        "auroraId": "locdd38401fdd60"
       }
     },
     {
@@ -7511,8 +7482,8 @@
         "metraId": "95962",
         "wmoId": "95962",
         "bomId": "097024",
-        "name": "Warra",
-        "storyLabName": "Warra"
+        "storyLabName": "Warra",
+        "auroraId": "locdd38401fdd60"
       }
     },
     {
@@ -7528,8 +7499,8 @@
         "metraId": "95963",
         "wmoId": "95963",
         "bomId": "091344",
-        "name": "Burnie Ntc Aws",
-        "storyLabName": "Burnie"
+        "storyLabName": "Burnie",
+        "auroraId": "loca33bbd294e17"
       }
     },
     {
@@ -7545,8 +7516,8 @@
         "metraId": "95964",
         "wmoId": "95964",
         "bomId": "091293",
-        "name": "Low Head",
-        "storyLabName": "Low Head"
+        "storyLabName": "Low Head",
+        "auroraId": "locc8e52b0426d1"
       }
     },
     {
@@ -7562,8 +7533,8 @@
         "metraId": "95966",
         "wmoId": "95966",
         "bomId": "091311",
-        "name": "Launceston Airport",
-        "storyLabName": "Launceston Airport"
+        "storyLabName": "Launceston Airport",
+        "auroraId": "loc01e74fe4bba0"
       }
     },
     {
@@ -7579,8 +7550,8 @@
         "metraId": "95967",
         "wmoId": "95967",
         "bomId": "094198",
-        "name": "Cape Bruny (Cape Bruny)",
-        "storyLabName": "Cape Bruny"
+        "storyLabName": "Cape Bruny",
+        "auroraId": "loc44e047912a79"
       }
     },
     {
@@ -7596,8 +7567,8 @@
         "metraId": "95972",
         "wmoId": "95972",
         "bomId": "094212",
-        "name": "Campania (Kincora)",
-        "storyLabName": "Campania"
+        "storyLabName": "Campania",
+        "auroraId": "loc7ecdadb6403a"
       }
     },
     {
@@ -7613,8 +7584,8 @@
         "metraId": "95977",
         "wmoId": "95977",
         "bomId": "094220",
-        "name": "Grove (Research Station)",
-        "storyLabName": "Grove"
+        "storyLabName": "Grove",
+        "auroraId": "loc97d29241ab1c"
       }
     },
     {
@@ -7630,8 +7601,8 @@
         "metraId": "95979",
         "wmoId": "95979",
         "bomId": "094087",
-        "name": "Kunanyi (Mount Wellington Pinnacle)",
-        "storyLabName": "Kunanyi — Mount Wellington Pinnacle"
+        "storyLabName": "Kunanyi — Mount Wellington Pinnacle",
+        "auroraId": "loc427a198a9e16"
       }
     },
     {
@@ -7647,8 +7618,8 @@
         "metraId": "95981",
         "wmoId": "95981",
         "bomId": "092120",
-        "name": "St Helens Aerodrome",
-        "storyLabName": "St Helens"
+        "storyLabName": "St Helens",
+        "auroraId": "loc1da64a3497fc"
       }
     },
     {
@@ -7664,7 +7635,6 @@
         "metraId": "95985",
         "wmoId": "95985",
         "bomId": "092123",
-        "name": "Swan Island",
         "storyLabName": "Swan Island"
       }
     },
@@ -7681,7 +7651,6 @@
         "metraId": "95986",
         "wmoId": "95986",
         "bomId": "094155",
-        "name": "Tasman Island",
         "storyLabName": "Tasman Island"
       }
     },
@@ -7698,8 +7667,8 @@
         "metraId": "95987",
         "wmoId": "95987",
         "bomId": "092133",
-        "name": "Spring Bay Ntc Aws",
-        "storyLabName": "Spring Bay"
+        "storyLabName": "Spring Bay",
+        "auroraId": "loc7797e2dfe35c"
       }
     },
     {
@@ -7715,8 +7684,8 @@
         "metraId": "95988",
         "wmoId": "95988",
         "bomId": "092124",
-        "name": "Maria Island (Point Lesueur)",
-        "storyLabName": "Maria Island"
+        "storyLabName": "Maria Island",
+        "auroraId": "loc29d48708bcc4"
       }
     },
     {
@@ -7732,8 +7701,8 @@
         "metraId": "95995",
         "wmoId": "95995",
         "bomId": "200715",
-        "name": "Lord Howe Island Windy Point",
-        "storyLabName": "Lord Howe Island"
+        "storyLabName": "Lord Howe Island",
+        "auroraId": "locb2683140c1e4"
       }
     },
     {
@@ -7749,8 +7718,8 @@
         "metraId": "96995",
         "wmoId": "96995",
         "bomId": "200790",
-        "name": "Christmas Island Aero",
-        "storyLabName": "Christmas Island"
+        "storyLabName": "Christmas Island",
+        "auroraId": "loc9984d8beb142"
       }
     },
     {
@@ -7766,8 +7735,8 @@
         "metraId": "96996",
         "wmoId": "96996",
         "bomId": "200284",
-        "name": "Cocos Island Airport",
-        "storyLabName": "Cocos Island"
+        "storyLabName": "Cocos Island",
+        "auroraId": "loc82a2b1f10de5"
       }
     },
     {
@@ -7783,8 +7752,8 @@
         "metraId": "99254_bom",
         "wmoId": "99254",
         "bomId": "009254",
-        "name": "Armament Jetty",
-        "storyLabName": "Garden Island — Armament Jetty"
+        "storyLabName": "Garden Island — Armament Jetty",
+        "auroraId": "loc4caa3a3590b9"
       }
     },
     {
@@ -7800,8 +7769,8 @@
         "metraId": "99255_bom",
         "wmoId": "99255",
         "bomId": "009255",
-        "name": "Colpoys Point",
-        "storyLabName": "Garden Island — Colpoys Point"
+        "storyLabName": "Garden Island — Colpoys Point",
+        "auroraId": "loc4caa3a3590b9"
       }
     },
     {
@@ -7817,8 +7786,8 @@
         "metraId": "99367_bom",
         "wmoId": "99367",
         "bomId": "033317",
-        "name": "Hay Point",
-        "storyLabName": "Hay Point"
+        "storyLabName": "Hay Point",
+        "auroraId": "locee73b56900be"
       }
     },
     {
@@ -7834,8 +7803,8 @@
         "metraId": "94749",
         "wmoId": "94749",
         "bomId": "068228",
-        "name": "Bellambi Aws",
-        "storyLabName": "Bellambi"
+        "storyLabName": "Bellambi",
+        "auroraId": "loce3f2e8fc6036"
       }
     },
     {
@@ -7851,8 +7820,8 @@
         "metraId": "94828",
         "wmoId": "94828",
         "bomId": "090171",
-        "name": "Portland Airport",
-        "storyLabName": "Portland Airport"
+        "storyLabName": "Portland Airport",
+        "auroraId": "loc2a9a9677c068"
       }
     },
     {
@@ -7868,8 +7837,8 @@
         "metraId": "94830",
         "wmoId": "94830",
         "bomId": "090175",
-        "name": "Port Fairy Aws",
-        "storyLabName": "Port Fairy"
+        "storyLabName": "Port Fairy",
+        "auroraId": "loce829f646f7ca"
       }
     },
     {
@@ -7885,8 +7854,8 @@
         "metraId": "94837",
         "wmoId": "94837",
         "bomId": "090186",
-        "name": "Warrnambool Airport Ndb",
-        "storyLabName": "Warrnambool"
+        "storyLabName": "Warrnambool",
+        "auroraId": "loc4ae321c5bbb4"
       }
     },
     {
@@ -7902,8 +7871,8 @@
         "metraId": "94847",
         "wmoId": "94847",
         "bomId": "087166",
-        "name": "Point Wilson",
-        "storyLabName": "Point Wilson"
+        "storyLabName": "Point Wilson",
+        "auroraId": "loc334e0041ab72"
       }
     },
     {
@@ -7919,8 +7888,8 @@
         "metraId": "94863",
         "wmoId": "94863",
         "bomId": "087168",
-        "name": "She Oaks",
-        "storyLabName": "She Oaks"
+        "storyLabName": "She Oaks",
+        "auroraId": "loc5ef80fdea9a1"
       }
     },
     {
@@ -7936,8 +7905,8 @@
         "metraId": "94929",
         "wmoId": "94929",
         "bomId": "070328",
-        "name": "Bombala Aws",
-        "storyLabName": "Bombala"
+        "storyLabName": "Bombala",
+        "auroraId": "loc312076bb3e1c"
       }
     },
     {
@@ -7953,8 +7922,8 @@
         "metraId": "94955",
         "wmoId": "94955",
         "bomId": "091291",
-        "name": "Sheffield School Farm",
-        "storyLabName": "Sheffield"
+        "storyLabName": "Sheffield",
+        "auroraId": "loc836ec9cf4af6"
       }
     },
     {
@@ -7970,8 +7939,8 @@
         "metraId": "95370",
         "wmoId": "95370",
         "bomId": "033195",
-        "name": "Williamson",
-        "storyLabName": "Williamson"
+        "storyLabName": "Williamson",
+        "auroraId": "locec9b54abf947"
       }
     },
     {
@@ -7987,8 +7956,8 @@
         "metraId": "95676",
         "wmoId": "95676",
         "bomId": "023083",
-        "name": "Edinburgh Raaf",
-        "storyLabName": "North Adelaide — RAAF Base Edinburgh"
+        "storyLabName": "North Adelaide — RAAF Base Edinburgh",
+        "auroraId": "loc42545b488afc"
       }
     },
     {
@@ -8004,8 +7973,8 @@
         "metraId": "95825",
         "wmoId": "95825",
         "bomId": "090182",
-        "name": "Casterton",
-        "storyLabName": "Casterton"
+        "storyLabName": "Casterton",
+        "auroraId": "loc92006d7c0d05"
       }
     },
     {
@@ -8021,8 +7990,8 @@
         "metraId": "95845",
         "wmoId": "95845",
         "bomId": "090035",
-        "name": "Mount Gellibrand",
-        "storyLabName": "Mount Gellibrand"
+        "storyLabName": "Mount Gellibrand",
+        "auroraId": "loc644bdb89d46b"
       }
     },
     {
@@ -8038,8 +8007,8 @@
         "metraId": "95954",
         "wmoId": "95954",
         "bomId": "091331",
-        "name": "Kennaook/cape Grim",
-        "storyLabName": "Kennaook — Cape Grim"
+        "storyLabName": "Kennaook — Cape Grim",
+        "auroraId": "locbb1a0d8479c8"
       }
     },
     {
@@ -8055,8 +8024,8 @@
         "metraId": "94542",
         "wmoId": "94542",
         "bomId": "041522",
-        "name": "Dalby Airport",
-        "storyLabName": "Dalby"
+        "storyLabName": "Dalby",
+        "auroraId": "loc85ef635f171a"
       }
     },
     {
@@ -8072,8 +8041,8 @@
         "metraId": "95142",
         "wmoId": "95142",
         "bomId": "014405",
-        "name": "Maningrida Airport",
-        "storyLabName": "Maningrida"
+        "storyLabName": "Maningrida",
+        "auroraId": "loc80b1088ee1a8"
       }
     },
     {
@@ -8089,8 +8058,8 @@
         "metraId": "94225",
         "wmoId": "94225",
         "bomId": "014949",
-        "name": "Delamere Weapons Range",
-        "storyLabName": "Delamere — Weapons Range"
+        "storyLabName": "Delamere — Weapons Range",
+        "auroraId": "locf5868cca2915"
       }
     },
     {
@@ -8106,8 +8075,8 @@
         "metraId": "94321",
         "wmoId": "94321",
         "bomId": "015664",
-        "name": "Walungurru Airport",
-        "storyLabName": "Walungurru"
+        "storyLabName": "Walungurru",
+        "auroraId": "loc21230ebdb183"
       }
     },
     {
@@ -8123,8 +8092,8 @@
         "metraId": "95121",
         "wmoId": "95121",
         "bomId": "014041",
-        "name": "Middle Point",
-        "storyLabName": "Middle Point"
+        "storyLabName": "Middle Point",
+        "auroraId": "loccd8ca4fd088b"
       }
     },
     {
@@ -8140,8 +8109,8 @@
         "metraId": "94120",
         "wmoId": "94120",
         "bomId": "014015",
-        "name": "Darwin Airport",
-        "storyLabName": "Darwin Airport"
+        "storyLabName": "Darwin Airport",
+        "auroraId": "loc345d06a73f2e"
       }
     },
     {
@@ -8157,8 +8126,8 @@
         "metraId": "95111",
         "wmoId": "95111",
         "bomId": "014948",
-        "name": "Port Keats Airport",
-        "storyLabName": "Port Keats"
+        "storyLabName": "Port Keats",
+        "auroraId": "loc32f08f43ca50"
       }
     },
     {
@@ -8174,8 +8143,8 @@
         "metraId": "94140",
         "wmoId": "94140",
         "bomId": "014404",
-        "name": "Milingimbi Airport",
-        "storyLabName": "Milingimbi"
+        "storyLabName": "Milingimbi",
+        "auroraId": "locf52bfbd5542e"
       }
     },
     {
@@ -8191,8 +8160,8 @@
         "metraId": "94131",
         "wmoId": "94131",
         "bomId": "014932",
-        "name": "Tindal Raaf",
-        "storyLabName": "Katherine — Tindal RAAF Base"
+        "storyLabName": "Katherine — Tindal RAAF Base",
+        "auroraId": "locc3026e829605"
       }
     },
     {
@@ -8208,8 +8177,8 @@
         "metraId": "94135",
         "wmoId": "94135",
         "bomId": "014274",
-        "name": "Mccluer Island",
-        "storyLabName": "Mccluer Island"
+        "storyLabName": "Mccluer Island",
+        "auroraId": "loc80b1088ee1a8"
       }
     },
     {
@@ -8225,8 +8194,8 @@
         "metraId": "94139",
         "wmoId": "94139",
         "bomId": "014401",
-        "name": "Warruwi Airport",
-        "storyLabName": "Warruwi"
+        "storyLabName": "Warruwi",
+        "auroraId": "loc7dc114b77e2f"
       }
     },
     {
@@ -8242,7 +8211,6 @@
         "metraId": "94119",
         "wmoId": "94119",
         "bomId": "014142",
-        "name": "Pirlangimpi Airport",
         "storyLabName": "Pirlangimpi"
       }
     },
@@ -8259,8 +8227,8 @@
         "metraId": "99510_bom",
         "wmoId": "99510",
         "bomId": "014031",
-        "name": "Charles Point",
-        "storyLabName": "Charles Point"
+        "storyLabName": "Charles Point",
+        "auroraId": "loc2745359ca6be"
       }
     },
     {
@@ -8276,7 +8244,6 @@
         "metraId": "94122",
         "wmoId": "94122",
         "bomId": "200731",
-        "name": "Point Fawcett",
         "storyLabName": "Point Fawcett"
       }
     },
@@ -8293,8 +8260,8 @@
         "metraId": "94130",
         "wmoId": "94130",
         "bomId": "014954",
-        "name": "Bradshaw",
-        "storyLabName": "Bradshaw"
+        "storyLabName": "Bradshaw",
+        "auroraId": "loccc992e8e5887"
       }
     },
     {
@@ -8310,8 +8277,8 @@
         "metraId": "94462",
         "wmoId": "94462",
         "bomId": "015635",
-        "name": "Yulara Airport",
-        "storyLabName": "Yulara"
+        "storyLabName": "Yulara",
+        "auroraId": "loc43add4c26fd1"
       }
     },
     {
@@ -8327,8 +8294,8 @@
         "metraId": "94116",
         "wmoId": "94116",
         "bomId": "014277",
-        "name": "Dum In Mirrie Airstrip",
-        "storyLabName": "Dum In Mirrie Island"
+        "storyLabName": "Dum In Mirrie Island",
+        "auroraId": "loc2ae033e65a4e"
       }
     },
     {
@@ -8344,8 +8311,8 @@
         "metraId": "94239",
         "wmoId": "94239",
         "bomId": "014704",
-        "name": "Mcarthur River Mine Airport",
-        "storyLabName": "Mcarthur River Mine"
+        "storyLabName": "Mcarthur River Mine",
+        "auroraId": "loc538712d27d71"
       }
     },
     {
@@ -8361,8 +8328,8 @@
         "metraId": "94232",
         "wmoId": "94232",
         "bomId": "014825",
-        "name": "Victoria River Downs",
-        "storyLabName": "Victoria River Downs"
+        "storyLabName": "Victoria River Downs",
+        "auroraId": "loce62e9f394b41"
       }
     },
     {
@@ -8378,8 +8345,8 @@
         "metraId": "94238",
         "wmoId": "94238",
         "bomId": "015135",
-        "name": "Tennant Creek Airport",
-        "storyLabName": "Tennant Creek"
+        "storyLabName": "Tennant Creek",
+        "auroraId": "loc55ebdd5b3116"
       }
     },
     {
@@ -8395,8 +8362,8 @@
         "metraId": "94152",
         "wmoId": "94152",
         "bomId": "014723",
-        "name": "Borroloola Airport",
-        "storyLabName": "Borroloola"
+        "storyLabName": "Borroloola",
+        "auroraId": "locd1b4aca76d9c"
       }
     },
     {
@@ -8412,8 +8379,8 @@
         "metraId": "95322",
         "wmoId": "95322",
         "bomId": "015666",
-        "name": "Rabbit Flat",
-        "storyLabName": "Rabbit Flat"
+        "storyLabName": "Rabbit Flat",
+        "auroraId": "loc6447f199d870"
       }
     },
     {
@@ -8429,8 +8396,8 @@
         "metraId": "94128",
         "wmoId": "94128",
         "bomId": "014901",
-        "name": "Douglas River Research Farm",
-        "storyLabName": "Douglas Daly"
+        "storyLabName": "Douglas Daly",
+        "auroraId": "locaefad5c507de"
       }
     },
     {
@@ -8446,8 +8413,8 @@
         "metraId": "94234",
         "wmoId": "94234",
         "bomId": "014626",
-        "name": "Daly Waters Airstrip",
-        "storyLabName": "Daly Waters"
+        "storyLabName": "Daly Waters",
+        "auroraId": "loc85422b1c575e"
       }
     },
     {
@@ -8463,8 +8430,8 @@
         "metraId": "94137",
         "wmoId": "94137",
         "bomId": "014198",
-        "name": "Jabiru Airport",
-        "storyLabName": "Jabiru"
+        "storyLabName": "Jabiru",
+        "auroraId": "loc390fca74daa5"
       }
     },
     {
@@ -8480,8 +8447,8 @@
         "metraId": "94125",
         "wmoId": "94125",
         "bomId": "014272",
-        "name": "Batchelor Airport",
-        "storyLabName": "Batchelor"
+        "storyLabName": "Batchelor",
+        "auroraId": "locea00d91f3267"
       }
     },
     {
@@ -8497,8 +8464,8 @@
         "metraId": "94327",
         "wmoId": "94327",
         "bomId": "015602",
-        "name": "Jervois",
-        "storyLabName": "Jervois"
+        "storyLabName": "Jervois",
+        "auroraId": "loca81372293cac"
       }
     },
     {
@@ -8514,8 +8481,8 @@
         "metraId": "94231",
         "wmoId": "94231",
         "bomId": "014829",
-        "name": "Lajamanu Airport",
-        "storyLabName": "Lajamanu"
+        "storyLabName": "Lajamanu",
+        "auroraId": "loc93a1abde8231"
       }
     },
     {
@@ -8531,8 +8498,8 @@
         "metraId": "94143",
         "wmoId": "94143",
         "bomId": "014627",
-        "name": "Bulman",
-        "storyLabName": "Bulman"
+        "storyLabName": "Bulman",
+        "auroraId": "loc28d61b7a08d1"
       }
     },
     {
@@ -8548,8 +8515,8 @@
         "metraId": "95122",
         "wmoId": "95122",
         "bomId": "014072",
-        "name": "Darwin Ntc Aws",
-        "storyLabName": "Darwin — Waterfront"
+        "storyLabName": "Darwin — Waterfront",
+        "auroraId": "loc0072f7062952"
       }
     },
     {
@@ -8565,7 +8532,6 @@
         "metraId": "94153",
         "wmoId": "94153",
         "bomId": "014518",
-        "name": "Groote Eylandt Airport",
         "storyLabName": "Groote Eylandt"
       }
     },
@@ -8582,8 +8548,8 @@
         "metraId": "94328",
         "wmoId": "94328",
         "bomId": "015643",
-        "name": "Territory Grape Farm",
-        "storyLabName": "Territory Grape Farm"
+        "storyLabName": "Territory Grape Farm",
+        "auroraId": "loc1c026961b8ee"
       }
     },
     {
@@ -8599,8 +8565,8 @@
         "metraId": "99501_bom",
         "wmoId": "99501",
         "bomId": "014023",
-        "name": "Gunn Point",
-        "storyLabName": "Gunn Point"
+        "storyLabName": "Gunn Point",
+        "auroraId": "loc58b979258dbf"
       }
     },
     {
@@ -8616,7 +8582,6 @@
         "metraId": "94248",
         "wmoId": "94248",
         "bomId": "014703",
-        "name": "Centre Island",
         "storyLabName": "Centre Island"
       }
     },
@@ -8633,8 +8598,8 @@
         "metraId": "94141",
         "wmoId": "94141",
         "bomId": "014909",
-        "name": "Central Arnhem Plateau",
-        "storyLabName": "Central Arnhem Plateau"
+        "storyLabName": "Central Arnhem Plateau",
+        "auroraId": "loc2ca1a3ad93cf"
       }
     },
     {
@@ -8650,8 +8615,8 @@
         "metraId": "94326",
         "wmoId": "94326",
         "bomId": "015590",
-        "name": "Alice Springs Airport",
-        "storyLabName": "Alice Springs"
+        "storyLabName": "Alice Springs",
+        "auroraId": "locf66e6979df1b"
       }
     },
     {
@@ -8667,8 +8632,8 @@
         "metraId": "95146",
         "wmoId": "95146",
         "bomId": "014517",
-        "name": "Ngayawili",
-        "storyLabName": "Ngayawili"
+        "storyLabName": "Ngayawili",
+        "auroraId": "loc84b3661b905b"
       }
     },
     {
@@ -8684,8 +8649,8 @@
         "metraId": "94147",
         "wmoId": "94147",
         "bomId": "200786",
-        "name": "Cape Wessel",
-        "storyLabName": "Cape Wessel"
+        "storyLabName": "Cape Wessel",
+        "auroraId": "locf52bfbd5542e"
       }
     }
   ]

@@ -119,7 +119,7 @@ export default async function fetchWeatherCron({
     await fetchWeatherForLocation(feature, queryFn).catch((e) => {
       logger.error(
         "Failed to fetch weather for %s: %s",
-        feature.properties.name,
+        feature.properties.storyLabName,
         e.message,
       );
     });
