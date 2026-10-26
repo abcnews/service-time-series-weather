@@ -9,7 +9,10 @@ import zlib from "zlib";
 import { performance } from "perf_hooks";
 import { eachLimit } from "async";
 
-const BROTLI_EXTENSIONS = ["json", "xml", 'csv'];
+const BROTLI_EXTENSIONS = ["json", "xml", "csv"];
+
+// Below this, Brotli saves almost nothing and just adds decode overhead for the browser
+const MIN_COMPRESS_BYTES = 2 * 1024;
 
 function shouldCompress(filename) {
   const ext = path.extname(filename).slice(1);
@@ -33,8 +36,8 @@ async function syncDir({ src, dest }) {
   });
   const extraFiles = await Promise.all(
     dirs.map((dir) =>
-      syncDir({ src: path.join(src, dir), dest: path.join(dest, dir) })
-    )
+      syncDir({ src: path.join(src, dir), dest: path.join(dest, dir) }),
+    ),
   );
   return [...files, ...extraFiles.flat()];
 }
@@ -46,9 +49,9 @@ async function uploadS3(options) {
   const srcAbsolute = path.resolve(process.cwd(), src);
   const actions = await syncDir({ src: srcAbsolute, dest });
 
-  const availableParallelism = os.availableParallelism();
+  const availableParallelism = 30;
   console.log(
-    `🚀 Starting parallel upload (${actions.length} files, concurrency: ${availableParallelism})...\n`
+    `🚀 Starting parallel upload (${actions.length} files, concurrency: ${availableParallelism})...\n`,
   );
 
   const globalStart = performance.now();
@@ -56,7 +59,8 @@ async function uploadS3(options) {
   try {
     await eachLimit(actions, availableParallelism, async (action) => {
       const { local, remote, contentType } = action;
-      const useCompression = shouldCompress(remote);
+      const { size } = await fs.stat(local);
+      const useCompression = shouldCompress(remote) && size >= MIN_COMPRESS_BYTES;
       const methodLabel = useCompression ? "[Brotli]" : "[Static]";
 
       const metadata = {
@@ -78,7 +82,7 @@ async function uploadS3(options) {
             bucket,
             remote,
             readStream.pipe(brotliStream),
-            metadata
+            metadata,
           );
         } else {
           await minioClient.fPutObject(bucket, remote, local, metadata);
@@ -92,7 +96,7 @@ async function uploadS3(options) {
       } catch (fileError) {
         // Log individual file failure but allow the overall process to handle the error
         console.error(
-          `${methodLabel.padEnd(8)} ${remote} ❌ Failed: ${fileError.message}`
+          `${methodLabel.padEnd(8)} ${remote} ❌ Failed: ${fileError.message}`,
         );
         throw fileError;
       }
