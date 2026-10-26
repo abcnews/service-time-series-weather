@@ -6,7 +6,10 @@ The scripts are wrapped in Commander, so you can run `node . --help` for details
 
 ## Setup
 
-To set up this repo, you must create a geojson object with the locations you wish to track.
+To set up this repo from scratch, you either:
+
+1. Easiest: dDownload the existing aus.geo.json from the live site to data/, or
+1. create a geojson object with the locations you wish to track:
 
 1. Make sure au.geo.json is up to date. Data comes from [./stationMapData](./stationMapData)
    and probably doesn't need to be updated again.
