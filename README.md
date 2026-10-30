@@ -85,3 +85,7 @@ Files are saved into "days" based on UTC+10/AEST.
 Note: This is a problem if you specifically need to show a "day" in another timezone, and the start/end times matter. The frontend currently does not handle this case, and will just show these AEST periods. But it's technically possible to overfetch the time periods to crop to another timezone.
 
 The database saves timestamps as ISO8601 in the user's local timezone. Therefore you can tell what the local time was when the recording was taken. We use this to parse the "rainfall since 9am" chart for instance. However this information is not published in the final aggregate JSON files for space reasons, so the frontend does not necessarily know what timezone a specific location is in.
+
+## Weird stuff
+
+1. Fort Denison name and bomId is renamed to Observatory Hill. Fort Denison only does wind observations, but Aurora melds it with Observatory Hill to get temps and rainfall. [The BOM do the same thing in reverse](https://www.bom.gov.au/products/IDN60901/IDN60901.94768.shtml), stating “Apparent temperature (App Temp) for Sydney - Observatory Hill is calculated using temperature observations collected at Sydney - Observatory Hill and wind observations collected at Fort Denison, as wind observations are not currently provided for Sydney - Observatory Hill.”. So this aligns with the BOM nomenclature.
